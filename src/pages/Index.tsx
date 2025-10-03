@@ -6,7 +6,7 @@ import Services from '@/components/Services';
 import ProductSection from '@/components/ProductSection';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ClientsPartners from '@/components/ClientsPartners';
-import ECommerce from '@/components/ECommerce';
+import KorisuProductDetail from '@/components/KorisuProductDetail';
 import BuyingGuide from '@/components/BuyingGuide';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -22,7 +22,7 @@ const Index = () => {
         <ProductSection />
         <WhyChooseUs />
         <ClientsPartners />
-        <ECommerce />
+        <KorisuProductDetail />
         <BuyingGuide />
         <Contact />
       </main>
@@ -31,4 +31,4 @@ const Index = () => {
   );
 };
 
-export default Index; 
+export default Index;

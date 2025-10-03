@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ECommerce from '@/components/ECommerce';
+import KorisuProductDetail from '@/components/KorisuProductDetail';
 import BuyingGuide from '@/components/BuyingGuide';
 import { motion } from 'framer-motion';
 
@@ -34,10 +34,10 @@ const PortfolioPage = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              E-Commerce
+              Produk Korisu
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Jelajahi katalog digital kami dan dapatkan panduan pengadaan menyeluruh dari tim profesional PT Bejo Berkat Makmur.
+              Eksplorasi laptop flagship Korisu Edge 14 Pro lengkap dengan spesifikasi unggulan, dukungan purna jual, dan layanan implementasi PT Bejo Berkat Makmur.
             </p>
           </motion.div>
         </div>
@@ -48,7 +48,7 @@ const PortfolioPage = () => {
       </section>
 
       <main>
-        <ECommerce />
+        <KorisuProductDetail />
         <BuyingGuide />
       </main>
       
@@ -57,4 +57,4 @@ const PortfolioPage = () => {
   );
 };
 
-export default PortfolioPage; 
+export default PortfolioPage;

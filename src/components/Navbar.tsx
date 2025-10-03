@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', href: '/', path: '/' },
     { name: 'About Us', href: '/about', path: '/about' },
     { name: 'Service', href: '/services', path: '/services' },
-    { name: 'E-Commerce', href: '/katalog', path: '/katalog' },
+    { name: 'Produk Korisu', href: '/katalog', path: '/katalog' },
     { name: 'Contact Us', href: '/contact', path: '/contact' }
   ];
 
