@@ -37,7 +37,7 @@ const PortfolioPage = () => {
               E-Commerce
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Jelajahi katalog produk teknologi terlengkap kami dan panduan cara pembelian melalui e-katalog INAPROC
+              Jelajahi katalog digital kami dan dapatkan panduan pengadaan menyeluruh dari tim profesional PT Bejo Berkat Makmur.
             </p>
           </motion.div>
         </div>

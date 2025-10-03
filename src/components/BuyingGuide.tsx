@@ -5,23 +5,54 @@ const BuyingGuide: React.FC = () => {
   const steps = [
     {
       number: 1,
-      content: <p>Buka <a href="https://katalog.inaproc.id/" className="text-company-primary hover:text-company-accent transition-colors duration-300 font-medium">https://katalog.inaproc.id/</a>, lalu masuk menggunakan akun Anda</p>
+      content: (
+        <p>
+          Identifikasi kebutuhan pengadaan organisasi Anda dan siapkan detail
+          spesifikasi produk yang diperlukan.
+        </p>
+      )
     },
     {
       number: 2,
-      content: <p>Pilih etalase yang diinginkan</p>
+      content: (
+        <p>
+          Hubungi tim pengadaan kami melalui&nbsp;
+          <a
+            href="mailto:info@inibejo.com"
+            className="text-company-primary hover:text-company-accent transition-colors duration-300 font-medium"
+          >
+            info@inibejo.com
+          </a>
+          &nbsp;atau telepon +62 21 388 792 46 untuk konsultasi kebutuhan.
+        </p>
+      )
     },
     {
       number: 3,
-      content: <p>Sortir pilihan penyedia dan pilih <span className="font-medium text-company-primary">PT Bejo Berkat Makmur</span></p>
+      content: (
+        <p>
+          Diskusikan solusi terbaik bersama konsultan kami, termasuk opsi
+          bundling produk, penyesuaian layanan, dan jadwal pengiriman.
+        </p>
+      )
     },
     {
       number: 4,
-      content: <p>Pilih produk yang akan dibeli</p>
+      content: (
+        <p>
+          Terima proposal dan penawaran resmi, kemudian lakukan evaluasi serta
+          persetujuan internal di organisasi Anda.
+        </p>
+      )
     },
     {
       number: 5,
-      content: <p>Masukkan barang ke keranjang, lalu proses paket</p>
+      content: (
+        <p>
+          Finalisasikan pemesanan, tandatangani dokumen pendukung, dan pantau
+          proses pengiriman hingga instalasi selesai.
+        </p>
+      )
     }
   ];
 
@@ -70,7 +101,9 @@ const BuyingGuide: React.FC = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold text-center text-company-primary mb-2">Cara Membeli di e-katalog INAPROC</h2>
+          <h2 className="text-3xl font-bold text-center text-company-primary mb-2">
+            Panduan Pengadaan Bersama PT Bejo Berkat Makmur
+          </h2>
           <div className="w-32 h-1 bg-company-accent/70 mx-auto mb-8 rounded-sm"></div>
 
           <motion.div
@@ -112,14 +145,23 @@ const BuyingGuide: React.FC = () => {
             viewport={{ once: true }}
           >
             <a
-              href="https://katalog.inaproc.id/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#kontak"
               className="inline-flex items-center px-6 py-2.5 rounded-lg bg-company-accent text-company-primary text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300"
             >
-              Kunjungi E-Katalog INAPROC
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              Hubungi Tim Pengadaan
+              <svg
+                className="w-4 h-4 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                ></path>
               </svg>
             </a>
           </motion.div>

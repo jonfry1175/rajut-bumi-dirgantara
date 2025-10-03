@@ -10,10 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-favicon": "node scripts/generate-favicon.js",
-    "download-images": "node scripts/download-images.js",
-    "update-images": "rm -rf public/ecommerce/*.jpeg public/ecommerce/*.png && node scripts/download-images.js",
-    "convert-to-webp": "node scripts/convert-to-webp.js",
-    "update-commerce": "node scripts/update-commerce.js"
+    "convert-to-webp": "node scripts/convert-to-webp.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

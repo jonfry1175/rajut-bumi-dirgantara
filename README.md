@@ -40,29 +40,6 @@ npm i
 npm run dev
 ```
 
-## E-Commerce Image Management
-
-This project includes scripts to download and manage product images from INAPROC's catalog:
-
-```sh
-# Download product images from INAPROC API (skips existing images)
-npm run download-images
-
-# Force re-download all product images (clears cache first)
-npm run update-images
-```
-
-**How it works:**
-- Fetches current product catalog from INAPROC GraphQL API
-- Downloads product images to `public/ecommerce/` directory
-- Creates image mapping file for the React app to use
-- Automatically handles duplicate detection and caching
-- Uses proper browser headers to avoid CORS issues
-
-**When to use:**
-- `download-images`: Regular updates, only downloads new images
-- `update-images`: When you need fresh copies of all images
-
 ## Image Optimization
 
 Convert portfolio images to WebP format for better performance:
@@ -81,17 +58,6 @@ npm run convert-to-webp
 **Last conversion results:**
 - 23 images converted from PNG to WebP
 - Total size reduced from 16.10MB to 1.06MB (93.4% savings)
-
-## Production Deployment
-
-The E-Commerce section automatically detects the environment:
-
-- **Development**: Uses Vite proxy (`/api/inaproc/graphql`) with fallback to direct API
-- **Production**: Skips proxy and calls INAPROC API directly with proper CORS headers
-
-**Production domain**: https://www.inibejo.com/
-
-The app automatically sets the correct `origin` and `referer` headers for production deployment.
 
 **Edit a file directly in GitHub**
 
@@ -139,45 +105,8 @@ A modern website for PT Bejo Berkat Makmur built with React, TypeScript, and Tai
 - About page with company information
 - Services showcase
 - Portfolio gallery
-- Static E-Commerce integration with INAPROC
+- Solusi pengadaan terpadu dengan dukungan konsultatif
 - Contact information and forms
-
-## E-Commerce Static Data System
-
-The E-Commerce section uses a static data approach for better performance and reliability in production. 
-
-### Updating E-Commerce Data
-
-To update the product catalog and images, run:
-
-```bash
-npm run update-commerce
-```
-
-This command will:
-1. Fetch all products from INAPROC API (200 products per page)
-2. Download all product images locally to `public/ecommerce/`
-3. Create static JSON files:
-   - `public/ecommerce/products.json` - All products raw data
-   - `public/ecommerce/products-paginated.json` - Paginated data for UI (10 products per page)
-   - `public/ecommerce/image-mapping.json` - URL mapping for downloaded images
-
-### How It Works
-
-1. **Data Fetching**: The script fetches products using the same GraphQL query as the original dynamic version
-2. **Image Download**: All product images are downloaded and stored locally with MD5-hashed filenames
-3. **Static Pagination**: Products are pre-paginated into 10-item pages for smooth UI navigation
-4. **Fallback Handling**: The UI gracefully falls back to original URLs if local images aren't available
-
-### File Structure
-
-```
-public/ecommerce/
-├── products.json              # Raw product data
-├── products-paginated.json    # Pre-paginated data for UI
-├── image-mapping.json         # Local image filename mapping
-└── *.jpeg/*.png              # Downloaded product images
-```
 
 ## Development
 
@@ -190,9 +119,6 @@ npm run dev
 
 # Build for production
 npm run build
-
-# Update e-commerce data
-npm run update-commerce
 ```
 
 ## Scripts
@@ -201,9 +127,6 @@ npm run update-commerce
 - `build` - Build for production
 - `build:dev` - Build in development mode
 - `preview` - Preview production build
-- `update-commerce` - Update e-commerce products and images
-- `download-images` - Download images only (legacy)
-- `update-images` - Clean and re-download images (legacy)
 
 ## Technologies Used
 

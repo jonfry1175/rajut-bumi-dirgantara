@@ -9,7 +9,7 @@ The Vite + React application boots from `src/main.tsx`, with root routing and la
 - `npm run build` – produce the optimized bundle in `dist/`.
 - `npm run preview` – serve the built bundle locally for smoke checks.
 - `npm run lint` – run ESLint using `eslint.config.js` rules.
-- `npm run generate-favicon`, `npm run update-images` – refresh assets in `public/ecommerce/` after content changes.
+- `npm run generate-favicon` – refresh favicon assets when logos change.
 
 ## Coding Style & Naming Conventions
 Use TypeScript functional components and keep files named in PascalCase (example: `components/HeroSection.tsx`). Hooks should follow the `useThing` camelCase pattern and live in `src/hooks/`. Favor Tailwind utility classes; isolate complex overrides in component-level CSS when unavoidable. Maintain two-space indentation, prefer single quotes, and keep JSX concise. Always run `npm run lint` before pushing to catch unused imports, type drift, and accessibility issues.
