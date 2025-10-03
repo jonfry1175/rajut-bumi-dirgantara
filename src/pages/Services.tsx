@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicesPageComponent from '@/components/ServicesPage';
-import ClientsPartners from '@/components/ClientsPartners';
 import { motion } from 'framer-motion';
 
 const ServicesPage = () => {
@@ -49,7 +48,6 @@ const ServicesPage = () => {
 
       <main>
         <ServicesPageComponent />
-        <ClientsPartners />
 
         {/* CTA Section */}
         <section className="bg-company-primary py-20 relative overflow-hidden">
