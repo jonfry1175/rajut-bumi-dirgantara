@@ -7,7 +7,7 @@ const BuyingGuide: React.FC = () => {
       number: 1,
       content: (
         <p>
-          Identifikasi kebutuhan pengadaan organisasi Anda dan siapkan detail
+          Identifikasi kebutuhan pengadaan Anda dan siapkan detail
           spesifikasi produk yang diperlukan.
         </p>
       )
