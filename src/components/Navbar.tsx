@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', href: '/', path: '/' },
     { name: 'About Us', href: '/about', path: '/about' },
     { name: 'Service', href: '/services', path: '/services' },
-    { name: 'Our Product', href: '/katalog', path: '/katalog' },
+    { name: 'Partnership', href: '/partnership', path: '/partnership' },
     { name: 'Contact Us', href: '/contact', path: '/contact' }
   ];
 

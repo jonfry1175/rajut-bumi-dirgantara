@@ -7,7 +7,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import AboutPage from "./pages/About";
 import ServicesPage from "./pages/Services";
-import PortfolioPage from "./pages/Portfolio";
+import PartnershipPage from "./pages/Portfolio";
 import ContactPage from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/katalog" element={<PortfolioPage />} />
+          <Route path="/partnership" element={<PartnershipPage />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
