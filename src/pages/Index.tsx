@@ -3,7 +3,6 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
-import ProductSection from '@/components/ProductSection';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ClientsPartners from '@/components/ClientsPartners';
 import KorisuProductDetail from '@/components/KorisuProductDetail';
@@ -19,7 +18,6 @@ const Index = () => {
         <Hero />
         <About />
         <Services />
-        <ProductSection />
         <WhyChooseUs />
         <ClientsPartners />
         <KorisuProductDetail />
