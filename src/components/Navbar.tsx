@@ -3,7 +3,6 @@ import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
-import pasLogo from '../assets/pas-logo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +57,7 @@ const Navbar: React.FC = () => {
               <div className="bg-white rounded-lg p-1 shadow-md flex items-center justify-center h-10 md:h-12">
                 {!logoError ? (
                   <img
-                    src={pasLogo}
+                    src="/logo-bejo.png"
                     alt="PT Bejo Berkat Makmur"
                     className="h-full object-contain px-1"
                     onError={() => setLogoError(true)}
