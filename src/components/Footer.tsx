@@ -43,10 +43,17 @@ const Footer: React.FC = () => {
           viewport={{ once: true, amount: 0.1 }}
         >
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl font-semibold tracking-tight mb-4 flex items-center">
-              <span>PT Bejo Berkat Makmur</span>
-              <div className="h-2 w-2 rounded bg-company-accent ml-2"></div>
-            </h3>
+            <div className="flex items-center mb-4">
+              <img
+                src="/logo-bejo.png"
+                alt="PT Bejo Berkat Makmur Logo"
+                className="w-12 h-12 mr-4 rounded-lg bg-white p-2 shadow-sm"
+              />
+              <h3 className="text-2xl font-semibold tracking-tight flex items-center">
+                <span>PT Bejo Berkat Makmur</span>
+                <div className="h-2 w-2 rounded bg-company-accent ml-2"></div>
+              </h3>
+            </div>
             <div className="h-1 w-16 bg-company-accent/70 mb-5 rounded-md"></div>
             <p className="text-base text-gray-300 leading-relaxed">
               Perusahaan teknologi yang memadukan inovasi, efisiensi, dan pertumbuhan berkelanjutan untuk menghadirkan solusi TI yang relevan serta berdampak.
@@ -98,9 +105,9 @@ const Footer: React.FC = () => {
                 <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center mr-3">
                   <MapPin className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">Jl. Gading Kirana Timur Blok A13 No. 28<br/>
-                Kelapa Gading, Jakarta Utara 14240<br/>
-                Indonesia</p>
+                <p className="text-gray-300">Jl. Gading Kirana Timur Blok A13 No. 28<br />
+                  Kelapa Gading, Jakarta Utara 14240<br />
+                  Indonesia</p>
               </div>
             </div>
           </motion.div>
