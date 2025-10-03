@@ -1,0 +1,2484 @@
+[
+  {
+    "id": "2c361d25-1f1c-442c-8ff9-67da8ffaeace",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/74fbed84-469c-11f0-b44f-ee9327ab3a6a.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 18818919,
+    "defaultPriceWithTax": 20889000,
+    "createdAt": "2025-06-11 08:20:52.600878 +0000 UTC",
+    "maxPrice": 18818919,
+    "maxPriceWithTax": 20889000,
+    "minPrice": 18818919,
+    "minPriceWithTax": 20889000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 30.77,
+      "bmpValue": 15,
+      "tkdnBmp": 45.769999999999996,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "ASUS ExpertCenter EG3408WVAK i5/8GB/512GB SSD/WIN HOME/23.8 Inch FHD",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.9028,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.5027,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "asus-expertcenter-eg3408wvak-i5-8gb-512gb-ssd-win-home-23-8-inch-fhd",
+    "rating": null,
+    "variants": [
+      {
+        "id": "c4c6588d-d46e-4c57-9e57-f5b3c52c5a9f",
+        "isActive": true,
+        "options": null,
+        "price": 18818919,
+        "priceWithTax": 20889000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "92294b5e-d052-4859-9ac5-6af7d97c42ad",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/10747c93-469c-11f0-bf8f-0685d084a2b1.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 17017117,
+    "defaultPriceWithTax": 18889000,
+    "createdAt": "2025-06-11 08:16:18.004035 +0000 UTC",
+    "maxPrice": 17017117,
+    "maxPriceWithTax": 18889000,
+    "minPrice": 17017117,
+    "minPriceWithTax": 18889000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 30.88,
+      "bmpValue": 15,
+      "tkdnBmp": 45.879999999999995,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "ASUS ExpertCenter EG3408WVAK i3/8GB/512GB SSD/WIN HOME/23.8 Inch FHD",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.9118,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.5118,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "asus-expertcenter-eg3408wvak-i3-8gb-512gb-ssd-win-home-23-8-inch-fhd",
+    "rating": null,
+    "variants": [
+      {
+        "id": "e05d6c16-2458-4031-abb4-575640f62b6b",
+        "isActive": true,
+        "options": null,
+        "price": 17017117,
+        "priceWithTax": 18889000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "4fc1f779-5168-483f-b585-939e431034b4",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/18762ceb-469b-11f0-b44f-ee9327ab3a6a.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 15495496,
+    "defaultPriceWithTax": 17200001,
+    "createdAt": "2025-06-11 08:11:25.975681 +0000 UTC",
+    "maxPrice": 15495496,
+    "maxPriceWithTax": 17200001,
+    "minPrice": 15495496,
+    "minPriceWithTax": 17200001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 28.54,
+      "bmpValue": 15,
+      "tkdnBmp": 43.54,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "ZYREX AIO PC DISCOVERY BF24 2423-8S5",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.9203,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.5203,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "zyrex-aio-pc-discovery-bf24-2423-8s5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "378b82cc-07db-4797-b92f-6c0bb91ae905",
+        "isActive": true,
+        "options": null,
+        "price": 15495496,
+        "priceWithTax": 17200001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "4c44bbea-6162-46c4-bc76-c1a6082f1156",
+    "type": "DIGITAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/21d1e01e-2a5a-11f0-a184-3e7f13cf17b4.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 330000000,
+    "defaultPriceWithTax": 366300000,
+    "createdAt": "2025-05-06 09:12:43.474356 +0000 UTC",
+    "maxPrice": 330000000,
+    "maxPriceWithTax": 366300000,
+    "minPrice": 330000000,
+    "minPriceWithTax": 366300000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HITACHI Brocade - SAN Switch G720",
+    "stockAvailability": true,
+    "stockAccumulation": 1000,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.2845,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2845,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hitachi-brocade-san-switch-g720",
+    "rating": null,
+    "variants": [
+      {
+        "id": "cad2745e-4e31-46e4-ae16-370dc0351184",
+        "isActive": true,
+        "options": null,
+        "price": 330000000,
+        "priceWithTax": 366300000,
+        "sortOrder": 0,
+        "stock": 1000
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "c66980cb-bcd0-4185-9255-32d0d54cb643",
+    "type": "DIGITAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/ce63d0b9-2a59-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 6760000000,
+    "defaultPriceWithTax": 7503600000,
+    "createdAt": "2025-05-06 09:10:39.208677 +0000 UTC",
+    "maxPrice": 6760000000,
+    "maxPriceWithTax": 7503600000,
+    "minPrice": 6760000000,
+    "minPriceWithTax": 7503600000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HITACHI HCP G11 & S11 - Object Storage",
+    "stockAvailability": true,
+    "stockAccumulation": 1000,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.1139,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.1139,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hitachi-hcp-g11-and-s11-object-storage",
+    "rating": null,
+    "variants": [
+      {
+        "id": "eb41b77b-051b-465e-b836-0670ab069b93",
+        "isActive": true,
+        "options": null,
+        "price": 6760000000,
+        "priceWithTax": 7503600000,
+        "sortOrder": 0,
+        "stock": 1000
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "3dc344ac-8dfa-44e3-b8f1-eff16cdd01c5",
+    "type": "DIGITAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/65c711f6-2a59-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 7800000000,
+    "defaultPriceWithTax": 8658000000,
+    "createdAt": "2025-05-06 09:08:10.113277 +0000 UTC",
+    "maxPrice": 7800000000,
+    "maxPriceWithTax": 8658000000,
+    "minPrice": 7800000000,
+    "minPriceWithTax": 8658000000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HITACHI SAN Storage - VSP E990 (Controller Base, Advance Pack, etc)",
+    "stockAvailability": true,
+    "stockAccumulation": 1000,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.1069,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.1069,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hitachi-san-storage-vsp-e990-controller-base-advance-pack-etc",
+    "rating": null,
+    "variants": [
+      {
+        "id": "d410e9a0-6af9-4272-a306-8d50278ef07d",
+        "isActive": true,
+        "options": null,
+        "price": 7800000000,
+        "priceWithTax": 8658000000,
+        "sortOrder": 0,
+        "stock": 1000
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "a4d7e299-cdeb-4f8c-8aa3-12556d4bd858",
+    "type": "DIGITAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/06867962-2a59-11f0-8210-1edd1691f1e3.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 3211050000,
+    "defaultPriceWithTax": 3564265500,
+    "createdAt": "2025-05-06 09:05:46.108549 +0000 UTC",
+    "maxPrice": 3211050000,
+    "maxPriceWithTax": 3564265500,
+    "minPrice": 3211050000,
+    "minPriceWithTax": 3564265500,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HITACHI Commvault Cloud Backup & Recovery Software",
+    "stockAvailability": true,
+    "stockAccumulation": 1000,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.1516,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.1516,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hitachi-commvault-cloud-backup-and-recovery-software",
+    "rating": null,
+    "variants": [
+      {
+        "id": "199b48d6-ab6d-4dc9-8c5a-419842f0dc59",
+        "isActive": true,
+        "options": null,
+        "price": 3211050000,
+        "priceWithTax": 3564265500,
+        "sortOrder": 0,
+        "stock": 1000
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "b1f43051-7810-40b2-a741-990d490c9790",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/ff270aaf-2a47-11f0-98f3-9abb19dc0ba2.png"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 1579633736,
+    "defaultPriceWithTax": 1753393447,
+    "createdAt": "2025-05-06 07:01:57.409567 +0000 UTC",
+    "maxPrice": 1579633736,
+    "maxPriceWithTax": 1753393447,
+    "minPrice": 1579633736,
+    "minPriceWithTax": 1753393447,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "Advanced Server HA800 G3 S4510 48C 4527200000-LTN-225900043",
+    "stockAvailability": true,
+    "stockAccumulation": 10,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.19,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.19,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "advanced-server-ha800-g3-s4510-48c-4527200000-ltn-225900043",
+    "rating": null,
+    "variants": [
+      {
+        "id": "cc4aa80b-4b45-4ec8-8cb8-f099e17603fc",
+        "isActive": true,
+        "options": null,
+        "price": 1579633736,
+        "priceWithTax": 1753393447,
+        "sortOrder": 0,
+        "stock": 10
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "0afd5a42-bd0f-4df7-9cf3-64309577792d",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/f6604d8c-2a47-11f0-93cd-c24af90123ac.png"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 954954955,
+    "defaultPriceWithTax": 1060000000,
+    "createdAt": "2025-05-06 07:01:42.788518 +0000 UTC",
+    "maxPrice": 954954955,
+    "maxPriceWithTax": 1060000000,
+    "minPrice": 954954955,
+    "minPriceWithTax": 1060000000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HCP G11 Hardware Product",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.2188,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2188,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hcp-g11-hardware-product",
+    "rating": null,
+    "variants": [
+      {
+        "id": "952e7241-b221-44d6-97a7-7afc5c24bf87",
+        "isActive": true,
+        "options": null,
+        "price": 954954955,
+        "priceWithTax": 1060000000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "bdda11eb-db8f-4d00-a366-93b59d377cdd",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/f558507f-2a47-11f0-98f3-9abb19dc0ba2.png"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Import",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 128603604,
+    "defaultPriceWithTax": 142750000,
+    "createdAt": "2025-05-06 07:01:41.077054 +0000 UTC",
+    "maxPrice": 128603604,
+    "maxPriceWithTax": 142750000,
+    "minPrice": 128603604,
+    "minPriceWithTax": 142750000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "HCP S32 10TB Hardware Product",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.3489,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3489,
+      "ratingScore": 0,
+      "tkdnScore": 0,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "hcp-s32-10tb-hardware-product",
+    "rating": null,
+    "variants": [
+      {
+        "id": "437c077c-2606-4c41-b7b8-35b8f031d6ac",
+        "isActive": true,
+        "options": null,
+        "price": 128603604,
+        "priceWithTax": 142750000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "40f51ce9-8838-443b-9aa6-425264e679d8",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/216f11d9-270d-11f0-9161-8e6540a012ee.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 19818919,
+    "defaultPriceWithTax": 21999000,
+    "createdAt": "2025-05-02 04:23:01.216685 +0000 UTC",
+    "maxPrice": 19818919,
+    "maxPriceWithTax": 21999000,
+    "minPrice": 19818919,
+    "minPriceWithTax": 21999000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": null,
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "EXPERTCENTER DG500MER i5/8GB DDR5/512GB SSD/WIN PRO/LCD 21.5 INCH",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.8981,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.4981,
+      "ratingScore": 0,
+      "tkdnScore": 0.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "expertcenter-dg500mer-i5-8gb-ddr5-512gb-ssd-win-pro-lcd-21-5-inch",
+    "rating": null,
+    "variants": [
+      {
+        "id": "8f8934e5-0f3d-400e-911c-e52f29a081a0",
+        "isActive": true,
+        "options": null,
+        "price": 19818919,
+        "priceWithTax": 21999000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "78d8fed2-cc83-4cb6-9200-afda61983968",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/7526f4d8-257e-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 89099100,
+    "defaultPriceWithTax": 98900001,
+    "createdAt": "2025-04-30 04:50:48.02992 +0000 UTC",
+    "maxPrice": 89099100,
+    "maxPriceWithTax": 98900001,
+    "minPrice": 89099100,
+    "minPriceWithTax": 98900001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP65C-AI",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7758,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3758,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip65c-ai",
+    "rating": null,
+    "variants": [
+      {
+        "id": "541ef547-4fd5-44e0-86c9-3388e2d066f1",
+        "isActive": true,
+        "options": null,
+        "price": 89099100,
+        "priceWithTax": 98900001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "82c12390-41bd-4849-9fe0-4955becbbf57",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/d1c17c2b-257d-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 125000000,
+    "defaultPriceWithTax": 138750000,
+    "createdAt": "2025-04-30 04:48:54.728206 +0000 UTC",
+    "maxPrice": 125000000,
+    "maxPriceWithTax": 138750000,
+    "minPrice": 125000000,
+    "minPriceWithTax": 138750000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP75C-AI",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.751,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.351,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip75c-ai",
+    "rating": null,
+    "variants": [
+      {
+        "id": "7df512be-7195-4b77-a2dd-c9bf119d98c7",
+        "isActive": true,
+        "options": null,
+        "price": 125000000,
+        "priceWithTax": 138750000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "14c09ed7-304a-46bc-be61-c0da808b45fc",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/118a4098-257d-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 359009010,
+    "defaultPriceWithTax": 398500001,
+    "createdAt": "2025-04-30 04:43:49.772421 +0000 UTC",
+    "maxPrice": 359009010,
+    "maxPriceWithTax": 398500001,
+    "minPrice": 359009010,
+    "minPriceWithTax": 398500001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP98C-AI",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.679,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.279,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip98c-ai",
+    "rating": null,
+    "variants": [
+      {
+        "id": "3db06f91-ab9d-41a9-9b22-909bf357a016",
+        "isActive": true,
+        "options": null,
+        "price": 359009010,
+        "priceWithTax": 398500001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "cc97a787-ff00-4134-afef-3b9701450d12",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/a93ac211-257c-11f0-9161-8e6540a012ee.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 155405406,
+    "defaultPriceWithTax": 172500001,
+    "createdAt": "2025-04-30 04:38:34.542294 +0000 UTC",
+    "maxPrice": 155405406,
+    "maxPriceWithTax": 172500001,
+    "minPrice": 155405406,
+    "minPriceWithTax": 172500001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP75C-AI (With OPS I5)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7355,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3355,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip75c-ai-with-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "8692edaf-904e-43bf-ac50-fb6b452f8406",
+        "isActive": true,
+        "options": null,
+        "price": 155405406,
+        "priceWithTax": 172500001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "7f2bff18-6519-4211-9aff-6ea95a7f1517",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/04228419-257c-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 512162163,
+    "defaultPriceWithTax": 568500001,
+    "createdAt": "2025-04-30 04:36:08.630847 +0000 UTC",
+    "maxPrice": 512162163,
+    "maxPriceWithTax": 568500001,
+    "minPrice": 512162163,
+    "minPriceWithTax": 568500001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP110C-AI",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.6565,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2565,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip110c-ai",
+    "rating": null,
+    "variants": [
+      {
+        "id": "936c2e49-b391-49ae-b425-ac2db98a167d",
+        "isActive": true,
+        "options": null,
+        "price": 512162163,
+        "priceWithTax": 568500001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "8f45ff7d-e484-4c42-9491-ba6828f6f0ed",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/c05951f9-257b-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 125135136,
+    "defaultPriceWithTax": 138900001,
+    "createdAt": "2025-04-30 04:31:34.81704 +0000 UTC",
+    "maxPrice": 125135136,
+    "maxPriceWithTax": 138900001,
+    "minPrice": 125135136,
+    "minPriceWithTax": 138900001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP65C-AI (With OPS I5)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7509,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3509,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip65c-ai-with-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "b0ff08a0-192d-48ab-8454-3fb0e214808c",
+        "isActive": true,
+        "options": null,
+        "price": 125135136,
+        "priceWithTax": 138900001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "651f25ba-200e-4611-b984-076e365f6bbb",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/76a399b7-257b-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 205855856,
+    "defaultPriceWithTax": 228500000,
+    "createdAt": "2025-04-30 04:29:28.538262 +0000 UTC",
+    "maxPrice": 205855856,
+    "maxPriceWithTax": 228500000,
+    "minPrice": 205855856,
+    "minPriceWithTax": 228500000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP86C-AI (WITH OPS I5)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.716,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.316,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip86c-ai-with-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "419861e1-59f1-4f21-8e55-bb22bc12d427",
+        "isActive": true,
+        "options": null,
+        "price": 205855856,
+        "priceWithTax": 228500000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "b92d2f13-6c7e-4e0b-9e44-4bf7f6242f6a",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/02998afd-257b-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 134144145,
+    "defaultPriceWithTax": 148900001,
+    "createdAt": "2025-04-30 04:26:27.689982 +0000 UTC",
+    "maxPrice": 134144145,
+    "maxPriceWithTax": 148900001,
+    "minPrice": 134144145,
+    "minPriceWithTax": 148900001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP65C-AI (with OPS I7)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7459,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3459,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip65c-ai-with-ops-i7",
+    "rating": null,
+    "variants": [
+      {
+        "id": "986c99fc-c695-497d-a14f-c0a611fe521c",
+        "isActive": true,
+        "options": null,
+        "price": 134144145,
+        "priceWithTax": 148900001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "e5fecd24-ec24-4c8c-bd11-affeacbde6bc",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/8fa35ce0-257a-11f0-9161-8e6540a012ee.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 164414415,
+    "defaultPriceWithTax": 182500001,
+    "createdAt": "2025-04-30 04:23:57.175672 +0000 UTC",
+    "maxPrice": 164414415,
+    "maxPriceWithTax": 182500001,
+    "minPrice": 164414415,
+    "minPriceWithTax": 182500001,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP75C-AI (with OPS I7)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7315,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3315,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip75c-ai-with-ops-i7",
+    "rating": null,
+    "variants": [
+      {
+        "id": "a069b56e-d004-4309-8d9c-235fa3aafbdc",
+        "isActive": true,
+        "options": null,
+        "price": 164414415,
+        "priceWithTax": 182500001,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "bad05167-82fe-4903-b9a2-7522ab973f84",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/3a24cc97-257a-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 214864865,
+    "defaultPriceWithTax": 238500000,
+    "createdAt": "2025-04-30 04:20:53.678027 +0000 UTC",
+    "maxPrice": 214864865,
+    "maxPriceWithTax": 238500000,
+    "minPrice": 214864865,
+    "minPriceWithTax": 238500000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP86C-AI (with OPS I7)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.713,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.313,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip86c-ai-with-ops-i7",
+    "rating": null,
+    "variants": [
+      {
+        "id": "165157ba-b465-4990-9b37-cacac289e84e",
+        "isActive": true,
+        "options": null,
+        "price": 214864865,
+        "priceWithTax": 238500000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "0c6f4e5c-0b6a-4ff8-a448-3000204598fd",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/ea92127e-2579-11f0-b650-32e0d9a22122.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 384684685,
+    "defaultPriceWithTax": 427000000,
+    "createdAt": "2025-04-30 04:18:28.634607 +0000 UTC",
+    "maxPrice": 384684685,
+    "maxPriceWithTax": 427000000,
+    "minPrice": 384684685,
+    "minPriceWithTax": 427000000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP98C-AI (With OPS I5)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.6746,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2746,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip98c-ai-with-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "2f572c9c-f8d2-4f88-a7ea-113cbfdccbc4",
+        "isActive": true,
+        "options": null,
+        "price": 384684685,
+        "priceWithTax": 427000000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "17acdad6-7cca-4d07-851f-d77c14a6e094",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/79beb3ee-2578-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 393693694,
+    "defaultPriceWithTax": 437000000,
+    "createdAt": "2025-04-30 04:07:55.179877 +0000 UTC",
+    "maxPrice": 393693694,
+    "maxPriceWithTax": 437000000,
+    "minPrice": 393693694,
+    "minPriceWithTax": 437000000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP98C-AI (with OPS I7)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.6731,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2731,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip98c-ai-with-ops-i7",
+    "rating": null,
+    "variants": [
+      {
+        "id": "c658e4ab-c819-4bc6-a673-bc013f9ab5bb",
+        "isActive": true,
+        "options": null,
+        "price": 393693694,
+        "priceWithTax": 437000000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "c806165a-39c3-4afe-badd-efba778f0421",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/f6256ff3-2577-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 617927928,
+    "defaultPriceWithTax": 685900000,
+    "createdAt": "2025-04-30 04:05:34.23115 +0000 UTC",
+    "maxPrice": 617927928,
+    "maxPriceWithTax": 685900000,
+    "minPrice": 617927928,
+    "minPriceWithTax": 685900000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP110C-AI (With OPS I5)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.6449,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2449,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip110c-ai-with-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "855bb579-ef48-4a27-b529-e2876bdac9e9",
+        "isActive": true,
+        "options": null,
+        "price": 617927928,
+        "priceWithTax": 685900000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "c8e6cc6f-62d0-4d66-b8bf-377e27fe6377",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/a6555d66-2576-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 626576577,
+    "defaultPriceWithTax": 695500000,
+    "createdAt": "2025-04-30 03:56:06.629976 +0000 UTC",
+    "maxPrice": 626576577,
+    "maxPriceWithTax": 695500000,
+    "minPrice": 626576577,
+    "minPriceWithTax": 695500000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP110C-AI (with OPS I7)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.644,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.244,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip110c-ai-with-ops-i7",
+    "rating": null,
+    "variants": [
+      {
+        "id": "0620803c-4a78-4e9a-bc6c-c1c7c2075779",
+        "isActive": true,
+        "options": null,
+        "price": 626576577,
+        "priceWithTax": 695500000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "27f2d344-cc28-439c-ba44-d6849aee9c1e",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/6fd4368b-2415-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 15675676,
+    "defaultPriceWithTax": 17400000,
+    "createdAt": "2025-04-28 09:53:35.467404 +0000 UTC",
+    "maxPrice": 15675676,
+    "maxPriceWithTax": 17400000,
+    "minPrice": 15675676,
+    "minPriceWithTax": 17400000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 25.04,
+      "bmpValue": 0,
+      "tkdnBmp": 25.04,
+      "status": "NEED_SCORING"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "ADVAN LAPTOP S7-15S (GEN 12)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.9192,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.5192,
+      "ratingScore": 0,
+      "tkdnScore": 0.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "advan-laptop-s7-15s-gen-12",
+    "rating": null,
+    "variants": [
+      {
+        "id": "564063f7-b6ee-4762-893d-166c3e12321c",
+        "isActive": true,
+        "options": null,
+        "price": 15675676,
+        "priceWithTax": 17400000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "b99ee247-4432-4565-b997-34a01f9b2c24",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/74e93fd3-2414-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "Verified",
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 16126126,
+    "defaultPriceWithTax": 17900000,
+    "createdAt": "2025-04-28 09:40:15.074289 +0000 UTC",
+    "maxPrice": 16126126,
+    "maxPriceWithTax": 17900000,
+    "minPrice": 16126126,
+    "minPriceWithTax": 17900000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 25.04,
+      "bmpValue": 0,
+      "tkdnBmp": 25.04,
+      "status": "NEED_SCORING"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "ADVAN LAPTOP S7- 15S",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.9166,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.5166,
+      "ratingScore": 0,
+      "tkdnScore": 0.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "advan-laptop-s7-15s",
+    "rating": null,
+    "variants": [
+      {
+        "id": "9d0edba4-a4f4-4708-a15a-226d8bf87057",
+        "isActive": true,
+        "options": null,
+        "price": 16126126,
+        "priceWithTax": 17900000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "44c2d1e2-7750-4b75-8f83-0ed6ad42d6fe",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/46cfabda-20dc-11f0-b6c4-f2eb4b6d76f1.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 206327027,
+    "defaultPriceWithTax": 229023000,
+    "createdAt": "2025-04-24 07:19:59.394889 +0000 UTC",
+    "maxPrice": 206327027,
+    "maxPriceWithTax": 229023000,
+    "minPrice": 206327027,
+    "minPriceWithTax": 229023000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "Interaktif Flat Panel (IFP) - Touchscreen + 86 Inch OPS i5",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7158,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3158,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "interaktif-flat-panel-ifp-touchscreen-86-inch-ops-i5",
+    "rating": null,
+    "variants": [
+      {
+        "id": "c8e684e7-f211-44e5-9a99-5037d8c355a7",
+        "isActive": true,
+        "options": null,
+        "price": 206327027,
+        "priceWithTax": 229023000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "0c5c37a0-fece-4b0b-b014-5db05aec9fad",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/f1cda6f1-20db-11f0-b6c4-f2eb4b6d76f1.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 205855856,
+    "defaultPriceWithTax": 228500000,
+    "createdAt": "2025-04-24 07:17:37.102017 +0000 UTC",
+    "maxPrice": 205855856,
+    "maxPriceWithTax": 228500000,
+    "minPrice": 205855856,
+    "minPriceWithTax": 228500000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DT-IP86C-AI",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.716,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.316,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dt-ip86c-ai",
+    "rating": null,
+    "variants": [
+      {
+        "id": "a86c29fb-52fb-433b-8d8c-8c60da3f5bd8",
+        "isActive": true,
+        "options": null,
+        "price": 205855856,
+        "priceWithTax": 228500000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "5ce19143-274e-485a-8f5a-97cf13dd3301",
+    "type": "PHYSICAL",
+    "isActive": true,
+    "images": [
+      "https://asset.inaproc.id/upload/5ba67bda-20db-11f0-b6c4-f2eb4b6d76f1.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN",
+      "Verified"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 183900000,
+    "defaultPriceWithTax": 204129000,
+    "createdAt": "2025-04-24 07:15:05.023992 +0000 UTC",
+    "maxPrice": 183900000,
+    "maxPriceWithTax": 204129000,
+    "minPrice": 183900000,
+    "minPriceWithTax": 204129000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "APPROVED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "IFP (INTERACTIVE FLAT PANEL) - TOUCH + OPS i5 86 Inch",
+    "stockAvailability": true,
+    "stockAccumulation": 250,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 27.7237,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.3237,
+      "ratingScore": 0,
+      "tkdnScore": 16.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "ifp-interactive-flat-panel-touch-ops-i5-86-inch",
+    "rating": null,
+    "variants": [
+      {
+        "id": "cc2c68dd-40df-4be6-8780-71a8154412a0",
+        "isActive": true,
+        "options": null,
+        "price": 183900000,
+        "priceWithTax": 204129000,
+        "sortOrder": 0,
+        "stock": 250
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "720bad09-df3c-402e-8e9c-d643616392f1",
+    "type": "PHYSICAL",
+    "isActive": false,
+    "images": [
+      "https://asset.inaproc.id/upload/0834b2c9-4a68-11f0-b44f-ee9327ab3a6a.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 17171171,
+    "defaultPriceWithTax": 19060000,
+    "createdAt": "2025-06-16 04:18:07.80752 +0000 UTC",
+    "maxPrice": 17171171,
+    "maxPriceWithTax": 19060000,
+    "minPrice": 17171171,
+    "minPriceWithTax": 19060000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 28.54,
+      "bmpValue": 15,
+      "tkdnBmp": 43.54,
+      "status": "ON_VERIFICATION"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "Veriton Z4 AIO - Core i3 (VZ4/0047)",
+    "stockAvailability": true,
+    "stockAccumulation": 100,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.911,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.511,
+      "ratingScore": 0,
+      "tkdnScore": 0.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "veriton-z4-aio-core-i3-vz4-0047",
+    "rating": null,
+    "variants": [
+      {
+        "id": "eddb4ebc-e0c2-4944-bc92-00838908f18b",
+        "isActive": true,
+        "options": null,
+        "price": 17171171,
+        "priceWithTax": 19060000,
+        "sortOrder": 0,
+        "stock": 100
+      }
+    ],
+    "status": "IN_REVIEW"
+  },
+  {
+    "id": "4110e44f-53ab-4fcf-a02a-072559e165a2",
+    "type": "PHYSICAL",
+    "isActive": false,
+    "images": [
+      "https://asset.inaproc.id/upload/3b456ab0-2413-11f0-93cd-c24af90123ac.jpeg"
+    ],
+    "isPreOrder": false,
+    "isRegionPrice": false,
+    "isSellerUMKK": true,
+    "labels": [
+      "PDN",
+      "PPN"
+    ],
+    "isWholesale": false,
+    "defaultPrice": 1264864865,
+    "defaultPriceWithTax": 1404000000,
+    "createdAt": "2025-04-28 09:36:33.240868 +0000 UTC",
+    "maxPrice": 1264864865,
+    "maxPriceWithTax": 1404000000,
+    "minPrice": 1264864865,
+    "minPriceWithTax": 1404000000,
+    "ppnBmPercentage": 0,
+    "ppnPercentage": 12,
+    "tkdn": {
+      "value": 40,
+      "bmpValue": 0,
+      "tkdnBmp": 40,
+      "status": "REJECTED"
+    },
+    "location": {
+      "name": "DKI JAKARTA",
+      "regionCode": "31",
+      "child": {
+        "name": "KOTA ADM. JAKARTA SELATAN",
+        "regionCode": "31.74",
+        "child": {
+          "name": "Mampang Prapatan",
+          "regionCode": "31.74.03",
+          "child": {
+            "name": "Bangka",
+            "regionCode": "31.74.03.1002"
+          }
+        }
+      }
+    },
+    "name": "DATATRON DTI-P4 ECK-HR 6X4M LED VIDEOTRON INDOOR",
+    "stockAvailability": true,
+    "stockAccumulation": 10,
+    "sellerName": "PERSADA ARTHA SELARAS",
+    "sellerId": "01JRCNQK2H739KAJ86BCXBKK54",
+    "score": 11.6025,
+    "scoreDetail": {
+      "keywordScore": 0,
+      "locationScore": 0,
+      "priceScore": 1.2025,
+      "ratingScore": 0,
+      "tkdnScore": 0.4,
+      "umkkScore": 10,
+      "unitSoldScore": 0
+    },
+    "unitSold": 0,
+    "username": "persada-artha-selaras",
+    "slug": "datatron-dti-p4-eck-hr-6x4m-led-videotron-indoor",
+    "rating": null,
+    "variants": [
+      {
+        "id": "00544727-cca5-4093-9489-51ec8e76353f",
+        "isActive": true,
+        "options": null,
+        "price": 1264864865,
+        "priceWithTax": 1404000000,
+        "sortOrder": 0,
+        "stock": 10
+      }
+    ],
+    "status": "IN_REVIEW"
+  }
+]
