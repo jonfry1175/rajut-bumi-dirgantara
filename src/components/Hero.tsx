@@ -79,8 +79,7 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Transformasi Digital <br />
-              Untuk Indonesia
+              Inovasi Teknologi untuk Negeri
             </motion.h1>
 
             <motion.p
