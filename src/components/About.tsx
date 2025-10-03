@@ -24,10 +24,13 @@ const About: React.FC = () => {
   };
 
   return (
-    <section id="tentang" className="section bg-white relative overflow-hidden py-20 md:py-28">
+    <section
+      id="tentang"
+      className="section relative overflow-hidden bg-white py-20 md:py-28"
+    >
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-80 bg-company-secondary rounded-bl-3xl opacity-30" />
-      <div className="absolute bottom-0 left-0 w-1/4 h-64 bg-company-secondary rounded-tr-3xl opacity-20" />
+      <div className="absolute inset-y-0 right-[-16%] w-1/2 rounded-full bg-company-secondary/20 blur-3xl" />
+      <div className="absolute bottom-[-30%] left-[-12%] h-72 w-72 rounded-full bg-company-accent/15 blur-3xl" />
 
       <div className="container mx-auto px-6 relative">
         <motion.div
@@ -37,21 +40,24 @@ const About: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Tentang Kami</span>
-          <h2 className="section-title mb-5">Tentang Perusahaan</h2>
-          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
+          <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/20 bg-white/60 text-company-primary text-xs font-semibold uppercase tracking-[0.3em] mb-4">
+            Tentang Kami
+          </span>
+          <h2 className="section-title mb-5 text-balance">Tentang Perusahaan</h2>
+          <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto relative">
+        <div className="relative mx-auto max-w-4xl">
+          <div className="pointer-events-none absolute inset-y-6 inset-x-4 rounded-3xl bg-white/70 shadow-[0_20px_60px_-35px_rgba(15,23,42,0.4)]" />
           <motion.div
-            className="prose prose-lg mx-auto"
+            className="relative z-10 space-y-6 rounded-3xl border border-white/60 bg-white px-8 py-10 text-left shadow-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerChildren}
           >
             <motion.p
-              className="text-lg mb-6 text-gray-700 leading-relaxed"
+              className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
               PT Bejo Berkat Makmur berdiri pada Agustus 2021 dengan fokus pada inovasi, efisiensi, dan
@@ -60,7 +66,7 @@ const About: React.FC = () => {
             </motion.p>
 
             <motion.p
-              className="text-lg mb-6 text-gray-700 leading-relaxed"
+              className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
               Keunggulan kami terletak pada pemahaman mendalam terhadap tantangan industri dan
@@ -69,7 +75,7 @@ const About: React.FC = () => {
             </motion.p>
 
             <motion.p
-              className="text-lg text-gray-700 leading-relaxed"
+              className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
               Kami percaya pada kemitraan jangka panjang yang dibangun dari kepercayaan, performa, dan
@@ -77,11 +83,8 @@ const About: React.FC = () => {
               dengan percaya diri.
             </motion.p>
           </motion.div>
-
-
-
           <motion.div
-            className="mt-16 text-center"
+            className="relative z-10 mt-16 text-center"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -90,9 +93,9 @@ const About: React.FC = () => {
             <Link
               to="/about"
               className={cn(
-                "inline-flex items-center justify-center gap-2 bg-company-primary text-white",
-                "font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:bg-company-primary/90",
-                "hover:shadow-md hover:-translate-y-0.5"
+                "inline-flex items-center justify-center gap-2 rounded-full bg-company-primary/95 px-8 py-3 text-sm font-semibold text-white",
+                "transition-all duration-300 hover:bg-company-primary",
+                "hover:shadow-lg hover:-translate-y-0.5"
               )}
             >
               Read More

@@ -61,12 +61,14 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section id="layanan" className="section bg-white relative overflow-hidden py-20 md:py-28">
+    <section
+      id="layanan"
+      className="section relative overflow-hidden bg-white py-20 md:py-28"
+    >
       {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-full h-48 bg-company-secondary -skew-y-3 transform origin-top-left -translate-y-24"></div>
-      <div className="absolute bottom-0 right-0 w-1/2 h-64 bg-company-secondary/50 rounded-tl-3xl"></div>
-      <div className="absolute top-1/4 right-0 w-24 h-24 bg-company-softblue/10 rounded-3xl blur-xl"></div>
-      <div className="absolute bottom-1/4 left-0 w-32 h-32 bg-company-primary/5 rounded-3xl blur-2xl"></div>
+      <div className="absolute inset-x-0 top-[-40%] h-80 rounded-full bg-company-secondary/15 blur-3xl" />
+      <div className="absolute bottom-[-30%] left-[-10%] h-72 w-72 rounded-full bg-company-primary/10 blur-3xl" />
+      <div className="absolute right-[-16%] top-1/2 h-60 w-60 rounded-full bg-company-accent/10 blur-3xl" />
 
       <div className="container mx-auto px-6 relative">
         <motion.div
@@ -76,16 +78,18 @@ const Services: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Layanan Kami</span>
-          <h2 className="section-title mb-5">Layanan Perusahaan</h2>
-          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
-          <p className="section-description max-w-2xl mx-auto text-gray-700">
+          <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/20 bg-white/70 text-company-primary text-xs font-semibold uppercase tracking-[0.28em] mb-4">
+            Layanan Kami
+          </span>
+          <h2 className="section-title mb-5 text-balance">Layanan Perusahaan</h2>
+          <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
+          <p className="section-description mx-auto max-w-2xl text-gray-700 text-balance">
             Solusi dan layanan teknologi terdepan untuk mendukung transformasi digital dan meningkatkan efisiensi operasional bisnis Anda.
           </p>
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10"
+          className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
@@ -94,19 +98,19 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              className="rounded-xl p-1 border border-company-primary/10 overflow-hidden"
+              className="overflow-hidden rounded-2xl border border-white/50 bg-white/80 p-[1.1px] shadow-[0_18px_40px_-30px_rgba(15,23,42,0.45)]"
               variants={fadeIn}
-              whileHover={{ y: -5, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
+              whileHover={{ y: -6, boxShadow: "0 28px 60px -35px rgba(15, 23, 42, 0.55)" }}
               transition={{ duration: 0.3 }}
             >
               <div className={cn(
-                "h-full service-card bg-white rounded-xl p-8 relative overflow-hidden",
+                "service-card relative h-full overflow-hidden rounded-[calc(theme(borderRadius.2xl)-1px)] bg-white px-8 py-8"
               )}>
-                <div className="absolute -right-10 -bottom-10 w-40 h-40 rounded-3xl opacity-10 bg-company-primary"></div>
+                <div className="absolute inset-x-6 bottom-0 h-32 rounded-3xl bg-company-primary/5 blur-2xl" />
 
-                <div className="flex items-start relative">
+                <div className="relative flex items-start">
                   <div className={cn(
-                    "flex-shrink-0 mr-5 p-3 rounded-xl",
+                    "mr-5 flex-shrink-0 rounded-2xl p-3",
                     service.color
                   )}>
                     <div className="text-company-primary">
@@ -115,19 +119,19 @@ const Services: React.FC = () => {
                   </div>
 
                   <div className="flex-grow">
-                    <h3 className="text-xl font-bold mb-4 text-company-primary">
+                    <h3 className="mb-4 text-xl font-semibold text-company-primary">
                       {service.title}
                     </h3>
-                    <p className="text-base mb-4 text-gray-700 leading-relaxed">
+                    <p className="mb-4 text-base leading-relaxed text-gray-700 text-balance">
                       {service.description}
                     </p>
 
                     {service.items && (
-                      <ul className="space-y-3 mb-4">
+                      <ul className="mb-4 space-y-3">
                         {service.items.map((item, i) => (
                           <li key={i} className="flex items-center text-gray-700">
-                            <div className="mr-2 w-5 h-5 bg-company-primary/10 rounded-sm flex items-center justify-center flex-shrink-0">
-                              <ChevronRight className="text-company-primary w-3 h-3" />
+                            <div className="mr-2 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-md bg-company-primary/10">
+                              <ChevronRight className="h-3.5 w-3.5 text-company-primary" />
                             </div>
                             <span>{item}</span>
                           </li>
@@ -136,7 +140,7 @@ const Services: React.FC = () => {
                     )}
 
                     {service.longDescription && (
-                      <p className="text-base text-gray-700 leading-relaxed">
+                      <p className="text-base leading-relaxed text-gray-700">
                         {service.longDescription}
                       </p>
                     )}
@@ -157,9 +161,9 @@ const Services: React.FC = () => {
           <Link
             to="/services"
             className={cn(
-              "inline-flex items-center justify-center gap-2 bg-company-primary text-white",
-              "font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:bg-company-primary/90",
-              "hover:shadow-md hover:-translate-y-0.5"
+              "inline-flex items-center justify-center gap-2 rounded-full bg-company-primary/95 px-8 py-3 text-sm font-semibold text-white",
+              "transition-all duration-300 hover:bg-company-primary",
+              "hover:-translate-y-0.5 hover:shadow-lg"
             )}
           >
             Read More

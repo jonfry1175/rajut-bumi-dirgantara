@@ -63,15 +63,15 @@ const WhyChooseUs: React.FC = () => {
   ];
 
   return (
-    <section className="section bg-company-light relative overflow-hidden py-24">
+    <section className="section relative overflow-hidden bg-company-light py-24">
       {/* Decorative elements */}
-      <div className="absolute top-0 inset-x-0 h-px bg-company-primary/15"></div>
-      <div className="absolute bottom-0 inset-x-0 h-px bg-company-primary/15"></div>
+      <div className="absolute inset-x-0 top-0 h-px bg-company-primary/10" />
+      <div className="absolute inset-x-0 bottom-0 h-px bg-company-primary/10" />
 
-      <div className="absolute left-0 top-20 w-32 h-32 bg-company-primary/10 rounded-3xl blur-3xl"></div>
-      <div className="absolute right-0 bottom-20 w-48 h-48 bg-company-softblue/10 rounded-3xl blur-3xl"></div>
+      <div className="absolute left-[-12%] top-14 h-48 w-48 rounded-full bg-company-primary/15 blur-3xl" />
+      <div className="absolute right-[-10%] bottom-10 h-60 w-60 rounded-full bg-company-softblue/15 blur-3xl" />
 
-      <div className="container mx-auto px-6 relative">
+      <div className="container relative mx-auto px-6">
         <motion.div
           className="text-center mb-16"
           initial="hidden"
@@ -79,10 +79,12 @@ const WhyChooseUs: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Keunggulan Kami</span>
-          <h2 className="section-title mb-5">Mengapa Memilih Kami</h2>
-          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
-          <p className="section-description max-w-2xl mx-auto text-gray-700">
+          <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/15 bg-white/70 text-company-primary text-xs font-semibold uppercase tracking-[0.3em] mb-4">
+            Keunggulan Kami
+          </span>
+          <h2 className="section-title mb-5 text-balance">Mengapa Memilih Kami</h2>
+          <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
+          <p className="section-description mx-auto max-w-2xl text-gray-700 text-balance">
             PT Bejo Berkat Makmur menghadirkan nilai tambah yang memastikan setiap kolaborasi memberikan hasil nyata dan berkelanjutan.
           </p>
         </motion.div>
@@ -97,30 +99,30 @@ const WhyChooseUs: React.FC = () => {
           {features.map((feature, index) => (
             <motion.div
               key={index}
-              className="relative group"
+              className="group relative"
               variants={fadeIn}
               whileHover={{ y: -8 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
-              <div className="absolute inset-0 rounded-xl bg-white/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:bg-white/70" />
 
-              <div className="bg-white rounded-xl shadow-md p-8 relative z-10 h-full flex flex-col items-center text-center border border-company-primary/5">
+              <div className="relative z-10 flex h-full flex-col items-center rounded-2xl border border-company-primary/10 bg-white/90 p-8 text-center shadow-sm backdrop-blur">
                 <div className={cn(
-                  "w-16 h-16 rounded-lg flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-105",
+                  "mb-6 flex h-16 w-16 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-105",
                   feature.color
                 )}>
-                  <div className="text-company-primary w-8 h-8 flex items-center justify-center">
+                  <div className="flex h-8 w-8 items-center justify-center text-company-primary">
                     {feature.icon}
                   </div>
                 </div>
 
-                <h3 className="text-lg font-bold mb-3 text-company-primary">{feature.title}</h3>
-                <p className="text-gray-700 leading-relaxed">{feature.description}</p>
+                <h3 className="mb-3 text-lg font-semibold text-company-primary">{feature.title}</h3>
+                <p className="text-gray-700 leading-relaxed text-balance">{feature.description}</p>
 
-                <div className="absolute bottom-0 left-0 right-0 h-1 bg-company-accent/70 rounded-b-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-x-8 bottom-6 h-px rounded-full bg-company-accent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </div>
             </motion.div>
-         ))}
+          ))}
         </motion.div>
 
         <motion.div
@@ -130,9 +132,9 @@ const WhyChooseUs: React.FC = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
         >
-          <div className="bg-white p-8 max-w-3xl mx-auto rounded-xl shadow-md border border-company-primary/5">
-            <h3 className="text-xl font-bold mb-4 text-company-primary">Mulai Kerjasama Dengan Kami</h3>
-            <p className="text-gray-700 mb-6">
+          <div className="mx-auto max-w-3xl rounded-2xl border border-company-primary/10 bg-white/90 p-10 shadow-lg backdrop-blur">
+            <h3 className="mb-4 text-xl font-semibold text-company-primary text-balance">Mulai Kerjasama Dengan Kami</h3>
+            <p className="mb-6 text-gray-700 text-balance">
               Temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda bersama PT Bejo Berkat Makmur.
             </p>
             <a
@@ -140,9 +142,9 @@ const WhyChooseUs: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
-                "inline-flex items-center justify-center gap-2 bg-company-primary text-white",
-                "font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:bg-company-primary/90",
-                "hover:shadow-md hover:-translate-y-0.5"
+                "inline-flex items-center justify-center gap-2 rounded-full bg-company-primary/95 px-8 py-3 text-sm font-semibold text-white",
+                "transition-all duration-300 hover:bg-company-primary",
+                "hover:-translate-y-0.5 hover:shadow-lg"
               )}
             >
               Hubungi Kami Sekarang

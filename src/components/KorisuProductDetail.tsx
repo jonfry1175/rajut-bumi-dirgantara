@@ -74,9 +74,13 @@ const itemVariants = {
 
 const KorisuProductDetail: React.FC = () => {
   return (
-    <section id="korisu-product" className="section py-20 bg-white relative overflow-hidden">
-      <div className="absolute inset-x-0 -top-32 h-72 bg-company-softblue/20 blur-3xl"></div>
-      <div className="container mx-auto px-6 relative z-10">
+    <section
+      id="korisu-product"
+      className="section relative overflow-hidden bg-white py-20"
+    >
+      <div className="absolute inset-x-0 -top-40 h-80 rounded-full bg-company-softblue/25 blur-3xl" />
+      <div className="absolute bottom-[-45%] right-[-10%] h-80 w-80 rounded-full bg-company-accent/15 blur-3xl" />
+      <div className="container relative z-10 mx-auto px-6">
         <motion.div
           className="grid gap-12 lg:grid-cols-2 items-center"
           initial={{ opacity: 0, y: 32 }}
@@ -85,13 +89,13 @@ const KorisuProductDetail: React.FC = () => {
           viewport={{ once: true }}
         >
           <div className="space-y-6">
-            <span className="inline-flex items-center rounded-full bg-company-accent/15 px-4 py-1 text-sm font-semibold text-company-accent">
+            <span className="inline-flex items-center gap-2 rounded-full border border-company-accent/40 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-company-accent">
               Korisu Edge 14 Pro
             </span>
-            <h2 className="text-4xl font-bold text-company-primary leading-tight">
+            <h2 className="text-balance text-4xl font-bold leading-tight text-company-primary">
               Laptop flagship Korisu yang siap mengakselerasi tim modern Anda
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-balance text-lg leading-relaxed text-gray-600">
               Korisu menghadirkan perangkat komputasi profesional dengan fokus pada kecepatan, keandalan, dan pengalaman pengguna yang intuitif. PT Bejo Berkat Makmur sebagai mitra resmi menghadirkan konfigurasi terbaik serta dukungan implementasi di seluruh Indonesia.
             </p>
             <ul className="space-y-3 text-gray-600">
@@ -110,15 +114,15 @@ const KorisuProductDetail: React.FC = () => {
             </ul>
             <a
               href="#kontak"
-              className="inline-flex items-center gap-2 rounded-lg bg-company-primary px-6 py-3 text-white font-semibold shadow-md hover:bg-company-primary/90 transition"
+              className="inline-flex items-center gap-2 rounded-full bg-company-primary px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-company-primary/90"
             >
               Konsultasi ketersediaan dengan tim kami
             </a>
           </div>
 
           <div className="relative flex justify-center">
-            <div className="absolute inset-0 -translate-y-6 scale-110 bg-company-accent/10 blur-2xl rounded-full"></div>
-            <div className="relative rounded-3xl bg-white/80 p-10 shadow-xl backdrop-blur">
+            <div className="absolute inset-0 -translate-y-6 scale-110 rounded-full bg-company-accent/15 blur-3xl" />
+            <div className="relative rounded-3xl border border-white/60 bg-white/80 p-10 shadow-xl backdrop-blur">
               <img
                 src="/products/korisu.png"
                 alt="Logo Korisu"
@@ -127,7 +131,7 @@ const KorisuProductDetail: React.FC = () => {
               />
               <div className="space-y-2 text-center">
                 <p className="text-2xl font-semibold text-company-primary">Korisu Edge 14 Pro</p>
-                <p className="text-sm uppercase tracking-[0.2em] text-gray-500">Crafted for Visionaries</p>
+                <p className="text-sm uppercase tracking-[0.24em] text-gray-500">Crafted for Visionaries</p>
               </div>
               <div className="mt-8 grid grid-cols-1 gap-3 text-sm text-gray-600">
                 {specificationHighlights.map((spec) => (
@@ -149,7 +153,7 @@ const KorisuProductDetail: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <motion.h3
-            className="text-3xl font-bold text-company-primary mb-8 text-center"
+            className="mb-8 text-center text-3xl font-bold text-company-primary text-balance"
             variants={itemVariants}
           >
             Sorotan Fitur Korisu Edge 14 Pro
@@ -160,7 +164,7 @@ const KorisuProductDetail: React.FC = () => {
               return (
                 <motion.div
                   key={feature.title}
-                  className="h-full rounded-2xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow"
+                  className="h-full rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-shadow hover:-translate-y-1 hover:shadow-xl"
                   variants={itemVariants}
                 >
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-company-accent/15 text-company-accent">
@@ -174,49 +178,49 @@ const KorisuProductDetail: React.FC = () => {
           </div>
         </motion.div>
 
-        <motion.div
-          className="mt-20 grid gap-8 lg:grid-cols-3"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-        >
           <motion.div
-            className="lg:col-span-1 rounded-3xl bg-company-primary px-8 py-10 text-white shadow-xl"
-            variants={itemVariants}
+            className="mt-20 grid gap-8 lg:grid-cols-3"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
           >
-            <h3 className="text-2xl font-semibold mb-4">Dukungan Implementasi</h3>
-            <p className="text-white/70 leading-relaxed">
-              PT Bejo Berkat Makmur memastikan setiap unit Korisu siap produksi dengan layanan pra-konfigurasi, deployment skala besar, dan workshop adopsi untuk tim Anda.
-            </p>
-            <div className="mt-6 space-y-3 text-sm text-white/70">
-              <p>- Imaging OS dan aplikasi korporat.</p>
-              <p>- Integrasi ke solusi endpoint management (Intune, Workspace ONE).</p>
-              <p>- Pelatihan pengguna akhir dan dokumentasi administrasi.</p>
-            </div>
-          </motion.div>
+            <motion.div
+              className="rounded-3xl bg-company-primary px-8 py-10 text-white shadow-xl lg:col-span-1"
+              variants={itemVariants}
+            >
+              <h3 className="mb-4 text-2xl font-semibold text-balance">Dukungan Implementasi</h3>
+              <p className="leading-relaxed text-white/75">
+                PT Bejo Berkat Makmur memastikan setiap unit Korisu siap produksi dengan layanan pra-konfigurasi, deployment skala besar, dan workshop adopsi untuk tim Anda.
+              </p>
+              <div className="mt-6 space-y-3 text-sm text-white/75">
+                <p>- Imaging OS dan aplikasi korporat.</p>
+                <p>- Integrasi ke solusi endpoint management (Intune, Workspace ONE).</p>
+                <p>- Pelatihan pengguna akhir dan dokumentasi administrasi.</p>
+              </div>
+            </motion.div>
 
-          <motion.div
-            className="lg:col-span-2 grid gap-6 md:grid-cols-2"
-            variants={itemVariants}
-          >
-            {afterSalesBenefits.map((benefit) => {
-              const Icon = benefit.icon;
-              return (
-                <div
-                  key={benefit.title}
-                  className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow"
-                >
-                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-company-accent/15 text-company-accent">
-                    <Icon className="h-5 w-5" />
+            <motion.div
+              className="grid gap-6 md:grid-cols-2 lg:col-span-2"
+              variants={itemVariants}
+            >
+              {afterSalesBenefits.map((benefit) => {
+                const Icon = benefit.icon;
+                return (
+                  <div
+                    key={benefit.title}
+                    className="rounded-2xl border border-white/60 bg-white/90 p-6 shadow-sm backdrop-blur transition-shadow hover:-translate-y-1 hover:shadow-xl"
+                  >
+                    <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-company-accent/15 text-company-accent">
+                      <Icon className="h-5 w-5" />
+                    </div>
+                    <h4 className="mb-2 text-lg font-semibold text-company-primary">{benefit.title}</h4>
+                    <p className="leading-relaxed text-gray-600 text-balance">{benefit.description}</p>
                   </div>
-                  <h4 className="text-lg font-semibold text-company-primary mb-2">{benefit.title}</h4>
-                  <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
-                </div>
-              );
-            })}
+                );
+              })}
+            </motion.div>
           </motion.div>
-        </motion.div>
       </div>
     </section>
   );

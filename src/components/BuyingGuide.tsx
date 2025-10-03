@@ -88,26 +88,32 @@ const BuyingGuide: React.FC = () => {
   };
 
   return (
-    <section id="ecommerce" className="section py-16 bg-white relative overflow-hidden">
+    <section
+      id="ecommerce"
+      className="section relative overflow-hidden bg-white py-16"
+    >
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-48 h-48 bg-company-softblue opacity-5 rounded-3xl translate-x-1/3 -translate-y-1/4"></div>
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-company-primary opacity-5 rounded-3xl -translate-x-1/3 translate-y-1/4"></div>
+      <div className="absolute top-[-25%] right-[-10%] h-56 w-56 rounded-full bg-company-softblue/20 blur-3xl" />
+      <div className="absolute bottom-[-20%] left-[-12%] h-72 w-72 rounded-full bg-company-primary/15 blur-3xl" />
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container relative z-10 mx-auto px-6">
         <motion.div
-          className="max-w-2xl mx-auto"
+          className="mx-auto max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold text-center text-company-primary mb-2">
+          <span className="mx-auto mb-3 inline-flex items-center gap-2 rounded-full border border-company-primary/20 bg-white/70 px-5 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-company-primary">
+            Proses Kerja Kami
+          </span>
+          <h2 className="mb-3 text-center text-3xl font-bold text-company-primary text-balance">
             Panduan Pengadaan Bersama PT Bejo Berkat Makmur
           </h2>
-          <div className="w-32 h-1 bg-company-accent/70 mx-auto mb-8 rounded-sm"></div>
+          <div className="mx-auto mb-8 h-px w-32 rounded-full bg-company-primary"></div>
 
           <motion.div
-            className="mt-8 space-y-3"
+            className="mt-8 space-y-4"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -116,20 +122,20 @@ const BuyingGuide: React.FC = () => {
             {steps.map((step) => (
               <motion.div
                 key={step.number}
-                className="flex items-center p-4 bg-white rounded-lg border border-gray-100 shadow-sm hover:shadow transition-all duration-300"
+                className="flex items-center rounded-2xl border border-white/60 bg-white/80 p-5 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
                 whileHover="hover"
               >
-                <div className="flex-shrink-0 mr-4">
-                  <div className="w-10 h-10 rounded-lg bg-company-accent flex items-center justify-center text-company-primary font-semibold shadow-sm">
+                <div className="mr-4 flex-shrink-0">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-company-accent text-company-primary font-semibold shadow-sm">
                     {step.number}
                   </div>
                 </div>
-                <div className="text-gray-700">
+                <div className="max-w-lg text-gray-700 text-balance">
                   {step.content}
                 </div>
                 <div className="ml-auto pl-4">
-                  <svg className="w-5 h-5 text-company-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="h-5 w-5 text-company-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                 </div>
@@ -146,11 +152,11 @@ const BuyingGuide: React.FC = () => {
           >
             <a
               href="#kontak"
-              className="inline-flex items-center px-6 py-2.5 rounded-lg bg-company-accent text-company-primary text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300"
+              className="inline-flex items-center gap-2 rounded-full bg-company-accent px-6 py-2.5 text-sm font-semibold text-company-primary shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-company-accent/90"
             >
               Hubungi Tim Pengadaan
               <svg
-                className="w-4 h-4 ml-2"
+                className="h-4 w-4"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

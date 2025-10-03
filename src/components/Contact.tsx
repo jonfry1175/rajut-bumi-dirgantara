@@ -32,13 +32,16 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="kontak" className="section py-20 bg-white relative overflow-hidden">
+    <section
+      id="kontak"
+      className="section relative overflow-hidden bg-white py-20"
+    >
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-company-softblue opacity-5 rounded-3xl translate-x-1/3 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-company-primary opacity-5 rounded-3xl -translate-x-1/3 translate-y-1/3"></div>
-      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-company-accent opacity-5 rounded-3xl -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-[-30%] right-[-12%] h-96 w-96 rounded-full bg-company-softblue/20 blur-3xl" />
+      <div className="absolute bottom-[-26%] left-[-12%] h-96 w-96 rounded-full bg-company-primary/15 blur-3xl" />
+      <div className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-company-accent/10 blur-2xl" />
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container relative z-10 mx-auto px-6">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
@@ -46,62 +49,77 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold mb-4 text-company-primary">Kontak</h2>
-          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <span className="mb-3 inline-flex items-center gap-2 rounded-full border border-company-primary/20 bg-white/70 px-5 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-company-primary">
+            Terhubung Dengan Kami
+          </span>
+          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">Kontak</h2>
+          <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
+          <p className="mx-auto max-w-2xl text-lg text-gray-600 text-balance">
             Jangan ragu menghubungi kami untuk berdiskusi mengenai solusi teknologi yang paling sesuai bagi organisasi Anda.
           </p>
         </motion.div>
 
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 items-start gap-12 md:grid-cols-2">
           <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
           >
-            <motion.div className="space-y-8" variants={containerVariants}>
+            <motion.div className="space-y-7" variants={containerVariants}>
               <motion.div
-                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
-                  <Phone size={24} className="text-company-primary" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-2 text-company-primary">Telepon</h4>
-                  <p className="text-gray-700">+62 21 388 792 46</p>
+                <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
+                <div className="relative flex items-start gap-4">
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-company-accent/20 text-company-primary shadow-sm">
+                    <Phone size={20} />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-xl font-semibold text-company-primary">Telepon</h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Layanan Pelanggan</span>
+                    <p className="text-base text-gray-700">+62 21 388 792 46</p>
+                  </div>
                 </div>
               </motion.div>
 
               <motion.div
-                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
-                  <Mail size={24} className="text-company-primary" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-2 text-company-primary">Email</h4>
-                  <p className="text-gray-700">info@inibejo.com</p>
+                <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
+                <div className="relative flex items-start gap-4">
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-company-accent/20 text-company-primary shadow-sm">
+                    <Mail size={20} />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-xl font-semibold text-company-primary">Email</h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Tim Konsultasi</span>
+                    <p className="text-base text-gray-700">info@inibejo.com</p>
+                  </div>
                 </div>
               </motion.div>
 
               <motion.div
-                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
-                  <MapPin size={24} className="text-company-primary" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-2 text-company-primary">Alamat</h4>
-                  <p className="text-gray-700">
-                    Jl. Gading Kirana Timur Blok A13 No. 28,<br />Kelapa Gading, Jakarta Utara 14240, Indonesia
-                  </p>
+                <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
+                <div className="relative flex items-start gap-4">
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-company-accent/20 text-company-primary shadow-sm">
+                    <MapPin size={20} />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-xl font-semibold text-company-primary">Alamat</h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Kantor Pusat</span>
+                    <p className="text-gray-700 text-balance leading-relaxed">
+                      Jl. Gading Kirana Timur Blok A13 No. 28,<br />Kelapa Gading, Jakarta Utara 14240, Indonesia
+                    </p>
+                  </div>
                 </div>
               </motion.div>
             </motion.div>
@@ -114,40 +132,47 @@ const Contact: React.FC = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
           >
-            <form className="space-y-5 p-8 rounded-xl border border-gray-200 shadow-lg relative z-10 bg-white">
+            <form className="relative z-10 space-y-6 overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-8 shadow-xl backdrop-blur">
+              <div className="pointer-events-none absolute inset-x-8 top-0 h-px rounded-full bg-company-accent" />
+              <div className="space-y-2 text-left">
+                <h3 className="text-lg font-semibold text-company-primary">Formulir Konsultasi</h3>
+                <p className="text-sm text-gray-500">
+                  Kirimkan detail singkat kebutuhan Anda, tim kami akan menghubungi dalam satu hari kerja.
+                </p>
+              </div>
               <motion.div variants={formItemVariants}>
-                <label htmlFor="name" className="block text-sm font-medium mb-2 text-company-primary">Nama Lengkap</label>
+                <label htmlFor="name" className="mb-2 block text-sm font-semibold text-company-primary">Nama Lengkap</label>
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-gray-700 shadow-sm transition focus:border-transparent focus:outline-none focus:ring-2 focus:ring-company-accent"
                   placeholder="Masukkan nama lengkap Anda"
                 />
               </motion.div>
 
               <motion.div variants={formItemVariants}>
-                <label htmlFor="email" className="block text-sm font-medium mb-2 text-company-primary">Email</label>
+                <label htmlFor="email" className="mb-2 block text-sm font-semibold text-company-primary">Email</label>
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-gray-700 shadow-sm transition focus:border-transparent focus:outline-none focus:ring-2 focus:ring-company-accent"
                   placeholder="Masukkan email Anda"
                 />
               </motion.div>
 
               <motion.div variants={formItemVariants}>
-                <label htmlFor="message" className="block text-sm font-medium mb-2 text-company-primary">Pesan</label>
+                <label htmlFor="message" className="mb-2 block text-sm font-semibold text-company-primary">Pesan</label>
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-gray-700 shadow-sm transition focus:border-transparent focus:outline-none focus:ring-2 focus:ring-company-accent"
                   placeholder="Apa yang bisa kami bantu?"
                 ></textarea>
               </motion.div>
 
               <motion.button
                 type="submit"
-                className="bg-company-accent text-company-primary font-semibold px-6 py-3 rounded-lg shadow-sm transition-all duration-300 flex items-center justify-center space-x-2 w-full md:w-auto hover:bg-company-accent/90"
+                className="flex w-full items-center justify-center gap-2 rounded-full bg-company-primary/95 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-company-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-company-accent focus-visible:ring-offset-2 focus-visible:ring-offset-white md:w-auto"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 variants={formItemVariants}
