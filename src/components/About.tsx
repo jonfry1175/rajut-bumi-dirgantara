@@ -54,28 +54,27 @@ const About: React.FC = () => {
               className="text-lg mb-6 text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              PT. Persada Artha Selaras merupakan perusahaan Teknologi Informasi dan Komunikasi (TIK)
-              terkemuka di Indonesia yang berkomitmen menghadirkan produk dan solusi unggulan guna
-              mempercepat transformasi digital nasional.
+              PT Bejo Berkat Makmur berdiri pada Agustus 2021 dengan fokus pada inovasi, efisiensi, dan
+              pertumbuhan berkelanjutan. Kami menghadirkan solusi teknologi yang relevan dan berdampak
+              melalui pendekatan berbasis kebutuhan klien.
             </motion.p>
 
             <motion.p
               className="text-lg mb-6 text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              Kami menjalin kemitraan strategis dengan berbagai instansi pemerintah sebagai wujud
-              komitmen kami dalam mendukung peningkatan efisiensi sektor publik serta percepatan
-              inovasi teknologi. Melalui kolaborasi ini, kami mampu menghadirkan solusi yang disesuaikan
-              dengan kebutuhan spesifik masing-masing lembaga, sehingga memberikan kontribusi nyata
-              terhadap pencapaian visi dan misi mereka.
+              Keunggulan kami terletak pada pemahaman mendalam terhadap tantangan industri dan
+              penyusunan strategi yang tepat guna. Dengan memadukan teknologi terkini dan layanan
+              personal, kami memastikan setiap inisiatif mampu meningkatkan kinerja dan daya saing klien.
             </motion.p>
 
             <motion.p
               className="text-lg text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              Lebih dari sekadar penyedia layanan teknologi, PT. Persada Artha Selaras adalah mitra
-              terpercaya Anda dalam mewujudkan kemajuan dan keunggulan di era digital yang terus berkembang.
+              Kami percaya pada kemitraan jangka panjang yang dibangun dari kepercayaan, performa, dan
+              hasil terukur. PT Bejo Berkat Makmur adalah mitra strategis Anda untuk menavigasi era digital
+              dengan percaya diri.
             </motion.p>
           </motion.div>
 

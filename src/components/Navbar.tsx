@@ -59,18 +59,18 @@ const Navbar: React.FC = () => {
                 {!logoError ? (
                   <img
                     src={pasLogo}
-                    alt="PAS Logo"
+                    alt="PT Bejo Berkat Makmur"
                     className="h-full object-contain px-1"
                     onError={() => setLogoError(true)}
                   />
                 ) : (
                   <div className="h-full aspect-square flex items-center justify-center">
-                    <span className="text-company-primary font-bold text-xl">PAS</span>
+                    <span className="text-company-primary font-bold text-xl">BBM</span>
                   </div>
                 )}
               </div>
               <span className="text-xl md:text-2xl font-bold text-white hidden sm:inline-block">
-                Persada Artha Selaras
+                PT Bejo Berkat Makmur
               </span>
             </Link>
           </motion.div>
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
               transition={{ delay: 0.7 }}
             >
               <a
-                href="https://wa.me/6281385477596"
+                href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative overflow-hidden group bg-gradient-to-r from-company-softblue to-company-accent text-white font-medium rounded-full px-7 py-2.5 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-base shadow-md"
@@ -164,7 +164,7 @@ const Navbar: React.FC = () => {
             ))}
             <div className="px-6 py-5">
               <a
-                href="https://wa.me/6281385477596"
+                href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative overflow-hidden group w-full bg-gradient-to-r from-company-softblue to-company-accent text-white font-medium rounded-full px-5 py-3 transition-all duration-300 hover:shadow-md text-lg inline-flex items-center justify-center shadow-sm"

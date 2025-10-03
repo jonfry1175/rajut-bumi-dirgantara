@@ -1,5 +1,5 @@
 import React from 'react';
-import { DollarSign, Headphones, HandshakeIcon, ShieldCheck } from 'lucide-react';
+import { BadgeCheck, Headphones, HandshakeIcon, ShieldCheck, Tags, Lock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
@@ -25,27 +25,39 @@ const WhyChooseUs: React.FC = () => {
 
   const features = [
     {
-      icon: <DollarSign strokeWidth={1.5} />,
-      title: "HARGA BERSAING",
-      description: "Kami menawarkan harga yang kompetitif untuk semua produk dan layanan teknologi kami tanpa mengorbankan kualitas.",
-      color: "from-company-primary to-company-softblue"
-    },
-    {
-      icon: <Headphones strokeWidth={1.5} />,
-      title: "JAMINAN AFTER-SALES SERVICE",
-      description: "Layanan purna jual yang responsif dan handal untuk memastikan kebutuhan Anda selalu terpenuhi.",
-      color: "from-company-softblue to-company-primary"
-    },
-    {
-      icon: <HandshakeIcon strokeWidth={1.5} />,
-      title: "SINERGI PRINCIPAL TERPERCAYA",
-      description: "Bermitra dengan berbagai produsen terkemuka untuk memastikan kualitas dan keandalan produk.",
+      icon: <BadgeCheck strokeWidth={1.5} />,
+      title: "PRODUK 100% ORIGINAL",
+      description: "Seluruh perangkat dan solusi yang kami sediakan terjamin keasliannya untuk menjaga kepercayaan dan performa terbaik.",
       color: "from-company-primary to-company-softblue"
     },
     {
       icon: <ShieldCheck strokeWidth={1.5} />,
-      title: "KEAMANAN & KENYAMANAN BERTRANSAKSI",
-      description: "Sistem transaksi yang aman dan proses pengadaan yang transparan untuk ketenangan pikiran Anda.",
+      title: "GARANSI RESMI",
+      description: "Dukungan garansi sesuai standar principal sehingga investasi teknologi Anda lebih aman dan terkelola.",
+      color: "from-company-softblue to-company-primary"
+    },
+    {
+      icon: <Tags strokeWidth={1.5} />,
+      title: "HARGA BERSAING",
+      description: "Struktur harga yang transparan dan kompetitif tanpa mengurangi kualitas layanan maupun produk.",
+      color: "from-company-primary to-company-softblue"
+    },
+    {
+      icon: <HandshakeIcon strokeWidth={1.5} />,
+      title: "PRINCIPAL TERPERCAYA",
+      description: "Bermitra dengan merek-merek global sehingga setiap solusi memenuhi standar industri tertinggi.",
+      color: "from-company-softblue to-company-accent"
+    },
+    {
+      icon: <Headphones strokeWidth={1.5} />,
+      title: "AFTER-SALES SERVICE",
+      description: "Layanan purna jual yang responsif untuk memastikan operasional teknologi Anda berjalan optimal.",
+      color: "from-company-primary to-company-softblue"
+    },
+    {
+      icon: <Lock strokeWidth={1.5} />,
+      title: "KEAMANAN TRANSAKSI",
+      description: "Proses pengadaan yang aman, jelas, dan terverifikasi untuk menjaga kenyamanan setiap mitra.",
       color: "from-company-softblue to-company-accent"
     }
   ];
@@ -71,7 +83,7 @@ const WhyChooseUs: React.FC = () => {
           <h2 className="section-title mb-5">Mengapa Memilih Kami</h2>
           <div className="w-24 h-1 bg-company-primary mx-auto mb-6 rounded-full"></div>
           <p className="section-description max-w-2xl mx-auto text-gray-700">
-            PT. Persada Artha Selaras menawarkan keunggulan yang menjadikan kami mitra ideal untuk kebutuhan teknologi Anda.
+            PT Bejo Berkat Makmur menghadirkan nilai tambah yang memastikan setiap kolaborasi memberikan hasil nyata dan berkelanjutan.
           </p>
         </motion.div>
 
@@ -121,10 +133,10 @@ const WhyChooseUs: React.FC = () => {
           <div className="bg-white p-8 max-w-3xl mx-auto rounded-2xl shadow-md border border-company-primary/5">
             <h3 className="text-xl font-bold mb-4 text-company-primary">Mulai Kerjasama Dengan Kami</h3>
             <p className="text-gray-700 mb-6">
-              Temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda bersama PT. Persada Artha Selaras.
+              Temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda bersama PT Bejo Berkat Makmur.
             </p>
             <a
-              href="https://wa.me/6281385477596"
+              href="tel:+622138879246"
               target="_blank"
               rel="noopener noreferrer"
               className={cn(

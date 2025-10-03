@@ -53,28 +53,27 @@ const AboutPage: React.FC = () => {
               className="text-lg mb-6 text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              PT. Persada Artha Selaras merupakan perusahaan Teknologi Informasi dan Komunikasi (TIK)
-              terkemuka di Indonesia yang berkomitmen menghadirkan produk dan solusi unggulan guna
-              mempercepat transformasi digital nasional.
+              PT Bejo Berkat Makmur berdiri pada Agustus 2021 sebagai perusahaan teknologi yang
+              mengedepankan inovasi, efisiensi, dan pertumbuhan berkelanjutan. Kami membantu organisasi
+              beradaptasi dengan cepat terhadap dinamika digital melalui solusi yang tepat sasaran.
             </motion.p>
 
             <motion.p
               className="text-lg mb-6 text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              Kami menjalin kemitraan strategis dengan berbagai instansi pemerintah sebagai wujud
-              komitmen kami dalam mendukung peningkatan efisiensi sektor publik serta percepatan
-              inovasi teknologi. Melalui kolaborasi ini, kami mampu menghadirkan solusi yang disesuaikan
-              dengan kebutuhan spesifik masing-masing lembaga, sehingga memberikan kontribusi nyata
-              terhadap pencapaian visi dan misi mereka.
+              Fokus kami adalah memahami kebutuhan unik setiap klien dan menyediakan strategi yang
+              terpersonalisasi. Dengan dukungan teknologi terbaru dan tim yang berpengalaman, kami
+              menghadirkan hasil yang relevan, terukur, dan berdampak jangka panjang.
             </motion.p>
 
             <motion.p
               className="text-lg text-gray-700 leading-relaxed"
               variants={fadeIn}
             >
-              Lebih dari sekadar penyedia layanan teknologi, PT. Persada Artha Selaras adalah mitra
-              terpercaya Anda dalam mewujudkan kemajuan dan keunggulan di era digital yang terus berkembang.
+              Kami membangun kemitraan berbasis kepercayaan dan performa, memastikan setiap kolaborasi
+              membawa nilai tambah yang nyata. PT Bejo Berkat Makmur adalah mitra strategis Anda untuk
+              menavigasi era digital dengan percaya diri.
             </motion.p>
           </motion.div>
 
@@ -101,9 +100,8 @@ const AboutPage: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-company-primary">VISI</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Menjadi perusahaan terkemuka di bidang teknologi informasi yang mengedepankan inovasi dan
-                  efisiensi di sektor Teknologi Informasi dan Komunikasi (TIK) melalui kolaborasi strategis dan
-                  dedikasi terhadap kualitas unggul.
+                  Menjadi mitra strategis terpercaya yang memberdayakan klien untuk menghadapi era digital
+                  dengan percaya diri dan mencapai potensi terbaik mereka.
                 </p>
               </div>
             </motion.div>
@@ -124,10 +122,10 @@ const AboutPage: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-company-primary">MISI</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Menyediakan solusi TIK unggulan dan berkualitas tinggi yang selaras dengan tuntutan era
-                  digital yang terus berkembang. Dengan menjalin kemitraan strategis bersama lembaga pemerintah
-                  serta komitmen kuat terhadap keunggulan, kami bertekad meningkatkan efisiensi operasional
-                  dan mendukung kemajuan bangsa.
+                  Memberdayakan organisasi untuk berkembang di era digital melalui solusi teknologi yang
+                  inovatif dan terpersonalisasi. Kami menggabungkan teknologi terkini, layanan yang hangat,
+                  dan keahlian industri untuk menghadirkan hasil transformatif yang meningkatkan pertumbuhan,
+                  efisiensi, dan inovasi berkelanjutan.
                 </p>
               </div>
             </motion.div>

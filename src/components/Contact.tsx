@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
           <h2 className="text-4xl font-bold mb-4 text-company-primary">Kontak</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang produk dan layanan kami.
+            Jangan ragu menghubungi kami untuk berdiskusi mengenai solusi teknologi yang paling sesuai bagi organisasi Anda.
           </p>
         </motion.div>
 
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Telepon</h4>
-                  <p className="text-gray-700">0813-8547-7596</p>
+                  <p className="text-gray-700">+62 21 388 792 46</p>
                 </div>
               </motion.div>
 
@@ -85,7 +85,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Email</h4>
-                  <p className="text-gray-700">admin@paspt.com</p>
+                  <p className="text-gray-700">info@inibejo.com</p>
                 </div>
               </motion.div>
 
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Alamat</h4>
                   <p className="text-gray-700">
-                    Menara Pondok Indah 2nd Floor Kav. II/BA No.2, Pondok Indah, Jl. Metro Pondok Indah RT. 003 RW. 014, Pondok Pinang, Kebayoran Lama, Jakarta Selatan
+                    Jl. Gading Kirana Timur Blok A13 No. 28,<br />Kelapa Gading, Jakarta Utara 14240, Indonesia
                   </p>
                 </div>
               </motion.div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Server, Monitor, Smartphone, Settings, ChevronRight, ExternalLink } from 'lucide-react';
+import { Briefcase, Package, ShieldCheck, ChevronRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
@@ -26,45 +26,37 @@ const Services: React.FC = () => {
 
   const services = [
     {
-      title: "HARDWARE SERVICES",
-      icon: <Server size={30} />,
-      description: "Menyediakan solusi perangkat keras berkualitas tinggi yang mendukung kinerja optimal dan keberlanjutan infrastruktur teknologi Anda.",
+      title: "IT Advisory (Konsultasi TI Strategis)",
+      icon: <Briefcase size={30} />,
+      description: "Pendampingan strategis berbasis insight industri untuk mempercepat transformasi digital dan pengambilan keputusan yang lebih cerdas.",
       items: [
-        "Seat Management",
-        "ICT Security Service",
-        "Business Area Management System",
-        "IT Hardware",
-        "CPE Consultant",
-        "Procurement",
-        "Installation",
-        "Integration",
-        "Managed Hardware Services"
+        "Analisis kebutuhan dan kesiapan transformasi digital",
+        "Perancangan roadmap inovasi dan efisiensi operasional",
+        "Rekomendasi teknologi yang relevan dan berdampak"
       ],
       color: "bg-gradient-to-br from-company-primary/10 to-company-primary/5"
     },
     {
-      title: "SOFTWARE SOLUTIONS",
-      icon: <Monitor size={30} />,
-      description: "Menawarkan solusi perangkat lunak inovatif yang dirancang untuk meningkatkan produktivitas, keamanan, dan efisiensi digital.",
-      longDescription: "Layanan kami meliputi pengadaan lisensi resmi, deployment sistem, hingga integrasi dengan infrastruktur IT yang sudah ada. Kami memahami bahwa setiap institusi memiliki kebutuhan unik, sehingga setiap solusi yang kami berikan disesuaikan untuk mendukung proses bisnis.",
+      title: "Pengadaan Hardware & Software",
+      icon: <Package size={30} />,
+      description: "Solusi pengadaan end-to-end untuk infrastruktur TI, mulai dari perangkat keras hingga lisensi perangkat lunak resmi.",
+      items: [
+        "Manajemen vendor dan proses pengadaan terintegrasi",
+        "Ketersediaan produk original dengan garansi resmi",
+        "Implementasi, instalasi, dan dukungan teknis berkelanjutan"
+      ],
       color: "bg-gradient-to-br from-company-softblue/15 to-company-softblue/5"
     },
     {
-      title: "MOBILITY SERVICES",
-      icon: <Smartphone size={30} />,
-      description: "Memberikan layanan mobilitas yang aman dan terintegrasi, memungkinkan konektivitas fleksibel antara pengguna, data, dan sistem perusahaan.",
+      title: "Sistem Keamanan Terintegrasi",
+      icon: <ShieldCheck size={30} />,
+      description: "Pengadaan perangkat keamanan modern untuk perlindungan operasional yang menyeluruh dan andal.",
       items: [
-        "Enterprise Mobility Solution",
-        "Handset (Smartphone, tablet)"
+        "CCTV, akses kontrol, dan perangkat deteksi intrusi",
+        "Integrasi teknologi keamanan sesuai kebutuhan operasional",
+        "Pemeliharaan dan peningkatan sistem secara berkelanjutan"
       ],
       color: "bg-gradient-to-br from-company-primary/10 to-company-softblue/5"
-    },
-    {
-      title: "SERVICE SOLUTIONS",
-      icon: <Settings size={30} />,
-      description: "Menyediakan layanan pengembangan, pengelolaan, dan dukungan TI menyeluruh untuk memastikan operasional yang andal dan adaptif.",
-      longDescription: "Kami mengutamakan solusi yang dirancang khusus sesuai kebutuhan institusi, dengan fokus pada peningkatan efisiensi, keamanan, dan keberlanjutan. Dengan pendekatan berbasis konsultatif, kami memastikan setiap service solution memberikan dampak positif yang nyata terhadap performa organisasi.",
-      color: "bg-gradient-to-br from-company-softblue/10 to-company-primary/5"
     }
   ];
 

@@ -36,7 +36,7 @@ const ContactPage = () => {
               Kontak
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Siap membantu mewujudkan kebutuhan transformasi digital Anda. Mari berdiskusi tentang kebutuhan Teknologi Informasi dan Komunikasi Anda.
+              Tim PT Bejo Berkat Makmur siap membantu Anda merancang dan mengimplementasikan solusi teknologi yang paling tepat untuk organisasi Anda.
             </p>
           </motion.div>
         </div>

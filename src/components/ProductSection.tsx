@@ -84,7 +84,7 @@ const ProductSection: React.FC = () => {
           <h2 className="text-4xl font-bold mb-4 text-company-primary">Produk Kami</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            Jelajahi berbagai produk teknologi berkualitas tinggi yang kami tawarkan untuk memenuhi kebutuhan bisnis Anda.
+            Jelajahi berbagai produk teknologi berkualitas tinggi, termasuk solusi display KORISU dan perangkat dari mitra terpercaya seperti Acer, DELL, ASUS, Hitachi, Epson, Lenovo, dan BenQ.
           </p>
         </motion.div>
 

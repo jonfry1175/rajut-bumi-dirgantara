@@ -44,12 +44,12 @@ const Footer: React.FC = () => {
         >
           <motion.div variants={itemVariants}>
             <h3 className="text-2xl font-bold mb-4 flex items-center">
-              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">PT. Persada Artha Selaras</span>
+              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">PT Bejo Berkat Makmur</span>
               <div className="h-2 w-2 rounded-full bg-company-softblue ml-2 animate-pulse"></div>
             </h3>
             <div className="h-1 w-16 bg-gradient-to-r from-company-softblue to-transparent mb-5 rounded-full"></div>
             <p className="text-base text-gray-300 leading-relaxed">
-              Perusahaan Teknologi Informasi dan Komunikasi terkemuka yang menyediakan solusi teknologi terdepan untuk mendukung transformasi digital nasional.
+              Perusahaan teknologi yang memadukan inovasi, efisiensi, dan pertumbuhan berkelanjutan untuk menghadirkan solusi TI yang relevan serta berdampak.
             </p>
           </motion.div>
 
@@ -86,24 +86,21 @@ const Footer: React.FC = () => {
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center mr-3">
                   <Phone className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">0813-8547-7596</p>
+                <p className="text-gray-300">+62 21 388 792 46</p>
               </div>
               <div className="flex items-center">
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center mr-3">
                   <Mail className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">admin@paspt.com</p>
+                <p className="text-gray-300">info@inibejo.com</p>
               </div>
               <div className="flex items-center">
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center mr-3">
                   <MapPin className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">Menara Pondok Indah 2nd Floor<br/>
-                Kav. II/BA No.2 Pondok Indah<br/>
-                Jl. Metro Pondok Indah<br/>
-                RT. 003 RW. 014<br/>
-                Pondok Pinang, Kebayoran Lama<br/>
-                Jakarta Selatan</p>
+                <p className="text-gray-300">Jl. Gading Kirana Timur Blok A13 No. 28<br/>
+                Kelapa Gading, Jakarta Utara 14240<br/>
+                Indonesia</p>
               </div>
             </div>
           </motion.div>
@@ -116,9 +113,9 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} PT. Persada Artha Selaras. Hak Cipta Dilindungi.</p>
+          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} PT Bejo Berkat Makmur. Hak Cipta Dilindungi.</p>
           <div className="mt-4 md:mt-0 flex items-center">
-            <span className="text-sm text-gray-400 italic">Unggul, Digital, Profesional</span>
+            <span className="text-sm text-gray-400 italic">Inovasi • Efisiensi • Pertumbuhan Berkelanjutan</span>
             <div className="ml-3 h-4 w-1 bg-company-softblue rounded-full"></div>
             <a
               href="#beranda"

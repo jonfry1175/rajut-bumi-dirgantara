@@ -57,9 +57,9 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              PT. Persada Artha Selaras merupakan perusahaan Teknologi Informasi dan Komunikasi (TIK)
-              terkemuka di Indonesia yang berkomitmen menghadirkan produk dan solusi unggulan
-              guna mempercepat transformasi digital nasional.
+              PT Bejo Berkat Makmur adalah perusahaan teknologi yang berdiri pada Agustus 2021.
+              Kami memadukan inovasi, efisiensi, dan pertumbuhan berkelanjutan untuk menghadirkan
+              solusi TI yang relevan dan berdampak bagi setiap mitra.
             </motion.p>
 
             <motion.div
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
                 <span className="relative z-10">Layanan Kami</span>
               </Link>
               <a
-                href="https://wa.me/6281385477596"
+                href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <div className="inline-block border-t border-white/20 pt-4 px-4">
-                <p className="font-bold text-lg">Unggul, Digital, Profesional</p>
+                <p className="font-bold text-lg">Inovasi • Efisiensi • Pertumbuhan Berkelanjutan</p>
               </div>
             </motion.div>
           </div>

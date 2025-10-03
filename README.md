@@ -85,7 +85,7 @@ The E-Commerce section automatically detects the environment:
 - **Development**: Uses Vite proxy (`/api/inaproc/graphql`) with fallback to direct API
 - **Production**: Skips proxy and calls INAPROC API directly with proper CORS headers
 
-**Production domain**: https://www.persadaarthaselaras.com/
+**Production domain**: https://www.inibejo.com/
 
 The app automatically sets the correct `origin` and `referer` headers for production deployment.
 
@@ -125,9 +125,9 @@ To connect a domain, navigate to Project > Settings > Domains and click Connect 
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-# Persada Artha Selaras Website
+# PT Bejo Berkat Makmur Website
 
-A modern website for PT. Persada Artha Selaras built with React, TypeScript, and Tailwind CSS.
+A modern website for PT Bejo Berkat Makmur built with React, TypeScript, and Tailwind CSS. Konten menekankan inovasi, efisiensi, dan pertumbuhan berkelanjutan sesuai profil perusahaan.
 
 ## Features
 

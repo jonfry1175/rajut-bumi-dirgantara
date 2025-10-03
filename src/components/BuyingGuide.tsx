@@ -5,7 +5,7 @@ const BuyingGuide: React.FC = () => {
   const steps = [
     {
       number: 1,
-      content: <p>Buka <a href="https://katalog.inaproc.id/persada-artha-selaras" className="text-company-primary hover:text-company-accent transition-colors duration-300 font-medium">https://katalog.inaproc.id/persada-artha-selaras</a>, lalu login akun</p>
+      content: <p>Buka <a href="https://katalog.inaproc.id/" className="text-company-primary hover:text-company-accent transition-colors duration-300 font-medium">https://katalog.inaproc.id/</a>, lalu masuk menggunakan akun Anda</p>
     },
     {
       number: 2,
@@ -13,7 +13,7 @@ const BuyingGuide: React.FC = () => {
     },
     {
       number: 3,
-      content: <p>Sortir pilihan penyedia: <span className="font-medium text-company-primary">PT Persada Artha Selaras</span></p>
+      content: <p>Sortir pilihan penyedia dan pilih <span className="font-medium text-company-primary">PT Bejo Berkat Makmur</span></p>
     },
     {
       number: 4,
@@ -112,7 +112,7 @@ const BuyingGuide: React.FC = () => {
             viewport={{ once: true }}
           >
             <a
-              href="https://katalog.inaproc.id/persada-artha-selaras"
+              href="https://katalog.inaproc.id/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-2.5 rounded-full bg-gradient-to-r from-company-primary to-company-accent text-white text-sm font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"

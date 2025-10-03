@@ -388,7 +388,7 @@ const ECommerce: React.FC = () => {
 
                     <div className="mt-3 pt-3 border-t border-gray-100">
                       <div className="flex items-center justify-between">
-                        <span className="text-sm text-gray-600">{product.sellerName || 'PT. Persada Artha Selaras'}</span>
+                        <span className="text-sm text-gray-600">{product.sellerName || 'PT Bejo Berkat Makmur'}</span>
                         <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-company-primary transition-colors duration-200" />
                       </div>
                     </div>

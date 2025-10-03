@@ -72,7 +72,7 @@ const ServicesPage = () => {
               
               <div className="flex justify-center">
                 <motion.a
-                  href="https://wa.me/6281385477596"
+                  href="tel:+622138879246"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-white text-company-primary font-bold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a React + TypeScript single-page application for Persada Digital Unggul, built with Vite and using the shadcn/ui component library. The project is managed through Lovable.dev platform.
+This is a React + TypeScript single-page application for PT Bejo Berkat Makmur, built with Vite and using the shadcn/ui component library. The project is managed through the Lovable.dev platform.
 
 ## Development Commands
 
