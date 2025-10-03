@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
           </motion.div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navItems.map((item, index) => {
               const isActive = location.pathname === item.path;
 
@@ -112,20 +112,6 @@ const Navbar: React.FC = () => {
                 </motion.div>
               );
             })}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.7 }}
-            >
-              <a
-                href="tel:+622138879246"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-company-accent text-company-primary font-semibold rounded-lg px-6 py-2.5 transition-all duration-300 hover:bg-company-accent/90 hover:-translate-y-0.5 shadow-sm hover:shadow-md"
-              >
-                Hubungi Kami
-              </a>
-            </motion.div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -153,7 +139,7 @@ const Navbar: React.FC = () => {
           }}
           transition={{ duration: 0.3 }}
         >
-          <div className="flex flex-col py-2">
+          <div className="flex flex-col py-4">
             {navItems.map((item, index) => {
               const isActive = location.pathname === item.path;
 
@@ -186,17 +172,6 @@ const Navbar: React.FC = () => {
                 </Link>
               );
             })}
-            <div className="px-6 py-5">
-              <a
-                href="tel:+622138879246"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full bg-company-accent text-company-primary font-semibold rounded-lg px-5 py-3 transition-all duration-300 hover:bg-company-accent/90 hover:-translate-y-0.5 shadow-sm hover:shadow-md inline-flex items-center justify-center"
-                onClick={toggleMenu}
-              >
-                Hubungi Kami
-              </a>
-            </div>
           </div>
         </motion.div>
       </div>
