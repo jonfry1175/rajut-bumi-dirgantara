@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ServicesPageComponent from '@/components/ServicesPage';
-import ProductSection from '@/components/ProductSection';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import { motion } from 'framer-motion';
 
@@ -10,23 +9,23 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       {/* Hero Section for Services Page */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2134&q=80')"
           }}
         ></div>
-        
+
         {/* Color Overlay */}
         <div className="absolute inset-0 bg-company-primary/80"></div>
-        
+
         {/* Dark Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/20"></div>
-        
+
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <motion.div
             className="text-center text-white"
@@ -42,7 +41,7 @@ const ServicesPage = () => {
             </p>
           </motion.div>
         </div>
-        
+
         {/* Decorative elements */}
         <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-3xl blur-xl"></div>
         <div className="absolute bottom-20 right-10 w-32 h-32 bg-company-softblue/20 rounded-3xl blur-xl"></div>
@@ -50,8 +49,7 @@ const ServicesPage = () => {
 
       <main>
         <ServicesPageComponent />
-        <ProductSection />
-        
+
         {/* CTA Section */}
         <section className="bg-company-primary py-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-company-primary/10"></div>
@@ -69,7 +67,7 @@ const ServicesPage = () => {
               <p className="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed">
                 Hubungi tim ahli kami dan temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda.
               </p>
-              
+
               <div className="flex justify-center">
                 <motion.a
                   href="tel:+622138879246"
@@ -87,13 +85,13 @@ const ServicesPage = () => {
               </div>
             </motion.div>
           </div>
-          
+
           {/* Decorative elements */}
           <div className="absolute top-10 left-10 w-32 h-32 bg-white/5 rounded-3xl blur-2xl"></div>
           <div className="absolute bottom-10 right-10 w-40 h-40 bg-company-softblue/20 rounded-3xl blur-2xl"></div>
         </section>
       </main>
-      
+
       <Footer />
     </div>
   );
