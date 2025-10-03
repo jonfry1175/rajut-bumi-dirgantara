@@ -4,6 +4,10 @@
 
 **URL**: https://lovable.dev/projects/ba45f9e0-6a18-435c-97f6-2c3aad27a9da
 
+## Contributor Guide
+
+New contributors should review `AGENTS.md` for project structure, coding standards, and PR expectations before making changes.
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
