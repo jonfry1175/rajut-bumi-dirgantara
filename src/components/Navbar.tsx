@@ -76,30 +76,42 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.2 + index * 0.1 }}
-              >
-                <Link
-                  to={item.href}
-                  className={cn(
-                    "text-white/90 hover:text-white relative group px-3 py-2 transition-all duration-300 text-base font-medium tracking-wide",
-                    location.pathname === item.path && "text-white"
-                  )}
+            {navItems.map((item, index) => {
+              const isActive = location.pathname === item.path;
+
+              return (
+                <motion.div
+                  key={item.path}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.2 + index * 0.1 }}
                 >
-                  {item.name}
-                  {location.pathname === item.path && (
-                    <motion.span
-                      className="absolute bottom-0 left-0 h-0.5 bg-company-softblue w-full"
-                      layoutId="activeNavIndicator"
-                    />
-                  )}
-                </Link>
-              </motion.div>
-            ))}
+                  <Link
+                    to={item.href}
+                    className={cn(
+                      "relative inline-flex items-center justify-center overflow-hidden rounded-md px-3 py-2 text-base font-medium tracking-wide transition-all duration-300",
+                      isActive ? "text-white" : "text-white/80 hover:text-white"
+                    )}
+                  >
+                    {isActive && (
+                      <motion.span
+                        layoutId="activeNavHighlight"
+                        className="absolute inset-0 rounded-lg bg-white/10 backdrop-blur-sm"
+                        transition={{ type: 'spring', stiffness: 300, damping: 24 }}
+                      />
+                    )}
+                    <span className="relative z-[2]">{item.name}</span>
+                    {isActive && (
+                      <motion.span
+                        className="absolute bottom-0 left-3 right-3 h-0.5 rounded bg-company-softblue z-[1]"
+                        layoutId="activeNavIndicator"
+                        transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+                      />
+                    )}
+                  </Link>
+                </motion.div>
+              );
+            })}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -142,24 +154,38 @@ const Navbar: React.FC = () => {
           transition={{ duration: 0.3 }}
         >
           <div className="flex flex-col py-2">
-            {navItems.map((item, index) => (
-              <Link
-                key={index}
-                to={item.href}
-                className={cn(
-                  "text-white/90 px-6 py-4 border-b border-company-accent/10 transition-colors duration-200 text-lg",
-                  location.pathname === item.path ? "text-white bg-company-accent/5" : "hover:bg-company-accent/5 hover:text-white"
-                )}
-                onClick={toggleMenu}
-              >
-                <div className="flex items-center">
-                  {location.pathname === item.path && (
-                    <div className="w-1 h-6 bg-company-softblue mr-3"></div>
+            {navItems.map((item, index) => {
+              const isActive = location.pathname === item.path;
+
+              return (
+                <Link
+                  key={item.path}
+                  to={item.href}
+                  className={cn(
+                    "relative overflow-hidden px-6 py-4 text-lg transition-colors duration-200 border-b border-company-accent/10 last:border-b-0",
+                    isActive ? "text-white" : "text-white/80 hover:text-white"
                   )}
-                  {item.name}
-                </div>
-              </Link>
-            ))}
+                  onClick={toggleMenu}
+                >
+                  {isActive && (
+                    <motion.span
+                      layoutId="activeMobileHighlight"
+                      className="absolute inset-0 rounded-lg bg-company-accent/15"
+                      transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+                    />
+                  )}
+                  <span className="relative z-[1] flex items-center gap-3">
+                    <span
+                      className={cn(
+                        "h-6 w-1.5 rounded bg-company-softblue transition-opacity duration-300",
+                        isActive ? "opacity-100" : "opacity-0"
+                      )}
+                    />
+                    <span className="font-medium tracking-wide">{item.name}</span>
+                  </span>
+                </Link>
+              );
+            })}
             <div className="px-6 py-5">
               <a
                 href="tel:+622138879246"
