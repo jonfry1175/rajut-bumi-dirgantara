@@ -89,10 +89,10 @@ const Portfolio: React.FC = () => {
   };
 
   return (
-    <section id="portofolio" className="section py-20 bg-gradient-to-b from-company-light to-white relative overflow-hidden">
+    <section id="portofolio" className="section py-20 bg-company-light relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-company-softblue opacity-5 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-company-accent opacity-5 rounded-full translate-x-1/3 translate-y-1/3"></div>
+      <div className="absolute top-0 left-0 w-64 h-64 bg-company-softblue opacity-5 rounded-3xl -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-company-accent opacity-5 rounded-3xl translate-x-1/3 translate-y-1/3"></div>
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -103,7 +103,7 @@ const Portfolio: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold mb-4 text-company-primary">Portofolio</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
             Kami bermitra dengan berbagai merek terkemuka di industri teknologi untuk memberikan solusi terbaik bagi kebutuhan Anda.
           </p>
@@ -122,23 +122,16 @@ const Portfolio: React.FC = () => {
               className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden relative"
               variants={itemVariants}
             >
-              {/* Subtle gradient background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-white to-company-secondary opacity-50"></div>
-
               <div className="relative">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <motion.h3
-                    className="text-sm md:text-lg lg:text-xl font-bold text-company-primary px-5 py-2.5 rounded-full relative inline-block"
+                    className="text-sm md:text-lg lg:text-xl font-semibold text-company-primary px-5 py-2.5 rounded-lg inline-flex items-center border border-company-primary/15 bg-white shadow-sm"
                     whileHover={{ scale: 1.03 }}
                     transition={{ type: "spring", stiffness: 400 }}
                   >
-                    {/* Gradient border */}
-                    <span className="absolute inset-0 rounded-full bg-gradient-to-r from-company-primary to-company-softblue opacity-10"></span>
-                    {/* Accent border */}
-                    <span className="absolute inset-0 rounded-full border-2 border-company-softblue opacity-20"></span>
                     {category.title}
                   </motion.h3>
-                  <div className="h-1 w-24 bg-gradient-to-r from-company-primary via-company-accent to-company-softblue rounded-full hidden md:block"></div>
+                  <div className="h-1 w-24 bg-company-accent/70 rounded-sm hidden md:block"></div>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -159,8 +152,8 @@ const Portfolio: React.FC = () => {
 
           <motion.a
             href="#contact"
-            className="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-company-primary to-company-accent text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300"
-            whileHover={{ scale: 1.05 }}
+            className="inline-flex items-center px-8 py-3 rounded-lg bg-company-primary text-white font-semibold shadow-md hover:shadow-lg transition-all duration-300"
+            whileHover={{ y: -2 }}
             whileTap={{ scale: 0.98 }}
           >
             Diskusikan Kebutuhan Anda

@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="max-w-5xl">
             <motion.h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             </motion.h1>
 
             <motion.p
-              className="text-base md:text-lg mb-8 opacity-90 max-w-3xl"
+              className="text-base md:text-lg mb-8 opacity-90 max-w-3xl leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -71,23 +71,21 @@ const Hero: React.FC = () => {
               <Link
                 to="/services"
                 className={cn(
-                  "inline-flex items-center justify-center bg-gradient-to-r from-company-softblue to-company-accent text-white",
-                  "font-medium px-6 py-3 rounded-full transition-all duration-300",
-                  "hover:shadow-lg hover:-translate-y-1 shadow-md",
-                  "relative overflow-hidden group"
+                  "inline-flex items-center justify-center bg-company-accent text-company-primary",
+                  "font-semibold px-6 py-3 rounded-lg transition-all duration-300",
+                  "hover:bg-company-accent/90 hover:-translate-y-0.5 hover:shadow-md shadow-sm"
                 )}
               >
-                <span className="absolute inset-0 bg-gradient-to-r from-company-accent to-company-softblue opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                <span className="relative z-10">Layanan Kami</span>
+                Layanan Kami
               </Link>
               <a
                 href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
-                  "inline-flex items-center justify-center border-2 border-white",
-                  "text-white font-medium px-6 py-3 rounded-full transition-all duration-300",
-                  "hover:bg-white hover:text-company-primary hover:shadow-lg hover:-translate-y-1"
+                  "inline-flex items-center justify-center border border-white/90",
+                  "text-white font-medium px-6 py-3 rounded-lg transition-all duration-300",
+                  "hover:bg-white hover:text-company-primary hover:-translate-y-0.5 hover:shadow-md"
                 )}
               >
                 Hubungi Kami

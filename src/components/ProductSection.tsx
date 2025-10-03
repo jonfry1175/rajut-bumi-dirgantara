@@ -72,7 +72,7 @@ const ProductSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-white to-company-light py-20">
+    <section className="bg-company-light py-20">
       <div className="container mx-auto px-6">
         <motion.div
           className="text-center mb-16"
@@ -82,7 +82,7 @@ const ProductSection: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold mb-4 text-company-primary">Produk Kami</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
             Jelajahi berbagai produk teknologi berkualitas tinggi, termasuk solusi display KORISU dan perangkat dari mitra terpercaya seperti Acer, DELL, ASUS, Hitachi, Epson, Lenovo, dan BenQ.
           </p>
@@ -103,7 +103,7 @@ const ProductSection: React.FC = () => {
               </h3>
               
               {/* Desktop: Marquee Container */}
-              <div className="hidden md:block relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-100 py-8">
+              <div className="hidden md:block relative overflow-hidden bg-white rounded-xl shadow-lg border border-gray-100 py-8">
                 <div className={`animate-marquee gap-8 ${
                   category.title === 'Server Storage' ? 'animate-marquee-server' :
                   category.title === 'Computer and Accessories' ? 'animate-marquee-computer' :
@@ -113,7 +113,7 @@ const ProductSection: React.FC = () => {
                   {category.images.map((image, imgIndex) => (
                     <div
                       key={`first-${imgIndex}`}
-                      className="flex-shrink-0 w-64 h-48 bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+                      className="flex-shrink-0 w-64 h-48 bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300 overflow-hidden"
                     >
                       <img
                         src={image}
@@ -126,7 +126,7 @@ const ProductSection: React.FC = () => {
                   {category.images.map((image, imgIndex) => (
                     <div
                       key={`second-${imgIndex}`}
-                      className="flex-shrink-0 w-64 h-48 bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+                      className="flex-shrink-0 w-64 h-48 bg-white rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-300 overflow-hidden"
                     >
                       <img
                         src={image}
@@ -139,7 +139,7 @@ const ProductSection: React.FC = () => {
               </div>
 
               {/* Mobile: Carousel Container */}
-              <div className="md:hidden relative bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+              <div className="md:hidden relative bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
                 <div 
                   className="flex transition-transform duration-300 ease-in-out"
                   style={{ 
@@ -166,7 +166,7 @@ const ProductSection: React.FC = () => {
                     <button
                       key={imgIndex}
                       onClick={() => handleSlideChange(index, imgIndex)}
-                      className={`w-2 h-2 rounded-full transition-colors duration-200 ${
+                      className={`w-3 h-1 rounded-sm transition-colors duration-200 ${
                         (currentSlides[index] || 0) === imgIndex 
                           ? 'bg-company-primary' 
                           : 'bg-gray-300'

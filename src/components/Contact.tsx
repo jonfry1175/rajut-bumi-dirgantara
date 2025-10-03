@@ -34,9 +34,9 @@ const Contact: React.FC = () => {
   return (
     <section id="kontak" className="section py-20 bg-white relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-company-softblue opacity-5 rounded-full translate-x-1/3 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-company-primary opacity-5 rounded-full -translate-x-1/3 translate-y-1/3"></div>
-      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-company-accent opacity-5 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-company-softblue opacity-5 rounded-3xl translate-x-1/3 -translate-y-1/2"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-company-primary opacity-5 rounded-3xl -translate-x-1/3 translate-y-1/3"></div>
+      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-company-accent opacity-5 rounded-3xl -translate-x-1/2 -translate-y-1/2"></div>
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold mb-4 text-company-primary">Kontak</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Jangan ragu menghubungi kami untuk berdiskusi mengenai solusi teknologi yang paling sesuai bagi organisasi Anda.
           </p>
@@ -62,12 +62,12 @@ const Contact: React.FC = () => {
           >
             <motion.div className="space-y-8" variants={containerVariants}>
               <motion.div
-                className="flex items-start p-5 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-gradient-to-br from-company-primary to-company-accent p-3 rounded-full shadow-md">
-                  <Phone size={24} className="text-white" />
+                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
+                  <Phone size={24} className="text-company-primary" />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Telepon</h4>
@@ -76,12 +76,12 @@ const Contact: React.FC = () => {
               </motion.div>
 
               <motion.div
-                className="flex items-start p-5 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-gradient-to-br from-company-primary to-company-accent p-3 rounded-full shadow-md">
-                  <Mail size={24} className="text-white" />
+                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
+                  <Mail size={24} className="text-company-primary" />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Email</h4>
@@ -90,12 +90,12 @@ const Contact: React.FC = () => {
               </motion.div>
 
               <motion.div
-                className="flex items-start p-5 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
+                className="flex items-start p-5 rounded-lg bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300"
                 variants={itemVariants}
                 whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <div className="mr-4 flex-shrink-0 bg-gradient-to-br from-company-primary to-company-accent p-3 rounded-full shadow-md">
-                  <MapPin size={24} className="text-white" />
+                <div className="mr-4 flex-shrink-0 bg-company-accent/60 p-3 rounded-lg shadow-sm">
+                  <MapPin size={24} className="text-company-primary" />
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-2 text-company-primary">Alamat</h4>
@@ -114,16 +114,13 @@ const Contact: React.FC = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
           >
-            {/* Subtle gradient background for the form */}
-            <div className="absolute inset-0 bg-gradient-to-br from-company-light to-white rounded-2xl"></div>
-
-            <form className="space-y-5 p-8 rounded-2xl border border-gray-200 shadow-lg relative z-10">
+            <form className="space-y-5 p-8 rounded-xl border border-gray-200 shadow-lg relative z-10 bg-white">
               <motion.div variants={formItemVariants}>
                 <label htmlFor="name" className="block text-sm font-medium mb-2 text-company-primary">Nama Lengkap</label>
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-softblue focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
                   placeholder="Masukkan nama lengkap Anda"
                 />
               </motion.div>
@@ -133,7 +130,7 @@ const Contact: React.FC = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-softblue focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
                   placeholder="Masukkan email Anda"
                 />
               </motion.div>
@@ -143,15 +140,15 @@ const Contact: React.FC = () => {
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-softblue focus:border-transparent text-gray-700 shadow-sm"
+                  className="w-full px-4 py-3 rounded-md bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-company-accent focus:border-transparent text-gray-700 shadow-sm"
                   placeholder="Apa yang bisa kami bantu?"
                 ></textarea>
               </motion.div>
 
               <motion.button
                 type="submit"
-                className="bg-gradient-to-r from-company-primary to-company-accent text-white font-medium px-6 py-3 rounded-lg shadow-md transition-all duration-300 flex items-center justify-center space-x-2 w-full md:w-auto"
-                whileHover={{ scale: 1.03, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)" }}
+                className="bg-company-accent text-company-primary font-semibold px-6 py-3 rounded-lg shadow-sm transition-all duration-300 flex items-center justify-center space-x-2 w-full md:w-auto hover:bg-company-accent/90"
+                whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 variants={formItemVariants}
               >

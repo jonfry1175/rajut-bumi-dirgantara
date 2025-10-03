@@ -25,8 +25,8 @@ const AboutPage: React.FC = () => {
   return (
     <section id="tentang" className="section bg-white relative overflow-hidden py-20 md:py-28">
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-80 bg-company-secondary rounded-bl-full opacity-30" />
-      <div className="absolute bottom-0 left-0 w-1/4 h-64 bg-company-secondary rounded-tr-full opacity-20" />
+      <div className="absolute top-0 right-0 w-1/3 h-80 bg-company-secondary rounded-bl-3xl opacity-30" />
+      <div className="absolute bottom-0 left-0 w-1/4 h-64 bg-company-secondary rounded-tr-3xl opacity-20" />
 
       <div className="container mx-auto px-6 relative">
         <motion.div
@@ -36,9 +36,9 @@ const AboutPage: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-full text-sm font-medium mb-4">Tentang Kami</span>
+          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Tentang Kami</span>
           <h2 className="section-title mb-5">Tentang Perusahaan</h2>
-          <div className="w-24 h-1 bg-company-primary mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
         </motion.div>
 
         <div className="max-w-4xl mx-auto relative">
@@ -85,12 +85,12 @@ const AboutPage: React.FC = () => {
             variants={staggerChildren}
           >
             <motion.div
-              className="bg-company-secondary p-8 md:p-10 rounded-2xl shadow-lg relative overflow-hidden group"
+              className="bg-company-secondary p-8 md:p-10 rounded-xl shadow-lg relative overflow-hidden group"
               variants={fadeIn}
               whileHover={{ y: -5, boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.1)" }}
             >
-              <div className="absolute right-0 top-0 h-24 w-24 bg-company-primary/10 rounded-bl-full" />
-              <div className="absolute -right-4 -bottom-4 h-32 w-32 bg-company-primary/5 rounded-full" />
+              <div className="absolute right-0 top-0 h-24 w-24 bg-company-primary/10 rounded-bl-2xl" />
+              <div className="absolute -right-4 -bottom-4 h-32 w-32 bg-company-primary/5 rounded-3xl" />
 
               <div className="relative">
                 <div className="inline-flex items-center justify-center mb-6 h-14 w-14 rounded-xl bg-company-primary/10 text-company-primary">
@@ -107,12 +107,12 @@ const AboutPage: React.FC = () => {
             </motion.div>
 
             <motion.div
-              className="bg-company-secondary p-8 md:p-10 rounded-2xl shadow-lg relative overflow-hidden group"
+              className="bg-company-secondary p-8 md:p-10 rounded-xl shadow-lg relative overflow-hidden group"
               variants={fadeIn}
               whileHover={{ y: -5, boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.1)" }}
             >
-              <div className="absolute right-0 top-0 h-24 w-24 bg-company-primary/10 rounded-bl-full" />
-              <div className="absolute -right-4 -bottom-4 h-32 w-32 bg-company-primary/5 rounded-full" />
+              <div className="absolute right-0 top-0 h-24 w-24 bg-company-primary/10 rounded-bl-2xl" />
+              <div className="absolute -right-4 -bottom-4 h-32 w-32 bg-company-primary/5 rounded-3xl" />
 
               <div className="relative">
                 <div className="inline-flex items-center justify-center mb-6 h-14 w-14 rounded-xl bg-company-primary/10 text-company-primary">

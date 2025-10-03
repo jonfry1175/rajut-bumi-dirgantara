@@ -20,8 +20,8 @@ const AboutPage = () => {
           }}
         ></div>
         
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-company-primary/70 via-company-accent/65 to-company-softblue/70"></div>
+        {/* Color Overlay */}
+        <div className="absolute inset-0 bg-company-primary/80"></div>
         
         {/* Dark Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/20"></div>
@@ -43,8 +43,8 @@ const AboutPage = () => {
         </div>
         
         {/* Decorative elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 right-10 w-32 h-32 bg-company-softblue/20 rounded-full blur-xl"></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-3xl blur-xl"></div>
+        <div className="absolute bottom-20 right-10 w-32 h-32 bg-company-softblue/20 rounded-3xl blur-xl"></div>
       </section>
 
       <main>

@@ -21,8 +21,8 @@ const ServicesPage = () => {
           }}
         ></div>
         
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-company-primary/70 via-company-accent/65 to-company-softblue/70"></div>
+        {/* Color Overlay */}
+        <div className="absolute inset-0 bg-company-primary/80"></div>
         
         {/* Dark Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/20"></div>
@@ -44,8 +44,8 @@ const ServicesPage = () => {
         </div>
         
         {/* Decorative elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 right-10 w-32 h-32 bg-company-softblue/20 rounded-full blur-xl"></div>
+        <div className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-3xl blur-xl"></div>
+        <div className="absolute bottom-20 right-10 w-32 h-32 bg-company-softblue/20 rounded-3xl blur-xl"></div>
       </section>
 
       <main>
@@ -53,8 +53,8 @@ const ServicesPage = () => {
         <ProductSection />
         
         {/* CTA Section */}
-        <section className="bg-gradient-to-br from-company-primary via-company-accent to-company-softblue py-20 relative overflow-hidden">
-          <div className="absolute inset-0 bg-black/10"></div>
+        <section className="bg-company-primary py-20 relative overflow-hidden">
+          <div className="absolute inset-0 bg-company-primary/10"></div>
           <div className="container mx-auto px-6 relative z-10">
             <motion.div
               className="text-center text-white max-w-4xl mx-auto"
@@ -75,7 +75,7 @@ const ServicesPage = () => {
                   href="tel:+622138879246"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-white text-company-primary font-bold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center justify-center bg-white text-company-primary font-semibold px-8 py-4 rounded-lg text-lg shadow-sm hover:shadow-md transition-all duration-300"
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -89,8 +89,8 @@ const ServicesPage = () => {
           </div>
           
           {/* Decorative elements */}
-          <div className="absolute top-10 left-10 w-32 h-32 bg-white/5 rounded-full blur-2xl"></div>
-          <div className="absolute bottom-10 right-10 w-40 h-40 bg-company-softblue/20 rounded-full blur-2xl"></div>
+          <div className="absolute top-10 left-10 w-32 h-32 bg-white/5 rounded-3xl blur-2xl"></div>
+          <div className="absolute bottom-10 right-10 w-40 h-40 bg-company-softblue/20 rounded-3xl blur-2xl"></div>
         </section>
       </main>
       

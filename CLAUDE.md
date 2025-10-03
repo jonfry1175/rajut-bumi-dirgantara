@@ -34,10 +34,12 @@ npm run preview   # Preview production build
 - Custom company colors defined in `tailwind.config.ts` under `company` namespace
 
 ### Key Design System
-- Primary color: `#2596be` (azure blue)
-- Secondary color: `#8ac63e` (fresh green)
+- Primary color: `#352b85` (deep indigo)
+- Secondary color: `#88b835` (vibrant green)
+- Accent color: `#a8cf4b` (bright lime)
 - Neutral base: `#ffffff`
 - Font families: Poppins and Inter
+- Layout styling favors flat color blocks, refined typography, and restrained corner radii (avoid gradients and pill-shaped buttons).
 
 ## Important Notes
 

@@ -59,8 +59,8 @@ const BuyingGuide: React.FC = () => {
   return (
     <section id="ecommerce" className="section py-16 bg-white relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-48 h-48 bg-company-softblue opacity-5 rounded-full translate-x-1/3 -translate-y-1/4"></div>
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-company-primary opacity-5 rounded-full -translate-x-1/3 translate-y-1/4"></div>
+      <div className="absolute top-0 right-0 w-48 h-48 bg-company-softblue opacity-5 rounded-3xl translate-x-1/3 -translate-y-1/4"></div>
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-company-primary opacity-5 rounded-3xl -translate-x-1/3 translate-y-1/4"></div>
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -71,7 +71,7 @@ const BuyingGuide: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-bold text-center text-company-primary mb-2">Cara Membeli di e-katalog INAPROC</h2>
-          <div className="w-32 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-8 rounded-full"></div>
+          <div className="w-32 h-1 bg-company-accent/70 mx-auto mb-8 rounded-sm"></div>
 
           <motion.div
             className="mt-8 space-y-3"
@@ -88,7 +88,7 @@ const BuyingGuide: React.FC = () => {
                 whileHover="hover"
               >
                 <div className="flex-shrink-0 mr-4">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-company-primary to-company-accent flex items-center justify-center text-white font-bold shadow-md">
+                  <div className="w-10 h-10 rounded-lg bg-company-accent flex items-center justify-center text-company-primary font-semibold shadow-sm">
                     {step.number}
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const BuyingGuide: React.FC = () => {
               href="https://katalog.inaproc.id/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-2.5 rounded-full bg-gradient-to-r from-company-primary to-company-accent text-white text-sm font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center px-6 py-2.5 rounded-lg bg-company-accent text-company-primary text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300"
             >
               Kunjungi E-Katalog INAPROC
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

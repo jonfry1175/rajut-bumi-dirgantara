@@ -34,7 +34,7 @@ const Services: React.FC = () => {
         "Perancangan roadmap inovasi dan efisiensi operasional",
         "Rekomendasi teknologi yang relevan dan berdampak"
       ],
-      color: "bg-gradient-to-br from-company-primary/10 to-company-primary/5"
+      color: "bg-company-accent/20"
     },
     {
       title: "Pengadaan Hardware & Software",
@@ -45,7 +45,7 @@ const Services: React.FC = () => {
         "Ketersediaan produk original dengan garansi resmi",
         "Implementasi, instalasi, dan dukungan teknis berkelanjutan"
       ],
-      color: "bg-gradient-to-br from-company-softblue/15 to-company-softblue/5"
+      color: "bg-company-softblue/15"
     },
     {
       title: "Sistem Keamanan Terintegrasi",
@@ -56,7 +56,7 @@ const Services: React.FC = () => {
         "Integrasi teknologi keamanan sesuai kebutuhan operasional",
         "Pemeliharaan dan peningkatan sistem secara berkelanjutan"
       ],
-      color: "bg-gradient-to-br from-company-primary/10 to-company-softblue/5"
+      color: "bg-company-primary/15"
     }
   ];
 
@@ -64,9 +64,9 @@ const Services: React.FC = () => {
     <section id="layanan" className="section bg-white relative overflow-hidden py-20 md:py-28">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-48 bg-company-secondary -skew-y-3 transform origin-top-left -translate-y-24"></div>
-      <div className="absolute bottom-0 right-0 w-1/2 h-64 bg-company-secondary/50 rounded-tl-full"></div>
-      <div className="absolute top-1/4 right-0 w-24 h-24 bg-company-softblue/10 rounded-full blur-xl"></div>
-      <div className="absolute bottom-1/4 left-0 w-32 h-32 bg-company-primary/5 rounded-full blur-2xl"></div>
+      <div className="absolute bottom-0 right-0 w-1/2 h-64 bg-company-secondary/50 rounded-tl-3xl"></div>
+      <div className="absolute top-1/4 right-0 w-24 h-24 bg-company-softblue/10 rounded-3xl blur-xl"></div>
+      <div className="absolute bottom-1/4 left-0 w-32 h-32 bg-company-primary/5 rounded-3xl blur-2xl"></div>
 
       <div className="container mx-auto px-6 relative">
         <motion.div
@@ -76,9 +76,9 @@ const Services: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-full text-sm font-medium mb-4">Layanan Kami</span>
+          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Layanan Kami</span>
           <h2 className="section-title mb-5">Layanan Perusahaan</h2>
-          <div className="w-24 h-1 bg-company-primary mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="section-description max-w-2xl mx-auto text-gray-700">
             Solusi dan layanan teknologi terdepan untuk mendukung transformasi digital dan meningkatkan efisiensi operasional bisnis Anda.
           </p>
@@ -94,15 +94,15 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              className="rounded-2xl p-1 bg-gradient-to-br from-company-primary/20 via-transparent to-company-softblue/20 overflow-hidden"
+              className="rounded-xl p-1 border border-company-primary/10 overflow-hidden"
               variants={fadeIn}
               whileHover={{ y: -5, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
               transition={{ duration: 0.3 }}
             >
               <div className={cn(
-                "h-full service-card bg-white rounded-2xl p-8 relative overflow-hidden",
+                "h-full service-card bg-white rounded-xl p-8 relative overflow-hidden",
               )}>
-                <div className="absolute -right-10 -bottom-10 w-40 h-40 rounded-full opacity-10 bg-gradient-to-br from-company-primary to-company-softblue"></div>
+                <div className="absolute -right-10 -bottom-10 w-40 h-40 rounded-3xl opacity-10 bg-company-primary"></div>
 
                 <div className="flex items-start relative">
                   <div className={cn(
@@ -126,7 +126,7 @@ const Services: React.FC = () => {
                       <ul className="space-y-3 mb-4">
                         {service.items.map((item, i) => (
                           <li key={i} className="flex items-center text-gray-700">
-                            <div className="mr-2 w-5 h-5 bg-company-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <div className="mr-2 w-5 h-5 bg-company-primary/10 rounded-sm flex items-center justify-center flex-shrink-0">
                               <ChevronRight className="text-company-primary w-3 h-3" />
                             </div>
                             <span>{item}</span>
@@ -158,8 +158,8 @@ const Services: React.FC = () => {
             to="/services"
             className={cn(
               "inline-flex items-center justify-center gap-2 bg-company-primary text-white",
-              "font-medium px-8 py-3 rounded-full transition-all duration-300 hover:bg-company-primary/90",
-              "hover:shadow-lg hover:-translate-y-1"
+              "font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:bg-company-primary/90",
+              "hover:shadow-md hover:-translate-y-0.5"
             )}
           >
             Read More

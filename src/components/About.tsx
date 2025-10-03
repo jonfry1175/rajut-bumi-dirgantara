@@ -26,8 +26,8 @@ const About: React.FC = () => {
   return (
     <section id="tentang" className="section bg-white relative overflow-hidden py-20 md:py-28">
       {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-80 bg-company-secondary rounded-bl-full opacity-30" />
-      <div className="absolute bottom-0 left-0 w-1/4 h-64 bg-company-secondary rounded-tr-full opacity-20" />
+      <div className="absolute top-0 right-0 w-1/3 h-80 bg-company-secondary rounded-bl-3xl opacity-30" />
+      <div className="absolute bottom-0 left-0 w-1/4 h-64 bg-company-secondary rounded-tr-3xl opacity-20" />
 
       <div className="container mx-auto px-6 relative">
         <motion.div
@@ -37,9 +37,9 @@ const About: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeIn}
         >
-          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-full text-sm font-medium mb-4">Tentang Kami</span>
+          <span className="inline-block px-4 py-1.5 bg-company-softblue/10 text-company-primary rounded-md text-sm font-medium mb-4">Tentang Kami</span>
           <h2 className="section-title mb-5">Tentang Perusahaan</h2>
-          <div className="w-24 h-1 bg-company-primary mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
         </motion.div>
 
         <div className="max-w-4xl mx-auto relative">
@@ -91,8 +91,8 @@ const About: React.FC = () => {
               to="/about"
               className={cn(
                 "inline-flex items-center justify-center gap-2 bg-company-primary text-white",
-                "font-medium px-8 py-3 rounded-full transition-all duration-300 hover:bg-company-primary/90",
-                "hover:shadow-lg hover:-translate-y-1"
+                "font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:bg-company-primary/90",
+                "hover:shadow-md hover:-translate-y-0.5"
               )}
             >
               Read More

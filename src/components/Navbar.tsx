@@ -109,10 +109,9 @@ const Navbar: React.FC = () => {
                 href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative overflow-hidden group bg-gradient-to-r from-company-softblue to-company-accent text-white font-medium rounded-full px-7 py-2.5 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-base shadow-md"
+                className="bg-company-accent text-company-primary font-semibold rounded-lg px-6 py-2.5 transition-all duration-300 hover:bg-company-accent/90 hover:-translate-y-0.5 shadow-sm hover:shadow-md"
               >
-                <span className="absolute inset-0 bg-gradient-to-r from-company-accent to-company-softblue opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></span>
-                <span className="relative z-10">Hubungi Kami</span>
+                Hubungi Kami
               </a>
             </motion.div>
           </div>
@@ -166,11 +165,10 @@ const Navbar: React.FC = () => {
                 href="tel:+622138879246"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative overflow-hidden group w-full bg-gradient-to-r from-company-softblue to-company-accent text-white font-medium rounded-full px-5 py-3 transition-all duration-300 hover:shadow-md text-lg inline-flex items-center justify-center shadow-sm"
+                className="w-full bg-company-accent text-company-primary font-semibold rounded-lg px-5 py-3 transition-all duration-300 hover:bg-company-accent/90 hover:-translate-y-0.5 shadow-sm hover:shadow-md inline-flex items-center justify-center"
                 onClick={toggleMenu}
               >
-                <span className="absolute inset-0 bg-gradient-to-r from-company-accent to-company-softblue opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                <span className="relative z-10">Hubungi Kami</span>
+                Hubungi Kami
               </a>
             </div>
           </div>

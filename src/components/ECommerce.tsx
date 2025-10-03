@@ -228,10 +228,10 @@ const ECommerce: React.FC = () => {
   };
 
   return (
-    <section id="ecommerce" className="section py-20 bg-gradient-to-b from-company-light to-white relative overflow-hidden">
+    <section id="ecommerce" className="section py-20 bg-company-light relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-company-softblue opacity-5 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-company-accent opacity-5 rounded-full translate-x-1/3 translate-y-1/3"></div>
+      <div className="absolute top-0 left-0 w-64 h-64 bg-company-softblue opacity-5 rounded-3xl -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-company-accent opacity-5 rounded-3xl translate-x-1/3 translate-y-1/3"></div>
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -242,7 +242,7 @@ const ECommerce: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold mb-4 text-company-primary">E-Commerce</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-company-primary to-company-softblue mx-auto mb-6 rounded-full"></div>
+          <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
             Jelajahi katalog produk teknologi terlengkap kami melalui platform INAPROC. Temukan solusi IT terbaik untuk kebutuhan bisnis Anda.
           </p>
@@ -261,7 +261,7 @@ const ECommerce: React.FC = () => {
 
         {error && (
           <div className="text-center py-20">
-            <div className="bg-red-50 border border-red-200 rounded-lg p-6 max-w-lg mx-auto">
+            <div className="bg-red-50 border border-red-200 rounded-md p-6 max-w-lg mx-auto">
               <p className="text-red-600 mb-4">{error}</p>
               <p className="text-gray-600 mb-6 text-sm">
                 Atau kunjungi langsung katalog kami di INAPROC:
@@ -269,7 +269,7 @@ const ECommerce: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <button
                   onClick={() => loadPageData(currentPage)}
-                  className="bg-company-primary text-white px-4 py-2 rounded-lg hover:bg-company-primary/90 transition-colors duration-200"
+                  className="bg-company-primary text-white px-4 py-2 rounded-md hover:bg-company-primary/90 transition-colors duration-200"
                 >
                   Coba Lagi
                 </button>
@@ -277,7 +277,7 @@ const ECommerce: React.FC = () => {
                   href="https://katalog.inaproc.id/persada-artha-selaras"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                  className="inline-flex items-center justify-center bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200"
                 >
                   Buka Katalog INAPROC
                   <ExternalLink className="w-4 h-4 ml-2" />
@@ -299,7 +299,7 @@ const ECommerce: React.FC = () => {
               {products.map((product) => (
                 <motion.div
                   key={product.id}
-                  className="bg-white rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer group"
+                  className="bg-white rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer group"
                   variants={itemVariants}
                   whileHover={{ y: -5 }}
                   onClick={() => handleProductClick(product.slug)}
@@ -336,13 +336,13 @@ const ECommerce: React.FC = () => {
                     )}
                     
                     {product.isPreOrder && (
-                      <div className="absolute top-2 left-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full">
+                      <div className="absolute top-2 left-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-md">
                         Pre-Order
                       </div>
                     )}
-                    
+
                     {product.labels && product.labels.length > 0 && (
-                      <div className="absolute top-2 right-2 bg-company-primary text-white text-xs px-2 py-1 rounded-full">
+                      <div className="absolute top-2 right-2 bg-company-primary text-white text-xs px-2 py-1 rounded-md">
                         {product.labels[0]}
                       </div>
                     )}
@@ -380,7 +380,7 @@ const ECommerce: React.FC = () => {
                         Stok: {product.stockAccumulation || 'Tidak Diketahui'}
                       </span>
                       {product.tkdn && product.tkdn.tkdnBmp > 0 && (
-                        <span className="text-xs bg-company-accent/10 text-company-accent px-2 py-1 rounded-full">
+                        <span className="text-xs bg-company-accent/10 text-company-accent px-2 py-1 rounded-md">
                           TKDN+BMP {product.tkdn.tkdnBmp.toFixed(2)}%
                         </span>
                       )}
