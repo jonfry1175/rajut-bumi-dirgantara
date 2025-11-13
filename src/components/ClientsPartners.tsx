@@ -82,15 +82,15 @@ const ClientsPartners: React.FC = () => {
           <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/15 bg-white/70 text-company-primary text-xs font-semibold uppercase tracking-[0.28em] mb-4">
             Jejak Kolaborasi
           </span>
-          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">Klien & Partner Kami</h2>
+          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">Partner Kami</h2>
           <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
           <p className="mx-auto max-w-3xl text-lg text-gray-600 text-balance">
-            Kepercayaan yang kami bangun bersama perusahaan ternama dan para mitra teknologi terkemuka memperkuat komitmen kami memberikan solusi terbaik.
+            Kolaborasi bersama para mitra teknologi terkemuka memperkuat komitmen kami memberikan solusi terbaik.
           </p>
         </motion.div>
 
         <div className="space-y-16">
-          <motion.div
+          {/* <motion.div
             className="space-y-8"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ const ClientsPartners: React.FC = () => {
               </p>
             </div>
             {renderLogoGrid(clientLogos)}
-          </motion.div>
+          </motion.div> */}
 
           <motion.div
             className="space-y-8"
