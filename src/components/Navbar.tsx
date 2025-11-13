@@ -38,8 +38,8 @@ const Navbar: React.FC = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         scrolled
-          ? "bg-company-primary/95 py-2 shadow-lg backdrop-blur-sm"
-          : "bg-company-primary py-3"
+          ? "bg-transparent py-2 backdrop-blur-sm"
+          : "bg-white py-3 shadow-sm"
       )}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -54,21 +54,19 @@ const Navbar: React.FC = () => {
             transition={{ delay: 0.2 }}
           >
             <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200">
-              <div className="bg-white rounded-lg p-1 shadow-md flex items-center justify-center h-10 md:h-12">
-                {!logoError ? (
-                  <img
-                    src="/logo-bejo.png"
-                    alt="PT Bejo Berkat Makmur"
-                    className="h-full object-contain px-1"
-                    onError={() => setLogoError(true)}
-                  />
-                ) : (
-                  <div className="h-full aspect-square flex items-center justify-center">
-                    <span className="text-company-primary font-bold text-xl">BBM</span>
-                  </div>
-                )}
-              </div>
-              <span className="text-xl md:text-2xl font-bold text-white hidden sm:inline-block">
+              {!logoError ? (
+                <img
+                  src="/logo-bejo.png"
+                  alt="PT Bejo Berkat Makmur"
+                  className="h-10 md:h-12 object-contain"
+                  onError={() => setLogoError(true)}
+                />
+              ) : (
+                <div className="h-10 md:h-12 aspect-square flex items-center justify-center">
+                  <span className="font-bold text-xl text-company-primary">BBM</span>
+                </div>
+              )}
+              <span className="text-xl md:text-2xl font-bold hidden sm:inline-block text-black">
                 PT Bejo Berkat Makmur
               </span>
             </Link>
@@ -90,13 +88,13 @@ const Navbar: React.FC = () => {
                     to={item.href}
                     className={cn(
                       "relative inline-flex items-center justify-center overflow-hidden rounded-md px-3 py-2 text-base font-medium tracking-wide transition-all duration-300",
-                      isActive ? "text-white" : "text-white/80 hover:text-white"
+                      isActive ? "text-black" : "text-black/70 hover:text-black"
                     )}
                   >
                     {isActive && (
                       <motion.span
                         layoutId="activeNavHighlight"
-                        className="absolute inset-0 rounded-lg bg-white/10 backdrop-blur-sm"
+                        className="absolute inset-0 rounded-lg backdrop-blur-sm bg-black/5"
                         transition={{ type: 'spring', stiffness: 300, damping: 24 }}
                       />
                     )}
@@ -118,7 +116,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="focus:outline-none text-white p-2 rounded-md hover:bg-company-accent/20 transition-colors duration-200"
+              className="focus:outline-none p-2 rounded-md transition-colors duration-200 text-black hover:bg-black/10"
               aria-label={isOpen ? "Tutup menu" : "Buka menu"}
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -129,7 +127,8 @@ const Navbar: React.FC = () => {
         {/* Mobile Navigation */}
         <motion.div
           className={cn(
-            "md:hidden absolute top-[100%] left-0 right-0 bg-company-primary shadow-lg",
+            "md:hidden absolute top-[100%] left-0 right-0 shadow-lg",
+            "bg-white",
             isOpen ? "block" : "hidden"
           )}
           initial={{ opacity: 0, height: 0 }}
@@ -148,15 +147,15 @@ const Navbar: React.FC = () => {
                   key={item.path}
                   to={item.href}
                   className={cn(
-                    "relative overflow-hidden px-6 py-4 text-lg transition-colors duration-200 border-b border-company-accent/10 last:border-b-0",
-                    isActive ? "text-white" : "text-white/80 hover:text-white"
+                    "relative overflow-hidden px-6 py-4 text-lg transition-colors duration-200 border-b border-black/10 last:border-b-0",
+                    isActive ? "text-black" : "text-black/70 hover:text-black"
                   )}
                   onClick={toggleMenu}
                 >
                   {isActive && (
                     <motion.span
                       layoutId="activeMobileHighlight"
-                      className="absolute inset-0 rounded-lg bg-company-accent/15"
+                      className="absolute inset-0 rounded-lg bg-black/5"
                       transition={{ type: 'spring', stiffness: 260, damping: 22 }}
                     />
                   )}
