@@ -6,7 +6,8 @@ import About from '@/components/About';
 import Services from '@/components/Services';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ClientsPartners from '@/components/ClientsPartners';
-import KorisuProductDetail from '@/components/KorisuProductDetail';
+// import KorisuProductDetail from '@/components/KorisuProductDetail';
+import SmartboardProductDetail from '@/components/SmartboardProductDetail';
 import BuyingGuide from '@/components/BuyingGuide';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -48,7 +49,8 @@ const Index = () => {
           <Services />
           <WhyChooseUs />
           <ClientsPartners />
-          <KorisuProductDetail />
+          <SmartboardProductDetail />
+          {/* <KorisuProductDetail /> */}
           <BuyingGuide />
           <Contact />
         </main>
