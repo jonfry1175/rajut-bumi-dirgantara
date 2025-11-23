@@ -64,14 +64,14 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         company: {
-          primary: "#1B1F3B", // Navy Elegant
-          secondary: "#2E4A7F", // Denim Blue
-          accent: "#E3B115", // Gold Textile
-          light: "#F6F6F8",
-          dark: "#0F172A", // Darker navy for contrast
-          neutral: "#1a143d",
-          gray: "#f2f7e6",
-          softblue: "#6a63c9",
+          primary: "#2D6A4F", // Deep Forest Green
+          secondary: "#E07A5F", // Terracotta
+          accent: "#D4A373", // Warm Brown
+          light: "#F4F1DE", // Beige/Cream
+          dark: "#1B4332", // Darker Green
+          neutral: "#3D405B", // Indigo/Grey
+          gray: "#F1FAEE", // Soft Grey
+          softblue: "#81B29A", // Sage Green (replacing softblue role)
         },
       },
       borderRadius: {

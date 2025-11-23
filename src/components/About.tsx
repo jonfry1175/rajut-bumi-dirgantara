@@ -62,7 +62,7 @@ const About: React.FC = () => {
               className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
-              PT RAJUT BUMI DIRGANTARA berdiri dengan fokus utama pada industri
+              PT RAJUT BUMI DIRGANTARA hadir sebagai pionir dalam industri
               tekstil, khususnya produksi kain rajut dan tenun berkualitas
               tinggi. Kami memadukan teknologi mesin modern dengan keahlian
               sumber daya manusia untuk menghasilkan produk tekstil yang unggul.
@@ -103,7 +103,7 @@ const About: React.FC = () => {
                 "hover:shadow-lg hover:-translate-y-0.5"
               )}
             >
-              Read More
+              Selengkapnya
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
