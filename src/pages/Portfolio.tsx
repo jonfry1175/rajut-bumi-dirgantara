@@ -1,35 +1,47 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import ClientsPartners from '@/components/ClientsPartners';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import ClientsPartners from "@/components/ClientsPartners";
+import { motion } from "framer-motion";
 
 const PartnershipPage = () => {
   return (
     <>
       <Helmet>
-        <title>Partnership & Klien | PT Bejo Berkat Makmur</title>
-        <link rel="canonical" href="https://inibejo.com/partnership" />
+        <title>Partnership & Klien | PT RAJUT BUMI DIRGANTARA</title>
+        <link
+          rel="canonical"
+          href="https://rajutbumidirgantara.com/partnership"
+        />
         <meta
           name="description"
-          content="Jelajahi daftar mitra strategis dan klien PT Bejo Berkat Makmur yang mempercayakan transformasi digital mereka kepada inibejo.com."
+          content="Jelajahi daftar mitra strategis dan klien PT RAJUT BUMI DIRGANTARA yang mempercayakan produksi tekstil mereka kepada kami."
         />
-        <meta property="og:title" content="Partnership & Klien | PT Bejo Berkat Makmur" />
+        <meta
+          property="og:title"
+          content="Partnership & Klien | PT RAJUT BUMI DIRGANTARA"
+        />
         <meta
           property="og:description"
-          content="Kemitraan PT Bejo Berkat Makmur menunjukkan pengalaman kami dalam menghadirkan solusi teknologi lintas industri."
+          content="Kemitraan PT RAJUT BUMI DIRGANTARA menunjukkan pengalaman kami dalam menghadirkan solusi tekstil lintas industri."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://inibejo.com/partnership" />
-        <meta property="og:image" content="https://inibejo.com/logo-bejo.png" />
+        <meta
+          property="og:url"
+          content="https://rajutbumidirgantara.com/partnership"
+        />
+        <meta property="og:image" content="/new-logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Partnership & Klien | PT Bejo Berkat Makmur" />
+        <meta
+          name="twitter:title"
+          content="Partnership & Klien | PT RAJUT BUMI DIRGANTARA"
+        />
         <meta
           name="twitter:description"
-          content="Lihat perusahaan dan institusi yang bermitra dengan PT Bejo Berkat Makmur."
+          content="Lihat perusahaan dan institusi yang bermitra dengan PT RAJUT BUMI DIRGANTARA."
         />
-        <meta name="twitter:image" content="https://inibejo.com/logo-bejo.png" />
+        <meta name="twitter:image" content="/new-logo.png" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">
@@ -41,7 +53,8 @@ const PartnershipPage = () => {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80')"
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80')",
             }}
           ></div>
 
@@ -62,7 +75,9 @@ const PartnershipPage = () => {
                 Partnership
               </h1>
               <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-                Kepercayaan yang kami bangun bersama perusahaan ternama dan para mitra teknologi terkemuka memperkuat komitmen kami memberikan solusi terbaik.
+                Kepercayaan yang kami bangun bersama perusahaan ternama dan para
+                mitra teknologi terkemuka memperkuat komitmen kami memberikan
+                solusi terbaik.
               </p>
             </motion.div>
           </div>

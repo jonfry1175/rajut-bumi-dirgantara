@@ -50,12 +50,14 @@ npm run convert-to-webp
 ```
 
 **Benefits:**
+
 - Reduces image file sizes by ~93% on average
 - Faster page loading times
 - Better user experience
 - Maintains high image quality
 
 **Last conversion results:**
+
 - 23 images converted from PNG to WebP
 - Total size reduced from 16.10MB to 1.06MB (93.4% savings)
 
@@ -95,9 +97,9 @@ To connect a domain, navigate to Project > Settings > Domains and click Connect 
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-# PT Bejo Berkat Makmur Website
+# PT RAJUT BUMI DIRGANTARA Website
 
-A modern website for PT Bejo Berkat Makmur built with React, TypeScript, and Tailwind CSS. Konten menekankan inovasi, efisiensi, dan pertumbuhan berkelanjutan sesuai profil perusahaan.
+A modern website for PT RAJUT BUMI DIRGANTARA built with React, TypeScript, and Tailwind CSS. Konten menekankan kualitas, kepercayaan, dan inovasi dalam produksi tekstil.
 
 ## Features
 

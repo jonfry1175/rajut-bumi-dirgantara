@@ -1,6 +1,6 @@
-# PT Bejo Berkat Makmur: Company Overview
+# PT RAJUT BUMI DIRGANTARA: Company Overview
 
-PT Bejo Berkat Makmur is a technology company founded in **August 2021**. It focuses on **innovation, efficiency, and sustainable growth**. The company leverages the latest technology to deliver relevant and impactful solutions for its clients. Its strength lies in a client-focused approach, developing customized strategies and solutions based on industry insights and innovative thinking. The company aims to build long-term partnerships based on trust, performance, and measurable success.
+PT RAJUT BUMI DIRGANTARA is a textile manufacturing company founded in **August 2021**. It focuses on **quality, trust, and innovation**. The company leverages modern machinery and skilled workforce to deliver high-quality knitted and woven fabrics. Its strength lies in a client-focused approach, developing customized textile solutions based on industry trends and needs. The company aims to build long-term partnerships based on trust, performance, and measurable success.
 
 ---
 
@@ -12,16 +12,8 @@ The **Mission** is to empower organizations to thrive in the digital era through
 
 ---
 
-## Core Services (Layanan Kami)
-
-PT Bejo Berkat Makmur offers three primary service categories:
-
-1.  **IT Advisory (Konsultasi TI Strategis):**
-    - Provides strategic IT consulting supported by deep industry insights and technical expertise.
-    - Helps clients navigate the complexities of digital transformation for smarter decision-making, driving innovation, operational efficiency, and sustainable growth.
-2.  **Pengadaan Hardware & Software:**
-    - Simplifies the procurement process for IT infrastructure, covering everything from hardware to software licenses.
     - Manages vendor relationships and procurement to ensure clients receive the latest, reliable, and efficient technology solutions hassle-free.
+
 3.  **Pengadaan Peralatan Sistem Keamanan Terintegrasi (Integrated Security System Equipment Procurement):**
     - Offers comprehensive solutions for modern security infrastructure.
     - Includes procurement of integrated security system equipment such as surveillance cameras, access control systems, intrusion detection devices, and other security technology customized to operational needs.

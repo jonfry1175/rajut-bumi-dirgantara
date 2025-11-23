@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://inibejo.com/sitemap.xml
+Sitemap: https://rajutbumidirgantara.com/sitemap.xml
