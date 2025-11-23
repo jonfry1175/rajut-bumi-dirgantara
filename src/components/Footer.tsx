@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Phone, Mail, ExternalLink, ChevronRight, MapPin } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Phone, Mail, ExternalLink, ChevronRight, MapPin } from "lucide-react";
 
 const Footer: React.FC = () => {
   const containerVariants = {
@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
       opacity: 1,
       transition: {
         staggerChildren: 0.1,
-        delayChildren: 0.1
-      }
-    }
+        delayChildren: 0.1,
+      },
+    },
   };
 
   const itemVariants = {
@@ -19,12 +19,12 @@ const Footer: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 }
-    }
+      transition: { duration: 0.5 },
+    },
   };
 
   const linkVariants = {
-    hover: { x: 5, transition: { duration: 0.2 } }
+    hover: { x: 5, transition: { duration: 0.2 } },
   };
 
   return (
@@ -45,31 +45,35 @@ const Footer: React.FC = () => {
           <motion.div variants={itemVariants}>
             <div className="flex items-center mb-4">
               <img
-                src="/logo-bejo.png"
-                alt="PT Bejo Berkat Makmur Logo"
+                src="/new-logo.png"
+                alt="PT RAJUT BUMI DIRGANTARA Logo"
                 className="w-12 h-12 mr-4 rounded-lg bg-white p-2 shadow-sm"
               />
               <h3 className="text-2xl font-semibold tracking-tight flex items-center">
-                <span>PT Bejo Berkat Makmur</span>
+                <span>PT RAJUT BUMI DIRGANTARA</span>
                 <div className="h-2 w-2 rounded bg-company-accent ml-2"></div>
               </h3>
             </div>
             <div className="h-1 w-16 bg-company-accent/70 mb-5 rounded-md"></div>
             <p className="text-base text-gray-300 leading-relaxed">
-              Perusahaan teknologi yang memadukan inovasi, efisiensi, dan pertumbuhan berkelanjutan untuk menghadirkan solusi TI yang relevan serta berdampak.
+              Produsen tekstil terkemuka yang memadukan kualitas, inovasi, dan
+              kepercayaan untuk menghadirkan produk kain terbaik bagi industri
+              fashion Indonesia.
             </p>
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl font-semibold tracking-tight mb-4 text-white">Tautan Cepat</h3>
+            <h3 className="text-2xl font-semibold tracking-tight mb-4 text-white">
+              Tautan Cepat
+            </h3>
             <div className="h-1 w-16 bg-company-accent/70 mb-5 rounded-md"></div>
             <ul className="space-y-3">
               {[
                 { href: "#beranda", label: "Home" },
                 { href: "#tentang", label: "About Us" },
                 { href: "#layanan", label: "Service" },
-                { href: "#ecommerce", label: "E-Commerce" },
-                { href: "#kontak", label: "Contact Us" }
+                { href: "#produk", label: "Products" },
+                { href: "#kontak", label: "Contact Us" },
               ].map((link, index) => (
                 <motion.li key={index} whileHover="hover">
                   <motion.a
@@ -86,28 +90,34 @@ const Footer: React.FC = () => {
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <h3 className="text-2xl font-semibold tracking-tight mb-4 text-white">Hubungi Kami</h3>
+            <h3 className="text-2xl font-semibold tracking-tight mb-4 text-white">
+              Hubungi Kami
+            </h3>
             <div className="h-1 w-16 bg-company-accent/70 mb-5 rounded-md"></div>
             <div className="space-y-4">
               <div className="flex items-center">
                 <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center mr-3">
                   <Phone className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">+62 21 388 792 46</p>
+                <p className="text-gray-300">+62 21 555 1234</p>
               </div>
               <div className="flex items-center">
                 <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center mr-3">
                   <Mail className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">info@inibejo.com</p>
+                <p className="text-gray-300">info@rajutbumidirgantara.com</p>
               </div>
               <div className="flex items-center">
                 <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center mr-3">
                   <MapPin className="w-4 h-4 text-company-softblue" />
                 </div>
-                <p className="text-gray-300">Jl. Gading Kirana Timur Blok A13 No. 28<br />
-                  Kelapa Gading, Jakarta Utara 14240<br />
-                  Indonesia</p>
+                <p className="text-gray-300">
+                  Jl. Industri Tekstil No. 88
+                  <br />
+                  Bandung, Jawa Barat
+                  <br />
+                  Indonesia
+                </p>
               </div>
             </div>
           </motion.div>
@@ -120,9 +130,14 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} PT Bejo Berkat Makmur. Hak Cipta Dilindungi.</p>
+          <p className="text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} PT RAJUT BUMI DIRGANTARA. Hak
+            Cipta Dilindungi.
+          </p>
           <div className="mt-4 md:mt-0 flex items-center">
-            <span className="text-sm text-gray-400 italic">Inovasi • Efisiensi • Pertumbuhan Berkelanjutan</span>
+            <span className="text-sm text-gray-400 italic">
+              Kualitas • Kepercayaan • Inovasi
+            </span>
             <div className="ml-3 h-4 w-1 bg-company-accent rounded-sm"></div>
             <a
               href="#beranda"
@@ -130,8 +145,18 @@ const Footer: React.FC = () => {
               aria-label="Kembali ke atas"
             >
               <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-                <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 10l7-7m0 0l7 7m-7-7v18"
+                  />
                 </svg>
               </div>
             </a>

@@ -1,58 +1,33 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import ProductSection from '@/components/ProductSection';
+import React from "react";
+import { motion } from "framer-motion";
 
 const Portfolio: React.FC = () => {
   const categories = [
     {
-      title: "COMPUTER (PC & LAPTOP)",
+      title: "BRAND FASHION LOKAL",
       brands: [
-        { name: "HP", logo: "/clients/clint-logo-hewlett-packerd-enterprise.png" },
-        { name: "Dell", logo: "/clients/clint-logo-dell.png" },
-        { name: "Lenovo", logo: "/clients/clint-logo-lenovo.png" },
-        { name: "Apple", logo: "/clients/clint-logo-apple.png" },
-        { name: "Asus", logo: "/clients/clint-logo-asus_.png" },
-        { name: "Acer", logo: "/clients/clint-logo-acer.png" }
-      ]
+        { name: "Local Brand A", logo: "/clients/client-1.png" },
+        { name: "Local Brand B", logo: "/clients/client-2.png" },
+        { name: "Local Brand C", logo: "/clients/client-3.png" },
+        { name: "Local Brand D", logo: "/clients/client-4.png" },
+      ],
     },
     {
-      title: "SERVER, STORAGE, DATA CENTER",
+      title: "GARMENT EKSPOR",
       brands: [
-        { name: "Dell EMC", logo: "/clients/clint-logo-dell.png" },
-        { name: "HP Enterprise", logo: "/clients/clint-logo-hewlett-packerd-enterprise.png" },
-        { name: "Synology", logo: "/clients/clint-logo-synology.png" },
-        { name: "Nutanix", logo: "/clients/clint-logo-nutanix.png" },
-        { name: "APC", logo: "/clients/clint-logo-apc.png" }
-      ]
+        { name: "Global Brand X", logo: "/clients/client-5.png" },
+        { name: "Global Brand Y", logo: "/clients/client-6.png" },
+        { name: "Global Brand Z", logo: "/clients/client-7.png" },
+      ],
     },
     {
-      title: "NETWORKING",
+      title: "SERAGAM KORPORAT",
       brands: [
-        { name: "Cisco", logo: "/clients/clint-logo-cisco.png" },
-        { name: "Fortinet", logo: "/clients/clint-logo-fortinet.png" },
-        { name: "Mikrotik", logo: "/clients/clint-logo-miktotik.png" },
-        { name: "D-Link", logo: "/clients/clint-logo-d-link.png" },
-        { name: "Ubiquiti", logo: "/clients/clint-logo-ubiquiti.png" }
-      ]
+        { name: "Corporate A", logo: "/clients/client-8.png" },
+        { name: "Corporate B", logo: "/clients/client-9.png" },
+        { name: "Corporate C", logo: "/clients/client-10.png" },
+      ],
     },
-    {
-      title: "SURVEILLANCE & SECURITY SYSTEM",
-      brands: [
-        { name: "Hikvision", logo: "/clients/clint-logo-hikvision.png" },
-        { name: "Axis Communications", logo: "/clients/clint-logo-axis communications.png" },
-        { name: "Bosch", logo: "/clients/clint-logo-bosch.png" },
-        { name: "Dahua", logo: "/clients/clint-logo-dahua.png" },
-        { name: "Hanwha", logo: "/clients/clint-logo-hanwha.png" }
-      ]
-    },
-    {
-      title: "SOFTWARE",
-      brands: [
-        { name: "Microsoft", logo: "/clients/clint-logo-microsoft.png" },
-        { name: "Symantec", logo: "/clients/clint-logo-symantec.png" },
-        { name: "Trend Micro", logo: "/clients/clint-logo-trend-micro.png" }
-      ]
-    }
   ];
 
   const containerVariants = {
@@ -60,9 +35,9 @@ const Portfolio: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1
-      }
-    }
+        staggerChildren: 0.1,
+      },
+    },
   };
 
   const itemVariants = {
@@ -70,8 +45,8 @@ const Portfolio: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" }
-    }
+      transition: { duration: 0.6, ease: "easeOut" },
+    },
   };
 
   const brandVariants = {
@@ -79,17 +54,20 @@ const Portfolio: React.FC = () => {
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { duration: 0.4 }
+      transition: { duration: 0.4 },
     },
     hover: {
       scale: 1.08,
       boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
-      transition: { type: "spring", stiffness: 400, damping: 10 }
-    }
+      transition: { type: "spring", stiffness: 400, damping: 10 },
+    },
   };
 
   return (
-    <section id="portofolio" className="section py-20 bg-company-light relative overflow-hidden">
+    <section
+      id="portofolio"
+      className="section py-20 bg-company-light relative overflow-hidden"
+    >
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-company-softblue opacity-5 rounded-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-company-accent opacity-5 rounded-3xl translate-x-1/3 translate-y-1/3"></div>
@@ -102,10 +80,13 @@ const Portfolio: React.FC = () => {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold mb-4 text-company-primary">Portofolio</h2>
+          <h2 className="text-4xl font-bold mb-4 text-company-primary">
+            Portofolio
+          </h2>
           <div className="w-24 h-1 bg-company-accent/70 mx-auto mb-6 rounded-sm"></div>
           <p className="max-w-2xl mx-auto text-gray-600 text-lg">
-            Kami bermitra dengan berbagai merek terkemuka di industri teknologi untuk memberikan solusi terbaik bagi kebutuhan Anda.
+            Kami dipercaya oleh berbagai brand fashion lokal dan internasional
+            serta perusahaan besar untuk kebutuhan tekstil mereka.
           </p>
         </motion.div>
 
@@ -134,8 +115,7 @@ const Portfolio: React.FC = () => {
                   <div className="h-1 w-24 bg-company-accent/70 rounded-sm hidden md:block"></div>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                </div>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6"></div>
               </div>
             </motion.div>
           ))}
@@ -148,7 +128,9 @@ const Portfolio: React.FC = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <p className="text-xl font-medium text-company-primary mb-8">Dan masih banyak lagi mitra teknologi terkemuka lainnya!</p>
+          <p className="text-xl font-medium text-company-primary mb-8">
+            Dan masih banyak lagi mitra teknologi terkemuka lainnya!
+          </p>
 
           <motion.a
             href="#contact"
@@ -157,16 +139,22 @@ const Portfolio: React.FC = () => {
             whileTap={{ scale: 0.98 }}
           >
             Diskusikan Kebutuhan Anda
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            <svg
+              className="w-5 h-5 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              ></path>
             </svg>
           </motion.a>
         </motion.div>
-      </div>
-
-      {/* Product Section */}
-      <div className="mt-20">
-        <ProductSection />
       </div>
     </section>
   );

@@ -64,11 +64,11 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         company: {
-          primary: "#352b85",
-          secondary: "#88b835",
-          accent: "#a8cf4b",
-          light: "#ffffff",
-          dark: "#241d63",
+          primary: "#1B1F3B", // Navy Elegant
+          secondary: "#2E4A7F", // Denim Blue
+          accent: "#E3B115", // Gold Textile
+          light: "#F6F6F8",
+          dark: "#0F172A", // Darker navy for contrast
           neutral: "#1a143d",
           gray: "#f2f7e6",
           softblue: "#6a63c9",

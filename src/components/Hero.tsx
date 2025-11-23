@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { cn } from '@/lib/utils';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   const [windowHeight, setWindowHeight] = useState(0);
@@ -15,40 +15,40 @@ const Hero: React.FC = () => {
       setWindowHeight(window.innerHeight);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const insightCards = [
     {
-      id: 'advisory',
-      title: 'IT Advisory',
-      subtitle: 'Konsultasi TI Strategis',
-      position: 'top-8 -left-12',
+      id: "advisory",
+      title: "IT Advisory",
+      subtitle: "Konsultasi TI Strategis",
+      position: "top-8 -left-12",
       animate: { y: [0, -12, 0], x: [0, 10, 0] },
       duration: 8,
-      delay: 0
+      delay: 0,
     },
     {
-      id: 'procurement',
-      title: 'Pengadaan Teknologi',
-      subtitle: 'Hardware & Software',
-      position: 'bottom-16 -left-4',
+      id: "procurement",
+      title: "Pengadaan Teknologi",
+      subtitle: "Hardware & Software",
+      position: "bottom-16 -left-4",
       animate: { y: [0, 10, 0], x: [0, -6, 0] },
       duration: 7,
-      delay: 0.6
+      delay: 0.6,
     },
     {
-      id: 'security',
-      title: 'Integrated Security',
-      subtitle: 'Sistem Keamanan Terintegrasi',
-      position: 'top-1/2 -translate-y-1/2 -right-10',
+      id: "security",
+      title: "Integrated Security",
+      subtitle: "Sistem Keamanan Terintegrasi",
+      position: "top-1/2 -translate-y-1/2 -right-10",
       animate: { y: [0, -10, 0], x: [0, 12, 0] },
       duration: 9,
-      delay: 0.3
-    }
+      delay: 0.3,
+    },
   ];
 
   const orbitSizes = [300, 380, 460];
@@ -58,9 +58,9 @@ const Hero: React.FC = () => {
       id="beranda"
       className="bg-company-primary text-white relative overflow-hidden flex flex-col justify-center"
       style={{
-        minHeight: windowHeight ? `${windowHeight}px` : '100vh',
-        paddingTop: '80px', // Account for navbar height
-        paddingBottom: '20px'
+        minHeight: windowHeight ? `${windowHeight}px` : "100vh",
+        paddingTop: "80px", // Account for navbar height
+        paddingBottom: "20px",
       }}
     >
       {/* Decorative Elements */}
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Inovasi Teknologi untuk Negeri
+              Menajut Kualitas, Menenun Kepercayaan.
             </motion.h1>
 
             <motion.p
@@ -88,9 +88,10 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              PT Bejo Berkat Makmur adalah perusahaan teknologi yang berdiri pada Agustus 2021.
-              Kami memadukan inovasi, efisiensi, dan pertumbuhan berkelanjutan untuk menghadirkan
-              solusi TI yang relevan dan berdampak bagi setiap mitra.
+              Produsen Tekstil Berkualitas untuk Kebutuhan Industri Anda. PT
+              RAJUT BUMI DIRGANTARA menghadirkan solusi kain rajut dan tenun
+              terbaik dengan standar kualitas tinggi untuk mendukung industri
+              fashion Indonesia.
             </motion.p>
 
             <motion.div
@@ -107,10 +108,10 @@ const Hero: React.FC = () => {
                   "hover:bg-company-accent/90 hover:-translate-y-0.5 hover:shadow-md shadow-sm"
                 )}
               >
-                Layanan Kami
+                Lihat Produk Kami
               </Link>
               <a
-                href="tel:+622138879246"
+                href="tel:+62215551234"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
@@ -130,12 +131,14 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <div className="inline-block border-t border-white/20 pt-4 px-4">
-                <p className="font-bold text-lg">Inovasi • Efisiensi • Pertumbuhan Berkelanjutan</p>
+                <p className="font-bold text-lg">
+                  Kualitas • Kepercayaan • Inovasi
+                </p>
               </div>
             </motion.div>
           </div>
 
-          {/* Hero Right Section - Digital Transformation Visualization */}
+          {/* Hero Right Section - Textile Image */}
           <motion.div
             className="hidden lg:block relative h-full"
             initial={{ opacity: 0, x: 50 }}
@@ -143,114 +146,15 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <div className="relative w-full h-full min-h-[420px] flex items-center justify-center">
-              <motion.div
-                className="absolute inset-0 rounded-[36px] bg-gradient-to-br from-company-softblue/20 via-transparent to-company-accent/30 blur-3xl"
-                animate={{ opacity: [0.4, 0.8, 0.5], scale: [1, 1.05, 1] }}
-                transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
+              <img
+                src="/hero-textile.png"
+                alt="Textile Production"
+                className="rounded-3xl shadow-2xl object-cover w-full h-[500px]"
+                onError={(e) => {
+                  e.currentTarget.src =
+                    "https://images.unsplash.com/photo-1556906781-9a412961c28c?q=80&w=1000&auto=format&fit=crop";
+                }}
               />
-
-              <motion.div
-                className="relative z-20 w-60 h-60 rounded-[3rem] border border-white/10 bg-gradient-to-br from-company-accent/70 via-company-softblue/50 to-white/10 backdrop-blur-xl shadow-[0_20px_60px_rgba(51,195,240,0.25)]"
-                animate={{ scale: [1, 1.04, 1], rotate: [0, 2, 0] }}
-                transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-              >
-                <motion.div
-                  className="absolute inset-8 rounded-[2.5rem] border border-white/15"
-                  animate={{ opacity: [0.5, 1, 0.5] }}
-                  transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut' }}
-                />
-
-                <motion.div
-                  className="absolute inset-1/3 rounded-[1.5rem] bg-white/20 backdrop-blur-2xl"
-                  animate={{ scale: [1, 1.15, 1], opacity: [0.6, 0.9, 0.6] }}
-                  transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-                />
-
-                <motion.div
-                  className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-white/60"
-                  animate={{ scale: [1, 1.3, 1], opacity: [0.8, 0.4, 0.8] }}
-                  transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-                />
-
-                <motion.div
-                  className="absolute left-1/2 top-6 -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-white/70"
-                  animate={{ opacity: [0.6, 1, 0.6], letterSpacing: ['0.3em', '0.35em', '0.3em'] }}
-                  transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
-                >
-                  Inovasi • Efisiensi • Pertumbuhan
-                </motion.div>
-
-                <motion.div
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 text-xs font-semibold text-white/80"
-                  animate={{ y: [0, -4, 0], opacity: [0.6, 1, 0.6] }}
-                  transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
-                >
-                  Kemitraan Jangka Panjang
-                </motion.div>
-              </motion.div>
-
-              {orbitSizes.map((size, index) => (
-                <motion.div
-                  key={size}
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10"
-                  style={{ width: `${size}px`, height: `${size}px` }}
-                  animate={{ rotate: index % 2 === 0 ? 360 : -360 }}
-                  transition={{ duration: 24 - index * 4, repeat: Infinity, ease: 'linear' }}
-                >
-                  <span className="absolute -top-2 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-company-accent shadow-[0_0_12px_rgba(51,195,240,0.6)]"></span>
-                </motion.div>
-              ))}
-
-              <motion.div
-                className="absolute inset-y-10 left-1/2 -translate-x-1/2 w-px bg-gradient-to-b from-transparent via-white/20 to-transparent"
-                animate={{ opacity: [0.2, 0.6, 0.2] }}
-                transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-              />
-
-              <motion.div
-                className="absolute inset-y-16 left-1/2 -translate-x-1/2 w-[280px] rounded-full bg-gradient-to-r from-white/5 via-white/10 to-white/5"
-                animate={{ opacity: [0.1, 0.3, 0.1], scaleY: [1, 1.05, 1] }}
-                transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut' }}
-              />
-
-              {insightCards.map((card) => (
-                <motion.div
-                  key={card.id}
-                  className={cn(
-                    'absolute w-48 rounded-2xl border border-white/15 bg-white/10 p-4 text-left shadow-[0_20px_40px_rgba(8,23,53,0.35)] backdrop-blur-lg',
-                    card.position
-                  )}
-                  animate={card.animate}
-                  transition={{
-                    duration: card.duration,
-                    repeat: Infinity,
-                    ease: 'easeInOut',
-                    delay: card.delay
-                  }}
-                >
-                  <div className="flex items-center text-white/80">
-                    <span className="text-[11px] uppercase tracking-wide">{card.title}</span>
-                  </div>
-                  <p className="mt-2 text-sm font-semibold text-white">{card.subtitle}</p>
-                  <motion.div
-                    className="mt-4 h-1 w-full rounded-full bg-white/10"
-                    animate={{ backgroundPositionX: ['0%', '100%'] }}
-                    transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
-                    style={{
-                      backgroundImage: 'linear-gradient(90deg, rgba(51,195,240,0.2), rgba(255,255,255,0.6), rgba(51,195,240,0.2))',
-                      backgroundSize: '200% 100%'
-                    }}
-                  />
-                </motion.div>
-              ))}
-
-              <motion.div
-                className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-64 rounded-full border border-white/10 bg-white/5 px-6 py-3 text-center text-xs uppercase tracking-[0.4em] text-white/60 backdrop-blur-lg"
-                animate={{ opacity: [0.4, 0.8, 0.4], y: [0, -6, 0] }}
-                transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-              >
-                Dampak Berkelanjutan
-              </motion.div>
             </div>
           </motion.div>
         </div>

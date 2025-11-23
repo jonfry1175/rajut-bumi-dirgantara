@@ -1,7 +1,7 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { cn } from '@/lib/utils';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { cn } from "@/lib/utils";
 
 const About: React.FC = () => {
   const fadeIn = {
@@ -9,8 +9,8 @@ const About: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6 }
-    }
+      transition: { duration: 0.6 },
+    },
   };
 
   const staggerChildren = {
@@ -18,9 +18,9 @@ const About: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   return (
@@ -43,7 +43,9 @@ const About: React.FC = () => {
           <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/20 bg-white/60 text-company-primary text-xs font-semibold uppercase tracking-[0.3em] mb-4">
             Tentang Kami
           </span>
-          <h2 className="section-title mb-5 text-balance">Tentang Perusahaan</h2>
+          <h2 className="section-title mb-5 text-balance">
+            Tentang Perusahaan
+          </h2>
           <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
         </motion.div>
 
@@ -60,27 +62,30 @@ const About: React.FC = () => {
               className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
-              PT Bejo Berkat Makmur berdiri pada Agustus 2021 dengan fokus pada inovasi, efisiensi, dan
-              pertumbuhan berkelanjutan. Kami menghadirkan solusi teknologi yang relevan dan berdampak
-              melalui pendekatan berbasis kebutuhan klien.
+              PT RAJUT BUMI DIRGANTARA berdiri dengan fokus utama pada industri
+              tekstil, khususnya produksi kain rajut dan tenun berkualitas
+              tinggi. Kami memadukan teknologi mesin modern dengan keahlian
+              sumber daya manusia untuk menghasilkan produk tekstil yang unggul.
             </motion.p>
 
             <motion.p
               className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
-              Keunggulan kami terletak pada pemahaman mendalam terhadap tantangan industri dan
-              penyusunan strategi yang tepat guna. Dengan memadukan teknologi terkini dan layanan
-              personal, kami memastikan setiap inisiatif mampu meningkatkan kinerja dan daya saing klien.
+              Keunggulan kami terletak pada konsistensi kualitas, ketepatan
+              waktu produksi, dan inovasi desain yang mengikuti tren pasar. Kami
+              melayani berbagai kebutuhan industri fashion, mulai dari skala
+              UMKM hingga brand besar nasional.
             </motion.p>
 
             <motion.p
               className="text-lg text-gray-700 leading-relaxed text-balance"
               variants={fadeIn}
             >
-              Kami percaya pada kemitraan jangka panjang yang dibangun dari kepercayaan, performa, dan
-              hasil terukur. PT Bejo Berkat Makmur adalah mitra strategis Anda untuk menavigasi era digital
-              dengan percaya diri.
+              Kami percaya bahwa kain berkualitas adalah dasar dari produk
+              fashion yang sukses. PT RAJUT BUMI DIRGANTARA berkomitmen menjadi
+              mitra strategis Anda dalam menyediakan bahan baku tekstil terbaik
+              untuk pertumbuhan bisnis Anda.
             </motion.p>
           </motion.div>
           <motion.div
@@ -99,8 +104,17 @@ const About: React.FC = () => {
               )}
             >
               Read More
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
               </svg>
             </Link>
           </motion.div>

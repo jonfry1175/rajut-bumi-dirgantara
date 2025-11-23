@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { motion } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,27 +19,25 @@ const Navbar: React.FC = () => {
       setScrolled(window.scrollY > 10);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const navItems = [
-    { name: 'Home', href: '/', path: '/' },
-    { name: 'About Us', href: '/about', path: '/about' },
-    { name: 'Service', href: '/services', path: '/services' },
-    { name: 'Partnership', href: '/partnership', path: '/partnership' },
-    { name: 'Contact Us', href: '/contact', path: '/contact' }
+    { name: "Home", href: "/", path: "/" },
+    { name: "About Us", href: "/about", path: "/about" },
+    { name: "Service", href: "/services", path: "/services" },
+    { name: "Partnership", href: "/partnership", path: "/partnership" },
+    { name: "Contact Us", href: "/contact", path: "/contact" },
   ];
 
   return (
     <motion.nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled
-          ? "bg-white py-2 shadow-lg backdrop-blur-sm"
-          : "bg-white py-3"
+        scrolled ? "bg-white py-2 shadow-lg backdrop-blur-sm" : "bg-white py-3"
       )}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -53,21 +51,26 @@ const Navbar: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200">
+            <Link
+              to="/"
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200"
+            >
               {!logoError ? (
                 <img
-                  src="/logo-bejo.png"
-                  alt="PT Bejo Berkat Makmur"
+                  src="/new-logo.png"
+                  alt="PT RAJUT BUMI DIRGANTARA"
                   className="h-10 md:h-12 object-contain"
                   onError={() => setLogoError(true)}
                 />
               ) : (
                 <div className="h-10 md:h-12 aspect-square flex items-center justify-center">
-                  <span className="font-bold text-xl text-company-primary">BBM</span>
+                  <span className="font-bold text-xl text-company-primary">
+                    RBD
+                  </span>
                 </div>
               )}
               <span className="text-xl md:text-2xl font-bold hidden sm:inline-block text-black">
-                PT Bejo Berkat Makmur
+                PT RAJUT BUMI DIRGANTARA
               </span>
             </Link>
           </motion.div>
@@ -95,7 +98,11 @@ const Navbar: React.FC = () => {
                       <motion.span
                         layoutId="activeNavHighlight"
                         className="absolute inset-0 rounded-lg backdrop-blur-sm bg-black/5"
-                        transition={{ type: 'spring', stiffness: 300, damping: 24 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 24,
+                        }}
                       />
                     )}
                     <span className="relative z-[2]">{item.name}</span>
@@ -103,7 +110,11 @@ const Navbar: React.FC = () => {
                       <motion.span
                         className="absolute bottom-0 left-3 right-3 h-0.5 rounded bg-company-softblue z-[1]"
                         layoutId="activeNavIndicator"
-                        transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 260,
+                          damping: 20,
+                        }}
                       />
                     )}
                   </Link>
@@ -134,7 +145,7 @@ const Navbar: React.FC = () => {
           initial={{ opacity: 0, height: 0 }}
           animate={{
             opacity: isOpen ? 1 : 0,
-            height: isOpen ? 'auto' : 0
+            height: isOpen ? "auto" : 0,
           }}
           transition={{ duration: 0.3 }}
         >
@@ -156,7 +167,11 @@ const Navbar: React.FC = () => {
                     <motion.span
                       layoutId="activeMobileHighlight"
                       className="absolute inset-0 rounded-lg bg-black/5"
-                      transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 260,
+                        damping: 22,
+                      }}
                     />
                   )}
                   <span className="relative z-[1] flex items-center gap-3">
@@ -166,7 +181,9 @@ const Navbar: React.FC = () => {
                         isActive ? "opacity-100" : "opacity-0"
                       )}
                     />
-                    <span className="font-medium tracking-wide">{item.name}</span>
+                    <span className="font-medium tracking-wide">
+                      {item.name}
+                    </span>
                   </span>
                 </Link>
               );

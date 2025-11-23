@@ -1,6 +1,6 @@
-import React from 'react';
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Contact: React.FC = () => {
   const containerVariants = {
@@ -8,9 +8,9 @@ const Contact: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -18,8 +18,8 @@ const Contact: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5, ease: "easeOut" }
-    }
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
   };
 
   const formItemVariants = {
@@ -27,8 +27,8 @@ const Contact: React.FC = () => {
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.5, ease: "easeOut" }
-    }
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
   };
 
   return (
@@ -52,10 +52,13 @@ const Contact: React.FC = () => {
           <span className="mb-3 inline-flex items-center gap-2 rounded-full border border-company-primary/20 bg-white/70 px-5 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-company-primary">
             Terhubung Dengan Kami
           </span>
-          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">Kontak</h2>
+          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">
+            Kontak
+          </h2>
           <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
           <p className="mx-auto max-w-2xl text-lg text-gray-600 text-balance">
-            Jangan ragu menghubungi kami untuk berdiskusi mengenai solusi teknologi yang paling sesuai bagi organisasi Anda.
+            Jangan ragu menghubungi kami untuk berdiskusi mengenai solusi
+            teknologi yang paling sesuai bagi organisasi Anda.
           </p>
         </motion.div>
 
@@ -70,7 +73,10 @@ const Contact: React.FC = () => {
               <motion.div
                 className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
-                whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                whileHover={{
+                  scale: 1.02,
+                  boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+                }}
               >
                 <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
                 <div className="relative flex items-start gap-4">
@@ -78,9 +84,13 @@ const Contact: React.FC = () => {
                     <Phone size={20} />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="text-xl font-semibold text-company-primary">Telepon</h4>
-                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Layanan Pelanggan</span>
-                    <p className="text-base text-gray-700">+62 21 388 792 46</p>
+                    <h4 className="text-xl font-semibold text-company-primary">
+                      Telepon
+                    </h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">
+                      Layanan Pelanggan
+                    </span>
+                    <p className="text-base text-gray-700">+62 21 555 1234</p>
                   </div>
                 </div>
               </motion.div>
@@ -88,7 +98,10 @@ const Contact: React.FC = () => {
               <motion.div
                 className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
-                whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                whileHover={{
+                  scale: 1.02,
+                  boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+                }}
               >
                 <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
                 <div className="relative flex items-start gap-4">
@@ -96,9 +109,15 @@ const Contact: React.FC = () => {
                     <Mail size={20} />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="text-xl font-semibold text-company-primary">Email</h4>
-                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Tim Konsultasi</span>
-                    <p className="text-base text-gray-700">info@inibejo.com</p>
+                    <h4 className="text-xl font-semibold text-company-primary">
+                      Email
+                    </h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">
+                      Tim Konsultasi
+                    </span>
+                    <p className="text-base text-gray-700">
+                      info@rajutbumidirgantara.com
+                    </p>
                   </div>
                 </div>
               </motion.div>
@@ -106,7 +125,10 @@ const Contact: React.FC = () => {
               <motion.div
                 className="relative overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                 variants={itemVariants}
-                whileHover={{ scale: 1.02, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                whileHover={{
+                  scale: 1.02,
+                  boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+                }}
               >
                 <div className="absolute inset-x-6 top-0 h-px rounded-full bg-company-primary" />
                 <div className="relative flex items-start gap-4">
@@ -114,10 +136,16 @@ const Contact: React.FC = () => {
                     <MapPin size={20} />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="text-xl font-semibold text-company-primary">Alamat</h4>
-                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">Kantor Pusat</span>
+                    <h4 className="text-xl font-semibold text-company-primary">
+                      Alamat
+                    </h4>
+                    <span className="text-xs font-semibold uppercase tracking-[0.28em] text-company-primary/70">
+                      Kantor Pusat
+                    </span>
                     <p className="text-gray-700 text-balance leading-relaxed">
-                      Jl. Gading Kirana Timur Blok A13 No. 28,<br />Kelapa Gading, Jakarta Utara 14240, Indonesia
+                      Jl. Industri Tekstil No. 88,
+                      <br />
+                      Bandung, Jawa Barat, Indonesia
                     </p>
                   </div>
                 </div>
@@ -135,13 +163,21 @@ const Contact: React.FC = () => {
             <form className="relative z-10 space-y-6 overflow-hidden rounded-2xl border border-white/60 bg-white/80 p-8 shadow-xl backdrop-blur">
               <div className="pointer-events-none absolute inset-x-8 top-0 h-px rounded-full bg-company-accent" />
               <div className="space-y-2 text-left">
-                <h3 className="text-lg font-semibold text-company-primary">Formulir Konsultasi</h3>
+                <h3 className="text-lg font-semibold text-company-primary">
+                  Formulir Konsultasi
+                </h3>
                 <p className="text-sm text-gray-500">
-                  Kirimkan detail singkat kebutuhan Anda, tim kami akan menghubungi dalam satu hari kerja.
+                  Kirimkan detail singkat kebutuhan Anda, tim kami akan
+                  menghubungi dalam satu hari kerja.
                 </p>
               </div>
               <motion.div variants={formItemVariants}>
-                <label htmlFor="name" className="mb-2 block text-sm font-semibold text-company-primary">Nama Lengkap</label>
+                <label
+                  htmlFor="name"
+                  className="mb-2 block text-sm font-semibold text-company-primary"
+                >
+                  Nama Lengkap
+                </label>
                 <input
                   type="text"
                   id="name"
@@ -151,7 +187,12 @@ const Contact: React.FC = () => {
               </motion.div>
 
               <motion.div variants={formItemVariants}>
-                <label htmlFor="email" className="mb-2 block text-sm font-semibold text-company-primary">Email</label>
+                <label
+                  htmlFor="email"
+                  className="mb-2 block text-sm font-semibold text-company-primary"
+                >
+                  Email
+                </label>
                 <input
                   type="email"
                   id="email"
@@ -161,7 +202,12 @@ const Contact: React.FC = () => {
               </motion.div>
 
               <motion.div variants={formItemVariants}>
-                <label htmlFor="message" className="mb-2 block text-sm font-semibold text-company-primary">Pesan</label>
+                <label
+                  htmlFor="message"
+                  className="mb-2 block text-sm font-semibold text-company-primary"
+                >
+                  Pesan
+                </label>
                 <textarea
                   id="message"
                   rows={5}
