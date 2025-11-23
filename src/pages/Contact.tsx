@@ -64,9 +64,8 @@ const ContactPage = () => {
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-6">Kontak</h1>
               <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-                Tim PT Bejo Berkat Makmur siap membantu Anda merancang dan
-                mengimplementasikan solusi teknologi yang paling tepat untuk
-                organisasi Anda.
+                Tim PT RAJUT BUMI DIRGANTARA siap membantu Anda merancang dan
+                memproduksi kain berkualitas tinggi untuk kebutuhan bisnis Anda.
               </p>
             </motion.div>
           </div>

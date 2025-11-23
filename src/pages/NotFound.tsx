@@ -1,13 +1,13 @@
-import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
     console.error(
-      '404 Error: User attempted to access non-existent route:',
+      "404 Error: User attempted to access non-existent route:",
       location.pathname
     );
   }, [location.pathname]);
@@ -15,7 +15,7 @@ const NotFound = () => {
   return (
     <>
       <Helmet>
-        <title>Halaman Tidak Ditemukan | inibejo.com</title>
+        <title>Halaman Tidak Ditemukan | PT RAJUT BUMI DIRGANTARA</title>
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
 

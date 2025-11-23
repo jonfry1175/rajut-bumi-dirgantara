@@ -1,7 +1,14 @@
-import React from 'react';
-import { BadgeCheck, Headphones, HandshakeIcon, ShieldCheck, Tags, Lock } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { cn } from '@/lib/utils';
+import React from "react";
+import {
+  BadgeCheck,
+  Headphones,
+  HandshakeIcon,
+  ShieldCheck,
+  Tags,
+  Lock,
+} from "lucide-react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 const WhyChooseUs: React.FC = () => {
   const fadeIn = {
@@ -9,8 +16,8 @@ const WhyChooseUs: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6 }
-    }
+      transition: { duration: 0.6 },
+    },
   };
 
   const staggerContainer = {
@@ -18,48 +25,54 @@ const WhyChooseUs: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15
-      }
-    }
+        staggerChildren: 0.15,
+      },
+    },
   };
 
   const features = [
     {
       icon: <BadgeCheck strokeWidth={1.5} />,
       title: "PRODUK 100% ORIGINAL",
-      description: "Seluruh perangkat dan solusi yang kami sediakan terjamin keasliannya untuk menjaga kepercayaan dan performa terbaik.",
-      color: "bg-company-accent/20"
+      description:
+        "Seluruh perangkat dan solusi yang kami sediakan terjamin keasliannya untuk menjaga kepercayaan dan performa terbaik.",
+      color: "bg-company-accent/20",
     },
     {
       icon: <ShieldCheck strokeWidth={1.5} />,
       title: "GARANSI RESMI",
-      description: "Dukungan garansi sesuai standar principal sehingga investasi teknologi Anda lebih aman dan terkelola.",
-      color: "bg-company-primary/15"
+      description:
+        "Dukungan garansi sesuai standar principal sehingga investasi teknologi Anda lebih aman dan terkelola.",
+      color: "bg-company-primary/15",
     },
     {
       icon: <Tags strokeWidth={1.5} />,
       title: "HARGA BERSAING",
-      description: "Struktur harga yang transparan dan kompetitif tanpa mengurangi kualitas layanan maupun produk.",
-      color: "bg-company-softblue/15"
+      description:
+        "Struktur harga yang transparan dan kompetitif tanpa mengurangi kualitas layanan maupun produk.",
+      color: "bg-company-softblue/15",
     },
     {
       icon: <HandshakeIcon strokeWidth={1.5} />,
       title: "PRINCIPAL TERPERCAYA",
-      description: "Bermitra dengan merek-merek global sehingga setiap solusi memenuhi standar industri tertinggi.",
-      color: "bg-company-accent/15"
+      description:
+        "Bermitra dengan merek-merek global sehingga setiap solusi memenuhi standar industri tertinggi.",
+      color: "bg-company-accent/15",
     },
     {
       icon: <Headphones strokeWidth={1.5} />,
       title: "AFTER-SALES SERVICE",
-      description: "Layanan purna jual yang responsif untuk memastikan operasional teknologi Anda berjalan optimal.",
-      color: "bg-company-primary/15"
+      description:
+        "Layanan purna jual yang responsif untuk memastikan operasional teknologi Anda berjalan optimal.",
+      color: "bg-company-primary/15",
     },
     {
       icon: <Lock strokeWidth={1.5} />,
       title: "KEAMANAN TRANSAKSI",
-      description: "Proses pengadaan yang aman, jelas, dan terverifikasi untuk menjaga kenyamanan setiap mitra.",
-      color: "bg-company-softblue/15"
-    }
+      description:
+        "Proses pengadaan yang aman, jelas, dan terverifikasi untuk menjaga kenyamanan setiap mitra.",
+      color: "bg-company-softblue/15",
+    },
   ];
 
   return (
@@ -82,10 +95,13 @@ const WhyChooseUs: React.FC = () => {
           <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/15 bg-white/70 text-company-primary text-xs font-semibold uppercase tracking-[0.3em] mb-4">
             Keunggulan Kami
           </span>
-          <h2 className="section-title mb-5 text-balance">Mengapa Memilih Kami</h2>
+          <h2 className="section-title mb-5 text-balance">
+            Mengapa Memilih Kami
+          </h2>
           <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
           <p className="section-description mx-auto max-w-2xl text-gray-700 text-balance">
-            PT Bejo Berkat Makmur menghadirkan nilai tambah yang memastikan setiap kolaborasi memberikan hasil nyata dan berkelanjutan.
+            PT RAJUT BUMI DIRGANTARA menghadirkan nilai tambah yang memastikan
+            setiap kolaborasi memberikan hasil nyata dan berkelanjutan.
           </p>
         </motion.div>
 
@@ -107,17 +123,23 @@ const WhyChooseUs: React.FC = () => {
               <div className="absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:bg-white/70" />
 
               <div className="relative z-10 flex h-full flex-col items-center rounded-2xl border border-company-primary/10 bg-white/90 p-8 text-center shadow-sm backdrop-blur">
-                <div className={cn(
-                  "mb-6 flex h-16 w-16 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-105",
-                  feature.color
-                )}>
+                <div
+                  className={cn(
+                    "mb-6 flex h-16 w-16 items-center justify-center rounded-xl transition-transform duration-300 group-hover:scale-105",
+                    feature.color
+                  )}
+                >
                   <div className="flex h-8 w-8 items-center justify-center text-company-primary">
                     {feature.icon}
                   </div>
                 </div>
 
-                <h3 className="mb-3 text-lg font-semibold text-company-primary">{feature.title}</h3>
-                <p className="text-gray-700 leading-relaxed text-balance">{feature.description}</p>
+                <h3 className="mb-3 text-lg font-semibold text-company-primary">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed text-balance">
+                  {feature.description}
+                </p>
 
                 <div className="absolute inset-x-8 bottom-6 h-px rounded-full bg-company-accent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </div>
@@ -133,9 +155,12 @@ const WhyChooseUs: React.FC = () => {
           transition={{ delay: 0.4 }}
         >
           <div className="mx-auto max-w-3xl rounded-2xl border border-company-primary/10 bg-white/90 p-10 shadow-lg backdrop-blur">
-            <h3 className="mb-4 text-xl font-semibold text-company-primary text-balance">Mulai Kerjasama Dengan Kami</h3>
+            <h3 className="mb-4 text-xl font-semibold text-company-primary text-balance">
+              Mulai Kerjasama Dengan Kami
+            </h3>
             <p className="mb-6 text-gray-700 text-balance">
-              Temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda bersama PT Bejo Berkat Makmur.
+              Temukan solusi teknologi terbaik untuk kebutuhan bisnis Anda
+              bersama PT RAJUT BUMI DIRGANTARA.
             </p>
             <a
               href="tel:+622138879246"

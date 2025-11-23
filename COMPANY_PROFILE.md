@@ -20,16 +20,19 @@ The **Mission** is to empower organizations to thrive in the digital era through
 
 ---
 
-## Why Choose PT Bejo Berkat Makmur (Mengapa Memilih Kami)
+## Why Choose PT RAJUT BUMI DIRGANTARA (Mengapa Memilih Kami)
 
 The reasons to choose the company include:
 
 - 100% Original Products
 - Official Warranty (Garansi Resmi)
 - Competitive Pricing (Harga Bersaing)
-- Trusted Principal/Supplier
-- After-Sales Service
-- Transaction Security
+
+## Why Choose PT RAJUT BUMI DIRGANTARA (Mengapa Memilih Kami)
+
+- **Quality First:** We prioritize material quality and production standards.
+- **Innovative Designs:** Always up-to-date with the latest fashion trends.
+- **Reliable Partnership:** We build trust through consistent delivery and open communication.
 
 ---
 
@@ -42,7 +45,8 @@ The reasons to choose the company include:
 
 ## Contact Information
 
-- **Phone:** 021-388 792 46
-- **E-mail:** info@inibejo.com
-- **Website:** [www.inibejo.com](https://www.google.com/search?q=https://www.inibejo.com)
+- **Address:** Jl. Industri Tekstil No. 88, Bandung, Jawa Barat, Indonesia
+- **Phone:** +62 21 555 1234
+- **E-mail:** info@rajutbumidirgantara.com
+- **Website:** [www.rajutbumidirgantara.com](https://www.rajutbumidirgantara.com)
 - **Office Location:** Jl. Gading Kirana Timur Blok A13 No. 28, Kelapa Gading, Jakarta Utara 14240, Indonesia

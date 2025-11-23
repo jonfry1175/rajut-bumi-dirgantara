@@ -67,8 +67,8 @@ const AboutPage = () => {
                 Tentang Kami
               </h1>
               <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-                Mengenal lebih dekat PT Bejo Berkat Makmur, mitra strategis Anda
-                untuk solusi teknologi yang relevan dan berdampak
+                Mengenal lebih dekat PT RAJUT BUMI DIRGANTARA, mitra strategis
+                Anda dalam industri tekstil dan fashion.
               </p>
             </motion.div>
           </div>

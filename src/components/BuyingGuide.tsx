@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 const BuyingGuide: React.FC = () => {
   const steps = [
@@ -7,10 +7,10 @@ const BuyingGuide: React.FC = () => {
       number: 1,
       content: (
         <p>
-          Identifikasi kebutuhan pengadaan Anda dan siapkan detail
-          spesifikasi produk yang diperlukan.
+          Identifikasi kebutuhan pengadaan Anda dan siapkan detail spesifikasi
+          produk yang diperlukan.
         </p>
-      )
+      ),
     },
     {
       number: 2,
@@ -18,14 +18,14 @@ const BuyingGuide: React.FC = () => {
         <p>
           Hubungi tim pengadaan kami melalui&nbsp;
           <a
-            href="mailto:info@inibejo.com"
+            href="mailto:info@rajutbumidirgantara.com"
             className="text-company-primary hover:text-company-accent transition-colors duration-300 font-medium"
           >
-            info@inibejo.com
+            info@rajutbumidirgantara.com
           </a>
-          &nbsp;atau telepon +62 21 388 792 46 untuk konsultasi kebutuhan.
+          &nbsp;atau telepon +62 21 555 1234 untuk konsultasi kebutuhan.
         </p>
-      )
+      ),
     },
     {
       number: 3,
@@ -34,7 +34,7 @@ const BuyingGuide: React.FC = () => {
           Diskusikan solusi terbaik bersama konsultan kami, termasuk opsi
           bundling produk, penyesuaian layanan, dan jadwal pengiriman.
         </p>
-      )
+      ),
     },
     {
       number: 4,
@@ -43,7 +43,7 @@ const BuyingGuide: React.FC = () => {
           Terima proposal dan penawaran resmi, kemudian lakukan evaluasi serta
           persetujuan internal di organisasi Anda.
         </p>
-      )
+      ),
     },
     {
       number: 5,
@@ -52,8 +52,8 @@ const BuyingGuide: React.FC = () => {
           Finalisasikan pemesanan, tandatangani dokumen pendukung, dan pantau
           proses pengiriman hingga instalasi selesai.
         </p>
-      )
-    }
+      ),
+    },
   ];
 
   const containerVariants = {
@@ -61,9 +61,9 @@ const BuyingGuide: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants = {
@@ -73,8 +73,8 @@ const BuyingGuide: React.FC = () => {
       x: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
-      }
+        ease: "easeOut",
+      },
     },
     hover: {
       scale: 1.02,
@@ -82,9 +82,9 @@ const BuyingGuide: React.FC = () => {
       transition: {
         type: "spring",
         stiffness: 400,
-        damping: 10
-      }
-    }
+        damping: 10,
+      },
+    },
   };
 
   return (
@@ -108,7 +108,7 @@ const BuyingGuide: React.FC = () => {
             Proses Kerja Kami
           </span>
           <h2 className="mb-3 text-center text-3xl font-bold text-company-primary text-balance">
-            Panduan Pengadaan Bersama PT Bejo Berkat Makmur
+            Panduan Pengadaan Bersama PT RAJUT BUMI DIRGANTARA
           </h2>
           <div className="mx-auto mb-8 h-px w-32 rounded-full bg-company-primary"></div>
 
@@ -135,8 +135,19 @@ const BuyingGuide: React.FC = () => {
                   {step.content}
                 </div>
                 <div className="ml-auto pl-4">
-                  <svg className="h-5 w-5 text-company-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                  <svg
+                    className="h-5 w-5 text-company-accent"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    ></path>
                   </svg>
                 </div>
               </motion.div>

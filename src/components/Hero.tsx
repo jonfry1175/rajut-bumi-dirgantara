@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           2. Replace '/path-to-your-video.mp4' with your actual video file path
           3. Comment out or remove the img tag
         */}
-        {/* 
+
         <video
           autoPlay
           loop
@@ -36,18 +36,7 @@ const Hero: React.FC = () => {
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/hero-background.mp4" type="video/mp4" />
-        </video> 
-        */}
-
-        <img
-          src="/hero-textile.png"
-          alt="Textile Factory Background"
-          className="absolute inset-0 w-full h-full object-cover"
-          onError={(e) => {
-            e.currentTarget.src =
-              "https://images.unsplash.com/photo-1556906781-9a412961c28c?q=80&w=1000&auto=format&fit=crop";
-          }}
-        />
+        </video>
 
         {/* Overlay for text readability */}
         <div className="absolute inset-0 bg-company-primary/80 mix-blend-multiply" />
