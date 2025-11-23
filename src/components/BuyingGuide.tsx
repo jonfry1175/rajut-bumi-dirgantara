@@ -32,7 +32,8 @@ const BuyingGuide: React.FC = () => {
       content: (
         <p>
           Diskusikan solusi terbaik bersama konsultan kami, termasuk opsi
-          bundling produk, penyesuaian layanan, dan jadwal pengiriman.
+          pengembangan sampel (sampling), penyesuaian spesifikasi, dan jadwal
+          pengiriman.
         </p>
       ),
     },

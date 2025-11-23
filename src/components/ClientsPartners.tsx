@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 type LogoEntry = {
   src: string;
@@ -7,27 +7,30 @@ type LogoEntry = {
 };
 
 const clientLogos: LogoEntry[] = [
-  { src: '/clients/AXI.png', name: 'AXI' },
-  { src: '/clients/BLIBLI.png', name: 'Blibli' },
-  { src: '/clients/CUN.png', name: 'CUN' },
-  { src: '/clients/IMN.png', name: 'IMN' },
-  { src: '/clients/METRANET.png', name: 'Metranet' },
-  { src: '/clients/PINS.png', name: 'PINS' },
-  { src: '/clients/TRIMEDIA-SOLUSI-INFORMATIKA.png', name: 'Trimedia Solusi Informatika' },
-  { src: '/clients/TURBO.png', name: 'Turbo' }
+  { src: "/clients/AXI.png", name: "AXI" },
+  { src: "/clients/BLIBLI.png", name: "Blibli" },
+  { src: "/clients/CUN.png", name: "CUN" },
+  { src: "/clients/IMN.png", name: "IMN" },
+  { src: "/clients/METRANET.png", name: "Metranet" },
+  { src: "/clients/PINS.png", name: "PINS" },
+  {
+    src: "/clients/TRIMEDIA-SOLUSI-INFORMATIKA.png",
+    name: "Trimedia Solusi Informatika",
+  },
+  { src: "/clients/TURBO.png", name: "Turbo" },
 ];
 
 const partnerLogos: LogoEntry[] = [
-  { src: '/partners/ACER.png', name: 'Acer' },
-  { src: '/partners/ASUS.png', name: 'ASUS' },
-  { src: '/partners/BENQ.png', name: 'BenQ' },
-  { src: '/partners/DELL.png', name: 'Dell' },
-  { src: '/partners/EPSON.png', name: 'Epson' },
-  { src: '/partners/HITACHI.png', name: 'Hitachi' },
-  { src: '/partners/HP.png', name: 'HP' },
-  { src: '/partners/IBM.png', name: 'IBM' },
-  { src: '/partners/LENOVO.png', name: 'Lenovo' },
-  { src: '/partners/ONESIA.png', name: 'Onesia' }
+  { src: "/partners/ACER.png", name: "Acer" },
+  { src: "/partners/ASUS.png", name: "ASUS" },
+  { src: "/partners/BENQ.png", name: "BenQ" },
+  { src: "/partners/DELL.png", name: "Dell" },
+  { src: "/partners/EPSON.png", name: "Epson" },
+  { src: "/partners/HITACHI.png", name: "Hitachi" },
+  { src: "/partners/HP.png", name: "HP" },
+  { src: "/partners/IBM.png", name: "IBM" },
+  { src: "/partners/LENOVO.png", name: "Lenovo" },
+  { src: "/partners/ONESIA.png", name: "Onesia" },
 ];
 
 const containerVariants = {
@@ -37,9 +40,9 @@ const containerVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      delay: index * 0.1
-    }
-  })
+      delay: index * 0.1,
+    },
+  }),
 };
 
 const ClientsPartners: React.FC = () => {
@@ -82,10 +85,13 @@ const ClientsPartners: React.FC = () => {
           <span className="inline-flex items-center gap-2 px-5 py-1.5 rounded-full border border-company-primary/15 bg-white/70 text-company-primary text-xs font-semibold uppercase tracking-[0.28em] mb-4">
             Jejak Kolaborasi
           </span>
-          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">Partner Kami</h2>
+          <h2 className="mb-4 text-4xl font-bold text-company-primary text-balance">
+            Partner Kami
+          </h2>
           <div className="mx-auto mb-6 h-px w-24 rounded-full bg-company-primary"></div>
           <p className="mx-auto max-w-3xl text-lg text-gray-600 text-balance">
-            Kolaborasi bersama para mitra teknologi terkemuka memperkuat komitmen kami memberikan solusi terbaik.
+            Kolaborasi bersama para mitra teknologi terkemuka memperkuat
+            komitmen kami memberikan solusi terbaik.
           </p>
         </motion.div>
 
@@ -114,9 +120,12 @@ const ClientsPartners: React.FC = () => {
             viewport={{ once: true }}
           >
             <div className="text-left md:text-center">
-              <h3 className="text-2xl font-semibold text-company-primary">Partner</h3>
+              <h3 className="text-2xl font-semibold text-company-primary">
+                Jaringan Distribusi
+              </h3>
               <p className="mt-2 max-w-2xl text-gray-600 md:mx-auto text-balance">
-                Kolaborasi bersama brand global untuk menghadirkan produk dan layanan dengan kualitas terbaik.
+                Kolaborasi bersama brand fashion global untuk menghadirkan
+                produk dan layanan dengan kualitas terbaik.
               </p>
             </div>
             {renderLogoGrid(partnerLogos)}

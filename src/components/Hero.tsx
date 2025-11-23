@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Menajut Kualitas, <br className="hidden md:block" />
+            Merajut Kualitas, <br className="hidden md:block" />
             Menenun Kepercayaan.
           </motion.h1>
 
@@ -67,9 +67,9 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Produsen Tekstil Berkualitas untuk Kebutuhan Industri Anda. PT RAJUT
-            BUMI DIRGANTARA menghadirkan solusi kain rajut dan tenun terbaik
-            dengan standar kualitas tinggi.
+            Mitra Manufaktur Tekstil Terpercaya untuk Inovasi Fashion Anda. PT
+            RAJUT BUMI DIRGANTARA menghadirkan solusi kain rajut dan tenun
+            terbaik dengan standar kualitas ekspor.
           </motion.p>
 
           <motion.div

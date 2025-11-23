@@ -1,52 +1,55 @@
-# PT RAJUT BUMI DIRGANTARA: Company Overview
+# PT Rajut Bumi Dirgantara: Company Overview
 
-PT RAJUT BUMI DIRGANTARA is a textile manufacturing company founded in **August 2021**. It focuses on **quality, trust, and innovation**. The company leverages modern machinery and skilled workforce to deliver high-quality knitted and woven fabrics. Its strength lies in a client-focused approach, developing customized textile solutions based on industry trends and needs. The company aims to build long-term partnerships based on trust, performance, and measurable success.
+PT Rajut Bumi Dirgantara is a premier textile manufacturing company established to bridge nature-inspired aesthetics with industrial precision. Specializing in **knitting, weaving, and textile finishing**, we are committed to **quality, sustainability, and innovation**. We serve the fashion industry, garment manufacturers, and local brands with high-quality fabric solutions that stand the test of time.
 
 ---
 
 ## Visi & Misi
 
-The company's **Vision** is to be a trusted strategic partner that empowers clients to confidently face the digital era and achieve their full potential. It sees a future where technology drives sustainable growth, innovation, and positive impact across industries.
+**Visi:**
+Menjadi produsen tekstil terdepan di Indonesia yang dikenal karena kualitas "langit" (tertinggi) dan kepedulian "bumi" (berkelanjutan), serta menjadi mitra strategis bagi industri fashion global.
 
-The **Mission** is to empower organizations to thrive in the digital era through innovative and customized technology solutions. The company is committed to excellence, guided by innovation, and deeply understands the unique needs and challenges of each client. By combining the latest technology, personalized service, and industry expertise, they deliver transformative results that boost growth, improve efficiency, and build sustainable innovation.
+**Misi:**
 
----
-
-    - Manages vendor relationships and procurement to ensure clients receive the latest, reliable, and efficient technology solutions hassle-free.
-
-3.  **Pengadaan Peralatan Sistem Keamanan Terintegrasi (Integrated Security System Equipment Procurement):**
-    - Offers comprehensive solutions for modern security infrastructure.
-    - Includes procurement of integrated security system equipment such as surveillance cameras, access control systems, intrusion detection devices, and other security technology customized to operational needs.
+1.  **Quality Excellence:** Memproduksi kain rajut dan tenun dengan standar kualitas internasional.
+2.  **Sustainability:** Menerapkan proses produksi yang ramah lingkungan dan efisien energi.
+3.  **Innovation:** Terus mengembangkan teknologi tekstil terbaru untuk memenuhi tren pasar yang dinamis.
+4.  **Partnership:** Membangun hubungan jangka panjang dengan klien melalui pelayanan yang responsif dan terpercaya.
 
 ---
 
-## Why Choose PT RAJUT BUMI DIRGANTARA (Mengapa Memilih Kami)
+## Core Services (Layanan Kami)
 
-The reasons to choose the company include:
+PT Rajut Bumi Dirgantara menawarkan solusi tekstil terpadu:
 
-- 100% Original Products
-- Official Warranty (Garansi Resmi)
-- Competitive Pricing (Harga Bersaing)
+1.  **Custom Knitting & Weaving (Produksi Kain):**
 
-## Why Choose PT RAJUT BUMI DIRGANTARA (Mengapa Memilih Kami)
+    - Layanan pembuatan kain rajut (knitting) dan tenun dengan spesifikasi custom (gramasi, corak, bahan).
+    - Menggunakan mesin berteknologi tinggi untuk presisi dan kecepatan.
 
-- **Quality First:** We prioritize material quality and production standards.
-- **Innovative Designs:** Always up-to-date with the latest fashion trends.
-- **Reliable Partnership:** We build trust through consistent delivery and open communication.
+2.  **Dyeing & Finishing (Pewarnaan & Penyempurnaan):**
+
+    - Layanan pencelupan dan finishing kain dengan pilihan warna yang luas dan tahan lama.
+    - Menawarkan berbagai treatment khusus (anti-bakteri, water-repellent, soft-touch).
+
+3.  **Textile Consultation & Sourcing:**
+    - Konsultasi pemilihan bahan yang tepat untuk kebutuhan produksi fashion brand Anda.
+    - Penyediaan bahan baku benang berkualitas.
 
 ---
 
-## Brands and Partners
+## Why Choose Us (Mengapa Memilih Kami)
 
-- **Own Brand:** KORISU (features an interactive display in 75/86/98 inch sizes).
-- **Partners:** acer, DELL, ASUS, HITACHI Inspire the Next, EPSON, Lenovo, and BenQ.
+- **Premium Quality:** Jaminan kualitas kain grade A dengan quality control ketat.
+- **Eco-Conscious:** Komitmen terhadap praktik manufaktur yang bertanggung jawab.
+- **Competitive Pricing:** Harga langsung pabrik yang kompetitif untuk skala grosir.
+- **On-Time Delivery:** Ketepatan waktu produksi dan pengiriman.
 
 ---
 
 ## Contact Information
 
-- **Address:** Jl. Industri Tekstil No. 88, Bandung, Jawa Barat, Indonesia
 - **Phone:** +62 21 555 1234
 - **E-mail:** info@rajutbumidirgantara.com
 - **Website:** [www.rajutbumidirgantara.com](https://www.rajutbumidirgantara.com)
-- **Office Location:** Jl. Gading Kirana Timur Blok A13 No. 28, Kelapa Gading, Jakarta Utara 14240, Indonesia
+- **Office & Factory:** Jl. Industri Tekstil No. 88, Bandung, Jawa Barat, Indonesia

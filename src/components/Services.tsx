@@ -62,7 +62,7 @@ const Services: React.FC = () => {
       color: "bg-company-primary/15",
     },
     {
-      title: "Pasokan Kain Grosir",
+      title: "Supply Chain & Grosir",
       icon: <Package size={30} />,
       description:
         "Penyediaan kain ready stock dalam jumlah besar untuk kebutuhan konveksi dan garment.",
@@ -186,7 +186,7 @@ const Services: React.FC = () => {
               "hover:-translate-y-0.5 hover:shadow-lg"
             )}
           >
-            Read More
+            Selengkapnya
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

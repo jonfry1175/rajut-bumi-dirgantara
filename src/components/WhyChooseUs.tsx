@@ -33,16 +33,16 @@ const WhyChooseUs: React.FC = () => {
   const features = [
     {
       icon: <BadgeCheck strokeWidth={1.5} />,
-      title: "PRODUK 100% ORIGINAL",
+      title: "KUALITAS GRADE A",
       description:
-        "Seluruh perangkat dan solusi yang kami sediakan terjamin keasliannya untuk menjaga kepercayaan dan performa terbaik.",
+        "Seluruh kain yang kami produksi melalui proses Quality Control ketat untuk memastikan standar terbaik.",
       color: "bg-company-accent/20",
     },
     {
       icon: <ShieldCheck strokeWidth={1.5} />,
-      title: "GARANSI RESMI",
+      title: "JAMINAN MUTU",
       description:
-        "Dukungan garansi sesuai standar principal sehingga investasi teknologi Anda lebih aman dan terkelola.",
+        "Dukungan garansi kualitas bahan dan warna yang tahan lama sesuai standar industri tekstil.",
       color: "bg-company-primary/15",
     },
     {
@@ -54,9 +54,9 @@ const WhyChooseUs: React.FC = () => {
     },
     {
       icon: <HandshakeIcon strokeWidth={1.5} />,
-      title: "PRINCIPAL TERPERCAYA",
+      title: "TEKNOLOGI TERKINI",
       description:
-        "Bermitra dengan merek-merek global sehingga setiap solusi memenuhi standar industri tertinggi.",
+        "Menggunakan mesin rajut dan tenun modern untuk hasil produksi yang presisi dan efisien.",
       color: "bg-company-accent/15",
     },
     {
@@ -68,9 +68,9 @@ const WhyChooseUs: React.FC = () => {
     },
     {
       icon: <Lock strokeWidth={1.5} />,
-      title: "KEAMANAN TRANSAKSI",
+      title: "PENGIRIMAN TEPAT WAKTU",
       description:
-        "Proses pengadaan yang aman, jelas, dan terverifikasi untuk menjaga kenyamanan setiap mitra.",
+        "Komitmen kami pada jadwal produksi dan logistik yang terencana untuk kelancaran bisnis Anda.",
       color: "bg-company-softblue/15",
     },
   ];
